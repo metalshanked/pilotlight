@@ -1,0 +1,1 @@
+use rmcp::tool; struct Demo; impl Demo { #[tool(description="lookup")] fn lookup(&self) -> String { "ok".into() } }

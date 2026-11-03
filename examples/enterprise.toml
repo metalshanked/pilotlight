@@ -1,0 +1,30 @@
+# Operator-owned configuration: arbitrary metadata fields, not application-ID-specific code.
+[scan]
+types = ["agent", "agent_proxy", "mcp_server", "skill"]
+
+[[indicators]]
+name = "business_unit"
+path = ".company/.source/appinfo.yaml"
+key = "business_unit"
+required = true
+
+[[indicators]]
+name = "application_id"
+path = ".company/.source/appinfo.yaml"
+key = "appid"
+required = true
+
+[[applications]]
+root = "services/billing"
+
+[[applications.indicators]]
+name = "application_id"
+path = ".company/.source/appinfo.yaml"
+key = "appid"
+required = true
+
+[[applications.indicators]]
+name = "owner"
+path = ".company/.source/appinfo.yaml"
+key = "owner"
+required = true

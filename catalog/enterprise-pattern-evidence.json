@@ -1,0 +1,146 @@
+{
+  "reviewed_at": "2026-10-11",
+  "rules": [
+    {
+      "framework": "mcp",
+      "symbol": "rmcp::tool",
+      "kind": "tool",
+      "languages": [
+        "rust"
+      ],
+      "source_url": "https://github.com/modelcontextprotocol/rust-sdk/blob/main/crates/rmcp-macros/src/lib.rs"
+    },
+    {
+      "framework": "mcp",
+      "symbol": "rmcp::tool_handler",
+      "kind": "mcp_server",
+      "languages": [
+        "rust"
+      ],
+      "source_url": "https://github.com/modelcontextprotocol/rust-sdk/blob/main/crates/rmcp-macros/src/lib.rs"
+    },
+    {
+      "framework": "mcp",
+      "symbol": "rmcp::tool_router",
+      "kind": "mcp_server",
+      "languages": [
+        "rust"
+      ],
+      "source_url": "https://github.com/modelcontextprotocol/rust-sdk/blob/main/crates/rmcp-macros/src/lib.rs"
+    },
+    {
+      "framework": "mcp",
+      "symbol": "Microsoft.Extensions.DependencyInjection.McpServerServiceCollectionExtensions.AddMcpServer",
+      "kind": "mcp_server",
+      "languages": [
+        "csharp"
+      ],
+      "source_url": "https://csharp.sdk.modelcontextprotocol.io/v2/api/Microsoft.Extensions.DependencyInjection.McpServerServiceCollectionExtensions.html"
+    },
+    {
+      "framework": "fastmcp",
+      "symbol": "fastmcp.FastMCP.as_proxy",
+      "kind": "mcp_gateway",
+      "languages": [
+        "python"
+      ],
+      "source_url": "https://gofastmcp.com/v2/servers/proxy"
+    },
+    {
+      "framework": "fastmcp",
+      "symbol": "fastmcp.server.create_proxy",
+      "kind": "mcp_gateway",
+      "languages": [
+        "python"
+      ],
+      "source_url": "https://gofastmcp.com/servers/providers/proxy"
+    },
+    {
+      "framework": "fastmcp",
+      "symbol": "fastmcp.server.proxy.FastMCPProxy",
+      "kind": "mcp_gateway",
+      "languages": [
+        "python"
+      ],
+      "source_url": "https://raw.githubusercontent.com/PrefectHQ/fastmcp/v2.10.0/src/fastmcp/server/proxy.py"
+    },
+    {
+      "framework": "anthropic",
+      "symbol": "anthropic.Anthropic.beta.messages.tool_runner",
+      "kind": "agent",
+      "languages": [
+        "python"
+      ],
+      "source_url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-runner"
+    },
+    {
+      "framework": "anthropic",
+      "symbol": "anthropic.AsyncAnthropic.beta.messages.tool_runner",
+      "kind": "agent",
+      "languages": [
+        "python"
+      ],
+      "source_url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-runner"
+    },
+    {
+      "framework": "anthropic",
+      "symbol": "anthropic.beta_tool",
+      "kind": "tool",
+      "languages": [
+        "python"
+      ],
+      "source_url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-runner"
+    },
+    {
+      "framework": "anthropic",
+      "symbol": "anthropic.beta_async_tool",
+      "kind": "tool",
+      "languages": [
+        "python"
+      ],
+      "source_url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-runner"
+    },
+    {
+      "framework": "vercel-ai",
+      "symbol": "ai.generateText",
+      "kind": "llm_call",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "source_url": "https://ai-sdk.dev/docs/ai-sdk-core/tools-and-tool-calling",
+      "reason": "Generation functions invoke a model; they do not construct a client."
+    },
+    {
+      "framework": "vercel-ai",
+      "symbol": "ai.streamText",
+      "kind": "llm_call",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "source_url": "https://ai-sdk.dev/docs/ai-sdk-core/tools-and-tool-calling",
+      "reason": "Generation functions invoke a model; they do not construct a client."
+    },
+    {
+      "framework": "fastmcp",
+      "symbol": "fastmcp.server.providers.proxy.FastMCPProxy",
+      "kind": "mcp_gateway",
+      "languages": [
+        "python"
+      ],
+      "source_url": "https://raw.githubusercontent.com/PrefectHQ/fastmcp/e2fcc412001ff7414095c5dc282f94c70299a612/fastmcp_slim/fastmcp/server/providers/proxy.py"
+    }
+  ],
+  "structural_patterns": {
+    "tool_calling_loop": [
+      "https://developers.openai.com/api/docs/guides/function-calling",
+      "https://platform.claude.com/docs/en/agents-and-tools/tool-use/handle-tool-calls"
+    ],
+    "configured_tool_loop": [
+      "https://ai-sdk.dev/docs/ai-sdk-core/tools-and-tool-calling",
+      "https://github.com/vercel/ai/blob/main/packages/ai/src/generate-text/stop-condition.ts",
+      "https://vercel.com/kb/guide/how-to-build-ai-app"
+    ]
+  }
+}

@@ -1,0 +1,744 @@
+{
+  "records": [
+    {
+      "ecosystem": "npm",
+      "package": "@arizeai/openinference-instrumentation-langchain",
+      "source_url": "https://registry.npmjs.org/%40arizeai%2Fopeninference-instrumentation-langchain/latest",
+      "response_sha256": "a13a912d375b13b76cb643eebe2c2488565bb3254887b0290ee433f6868f57d8",
+      "version": "4.1.4",
+      "qualification": "identity_verified_dependency_mapping",
+      "reviewed_at": "2026-10-10"
+    },
+    {
+      "ecosystem": "npm",
+      "package": "@brave/brave-search-mcp-server",
+      "source_url": "https://registry.npmjs.org/%40brave%2Fbrave-search-mcp-server/latest",
+      "response_sha256": "3dd74e64c927d688120d40d6a30784d1a9aac9b1fb7960718a9df8ea3dad0c9d",
+      "version": "2.1.4",
+      "qualification": "identity_verified_dependency_mapping",
+      "reviewed_at": "2026-10-10"
+    },
+    {
+      "ecosystem": "npm",
+      "package": "@e2b/code-interpreter",
+      "source_url": "https://registry.npmjs.org/%40e2b%2Fcode-interpreter/latest",
+      "response_sha256": "f7399dd94099d380c8e1aff6212837f65d94659761a159c197870f9c139a07ee",
+      "version": "2.8.3",
+      "qualification": "identity_verified_dependency_mapping",
+      "reviewed_at": "2026-10-10"
+    },
+    {
+      "ecosystem": "npm",
+      "package": "@getzep/zep-cloud",
+      "source_url": "https://registry.npmjs.org/%40getzep%2Fzep-cloud/latest",
+      "response_sha256": "f2dba1369918058cd8ef3eb89e091276b55ddb4666ff4f815a0ace40213d7a9a",
+      "version": "3.30.0",
+      "qualification": "identity_verified_dependency_mapping",
+      "reviewed_at": "2026-10-10"
+    },
+    {
+      "ecosystem": "npm",
+      "package": "@getzep/zep-js",
+      "source_url": "https://registry.npmjs.org/%40getzep%2Fzep-js/latest",
+      "response_sha256": "4654a4db5615bd72c020f955c3695a2981a3c4c2bbf112c5af038364a95f8fe2",
+      "version": "2.0.2",
+      "qualification": "identity_verified_dependency_mapping",
+      "reviewed_at": "2026-10-10"
+    },
+    {
+      "ecosystem": "npm",
+      "package": "@google-ai/generativelanguage",
+      "source_url": "https://registry.npmjs.org/%40google-ai%2Fgenerativelanguage/latest",
+      "response_sha256": "045f18e619261b6aa2e2d7673783e95dff7e4e9694ca11a1819864ecedabfc9a",
+      "version": "4.1.1",
+      "qualification": "identity_verified_dependency_mapping",
+      "reviewed_at": "2026-10-10"
+    },
+    {
+      "ecosystem": "npm",
+      "package": "@ibm-cloud/watsonx-ai",
+      "source_url": "https://registry.npmjs.org/%40ibm-cloud%2Fwatsonx-ai/latest",
+      "response_sha256": "43f7dd2448c6c7a72d60449ec307d211fdc3ee96b2deb5d0e45978d34be9fbe4",
+      "version": "1.7.16",
+      "qualification": "identity_verified_dependency_mapping",
+      "reviewed_at": "2026-10-10"
+    },
+    {
+      "ecosystem": "npm",
+      "package": "@langchain/baidu-qianfan",
+      "source_url": "https://registry.npmjs.org/%40langchain%2Fbaidu-qianfan/latest",
+      "response_sha256": "135ccf953b24b72f8f8e09ce5d876595f0ce694f892b619ce6f12961773c481f",
+      "version": "1.0.3",
+      "qualification": "identity_verified_dependency_mapping",
+      "reviewed_at": "2026-10-10"
+    },
+    {
+      "ecosystem": "npm",
+      "package": "@langchain/classic",
+      "source_url": "https://registry.npmjs.org/%40langchain%2Fclassic/latest",
+      "response_sha256": "82b3bf2722ec378c2cc73a45f8a47823a428e05f8ba9e03f503e61797dddfd0a",
+      "version": "1.0.52",
+      "qualification": "identity_verified_dependency_mapping",
+      "reviewed_at": "2026-10-10"
+    },
+    {
+      "ecosystem": "npm",
+      "package": "@langchain/cloudflare",
+      "source_url": "https://registry.npmjs.org/%40langchain%2Fcloudflare/latest",
+      "response_sha256": "5ddf43714eb8c093e5d2bb1cfc0fe84c2000246a3d8550b41c57546da85cb9e5",
+      "version": "1.1.0",
+      "qualification": "identity_verified_dependency_mapping",
+      "reviewed_at": "2026-10-10"
+    },
+    {
+      "ecosystem": "npm",
+      "package": "@langchain/deepseek",
+      "source_url": "https://registry.npmjs.org/%40langchain%2Fdeepseek/latest",
+      "response_sha256": "011ecc7417af2b694bf6e4be3c3573c9bcb0e7a22c8d9311ac32c1192a410f80",
+      "version": "1.1.17",
+      "qualification": "identity_verified_dependency_mapping",
+      "reviewed_at": "2026-10-10"
+    },
+    {
+      "ecosystem": "npm",
+      "package": "@langchain/exa",
+      "source_url": "https://registry.npmjs.org/%40langchain%2Fexa/latest",
+      "response_sha256": "afff2fa81d91f740e4a5a44920f61b3a79739ee1432a7231d9ac195e2b26951a",
+      "version": "1.0.2",
+      "qualification": "identity_verified_dependency_mapping",
+      "reviewed_at": "2026-10-10"
+    },
+    {
+      "ecosystem": "npm",
+      "package": "@langchain/mongodb",
+      "source_url": "https://registry.npmjs.org/%40langchain%2Fmongodb/latest",
+      "response_sha256": "a313dac382c80ed762037e8be245dfacdc6c77323bbb026cbed2fe1d13ca0ce2",
+      "version": "1.3.1",
+      "qualification": "identity_verified_dependency_mapping",
+      "reviewed_at": "2026-10-10"
+    },
+    {
+      "ecosystem": "npm",
+      "package": "@langchain/pinecone",
+      "source_url": "https://registry.npmjs.org/%40langchain%2Fpinecone/latest",
+      "response_sha256": "146df6350d7a9cdf3d788066ace2acaa20782a26e41147c3346af7fa8ea67297",
+      "version": "1.0.3",
+      "qualification": "identity_verified_dependency_mapping",
+      "reviewed_at": "2026-10-10"
+    },
+    {
+      "ecosystem": "npm",
+      "package": "@langchain/redis",
+      "source_url": "https://registry.npmjs.org/%40langchain%2Fredis/latest",
+      "response_sha256": "6961756ee55d2dc6af2e9411bff45eeaf0babd3cf32fe83a82b322c4ddc6d9f5",
+      "version": "1.1.3",
+      "qualification": "identity_verified_dependency_mapping",
+      "reviewed_at": "2026-10-10"
+    },
+    {
+      "ecosystem": "npm",
+      "package": "@langchain/tavily",
+      "source_url": "https://registry.npmjs.org/%40langchain%2Ftavily/latest",
+      "response_sha256": "949c3cc3297e6f0795aecc0b1b34263ec1ef03313e48359a5ba0fe0a6b992eab",
+      "version": "1.2.0",
+      "qualification": "identity_verified_dependency_mapping",
+      "reviewed_at": "2026-10-10"
+    },
+    {
+      "ecosystem": "npm",
+      "package": "@langchain/weaviate",
+      "source_url": "https://registry.npmjs.org/%40langchain%2Fweaviate/latest",
+      "response_sha256": "b6e25cb95955dd4239bbd8ab3dec0038fa72e92a5352db3f29e0d1df437aead1",
+      "version": "1.1.0",
+      "qualification": "identity_verified_dependency_mapping",
+      "reviewed_at": "2026-10-10"
+    },
+    {
+      "ecosystem": "npm",
+      "package": "@langchain/xai",
+      "source_url": "https://registry.npmjs.org/%40langchain%2Fxai/latest",
+      "response_sha256": "6dc8b51faa89a58380746cef10e28822688c6245ce9fdd06bf0a0fdca9132a93",
+      "version": "1.4.17",
+      "qualification": "identity_verified_dependency_mapping",
+      "reviewed_at": "2026-10-10"
+    },
+    {
+      "ecosystem": "npm",
+      "package": "@mem0/community",
+      "source_url": "https://registry.npmjs.org/%40mem0%2Fcommunity/latest",
+      "response_sha256": "a8134b52e41b9ac49d6e3d9f44c6ee70380628ea74a14178632e52713448fd3c",
+      "version": "0.0.2",
+      "qualification": "identity_verified_dependency_mapping",
+      "reviewed_at": "2026-10-10"
+    },
+    {
+      "ecosystem": "npm",
+      "package": "@mendable/firecrawl-js",
+      "source_url": "https://registry.npmjs.org/%40mendable%2Ffirecrawl-js/latest",
+      "response_sha256": "0496f46aad2ba7dd5eeb869bb43c1ae71378de290ee69e6177e6a97e52e56aa9",
+      "version": "4.46.0",
+      "qualification": "identity_verified_dependency_mapping",
+      "reviewed_at": "2026-10-10"
+    },
+    {
+      "ecosystem": "npm",
+      "package": "@modelcontextprotocol/server-postgres",
+      "source_url": "https://registry.npmjs.org/%40modelcontextprotocol%2Fserver-postgres/latest",
+      "response_sha256": "a9876d0517da8d60301cb9f46652e8ffaadacc5d14c27351ed5dc9a7d3930a7e",
+      "version": "0.6.2",
+      "qualification": "identity_verified_dependency_mapping",
+      "reviewed_at": "2026-10-10"
+    },
+    {
+      "ecosystem": "npm",
+      "package": "@modelcontextprotocol/server-sequential-thinking",
+      "source_url": "https://registry.npmjs.org/%40modelcontextprotocol%2Fserver-sequential-thinking/latest",
+      "response_sha256": "37635883c059e88a44e2d34de1d6fd92ff9e5ef741b9b320d6316badb0d0a081",
+      "version": "2026.8.31",
+      "qualification": "identity_verified_dependency_mapping",
+      "reviewed_at": "2026-10-10"
+    },
+    {
+      "ecosystem": "npm",
+      "package": "@modelcontextprotocol/server-slack",
+      "source_url": "https://registry.npmjs.org/%40modelcontextprotocol%2Fserver-slack/latest",
+      "response_sha256": "a08ed7a63523c42d63d2eb65a41a3e2a653c83ebaf8c1242cb790aa28c4e1cbb",
+      "version": "2025.4.25",
+      "qualification": "identity_verified_dependency_mapping",
+      "reviewed_at": "2026-10-10"
+    },
+    {
+      "ecosystem": "npm",
+      "package": "@stripe/agent-toolkit",
+      "source_url": "https://registry.npmjs.org/%40stripe%2Fagent-toolkit/latest",
+      "response_sha256": "7a7d7679c03f4a0eefa5bb7db3c7cf52a7af5aa12bf8a70404acc5c30b90bdce",
+      "version": "0.9.0",
+      "qualification": "identity_verified_dependency_mapping",
+      "reviewed_at": "2026-10-10"
+    },
+    {
+      "ecosystem": "npm",
+      "package": "@upstash/vector",
+      "source_url": "https://registry.npmjs.org/%40upstash%2Fvector/latest",
+      "response_sha256": "5e3f3a593281783f5a52563dc833c4ac0bf2e8ef76f727dc9789e2e637d6791e",
+      "version": "1.2.3",
+      "qualification": "identity_verified_dependency_mapping",
+      "reviewed_at": "2026-10-10"
+    },
+    {
+      "ecosystem": "npm",
+      "package": "composio-core",
+      "source_url": "https://registry.npmjs.org/composio-core/latest",
+      "response_sha256": "f22059ba71fa9af2c92335cb2caa7e1bdd5221a1e867cdd4910178eef0c28fa2",
+      "version": "0.5.39",
+      "qualification": "identity_verified_dependency_mapping",
+      "reviewed_at": "2026-10-10"
+    },
+    {
+      "ecosystem": "npm",
+      "package": "exa-js",
+      "source_url": "https://registry.npmjs.org/exa-js/latest",
+      "response_sha256": "c0ad6a039a33f895d9cb7048df6e16a7e6e963414e94ce4afed2f608d1f57906",
+      "version": "2.25.0",
+      "qualification": "identity_verified_dependency_mapping",
+      "reviewed_at": "2026-10-10"
+    },
+    {
+      "ecosystem": "npm",
+      "package": "faiss-node",
+      "source_url": "https://registry.npmjs.org/faiss-node/latest",
+      "response_sha256": "265344580f378ff435fb09e6f631339652dd53a10eaae3aa1ade584a6be0a935",
+      "version": "0.5.1",
+      "qualification": "identity_verified_dependency_mapping",
+      "reviewed_at": "2026-10-10"
+    },
+    {
+      "ecosystem": "npm",
+      "package": "langfuse-langchain",
+      "source_url": "https://registry.npmjs.org/langfuse-langchain/latest",
+      "response_sha256": "72ac5d92d99ab4f28f3e4ed20ba9d428afd2e87f5000e030a8f46a7aed13429e",
+      "version": "3.39.2",
+      "qualification": "identity_verified_dependency_mapping",
+      "reviewed_at": "2026-10-10"
+    },
+    {
+      "ecosystem": "npm",
+      "package": "lunary",
+      "source_url": "https://registry.npmjs.org/lunary/latest",
+      "response_sha256": "e823ba371c9e2a303aca8ac7673f89ff938e0533bfaa74efb8beef8dbae90072",
+      "version": "1.0.18",
+      "qualification": "identity_verified_dependency_mapping",
+      "reviewed_at": "2026-10-10"
+    },
+    {
+      "ecosystem": "npm",
+      "package": "supergateway",
+      "source_url": "https://registry.npmjs.org/supergateway/latest",
+      "response_sha256": "f87893a831fef6d2692f90fd4eaba9fa4426070d5194a6e293987de08f37f011",
+      "version": "4.1.0",
+      "qualification": "identity_verified_dependency_mapping",
+      "reviewed_at": "2026-10-10"
+    },
+    {
+      "ecosystem": "pypi",
+      "package": "dify-agent",
+      "source_url": "https://raw.githubusercontent.com/langgenius/dify/2ac4c221d5f7e99ddcfaa14e22775ecd1769a191/dify-agent/pyproject.toml",
+      "response_sha256": "830af46f93a3e707d0bfc7537d3a0978eb959eb9e2204f2594cf24de549f6ce3",
+      "qualification": "pinned_workspace_package_not_public_registry",
+      "version": "1.17.1"
+    },
+    {
+      "ecosystem": "pypi",
+      "package": "pydantic-ai-slim",
+      "source_url": "https://pypi.org/pypi/pydantic-ai-slim/json",
+      "response_sha256": "be6842a9001a89756ffaec5165c815f01b4d85aab5f2e2f0bb2798c460c760ef",
+      "qualification": "identity_verified_dependency_mapping",
+      "version": "2.55.0"
+    },
+    {
+      "ecosystem": "pypi",
+      "package": "pydantic-ai-harness",
+      "source_url": "https://pypi.org/pypi/pydantic-ai-harness/json",
+      "response_sha256": "9e3e70a04002b0a8f7c928b47cfca3614a496d072b3b8e89e9edc665ddfe8593",
+      "qualification": "identity_verified_dependency_mapping",
+      "version": "0.55.0"
+    },
+    {
+      "ecosystem": "pypi",
+      "package": "graphon",
+      "source_url": "https://pypi.org/pypi/graphon/json",
+      "response_sha256": "74775cb01434318c7107be0f9186e3732d967d4fac430c73690569e9ab158207",
+      "qualification": "identity_verified_dependency_mapping",
+      "version": "0.8.0"
+    }
+  ],
+  "pinned_sources": [
+    {
+      "repository": "https://github.com/langgenius/dify",
+      "commit": "2ac4c221d5f7e99ddcfaa14e22775ecd1769a191",
+      "path": "api/pyproject.toml",
+      "url": "https://raw.githubusercontent.com/langgenius/dify/2ac4c221d5f7e99ddcfaa14e22775ecd1769a191/api/pyproject.toml",
+      "sha256": "4ee560142c9eef4f1036afe56711ce0b9971b472d1cc2fa85116784291c92df0"
+    },
+    {
+      "repository": "https://github.com/FlowiseAI/Flowise",
+      "commit": "9291856d1ea4a4ceea9f8fef8ce14f4f6c81e8eb",
+      "path": "packages/components/package.json",
+      "url": "https://raw.githubusercontent.com/FlowiseAI/Flowise/9291856d1ea4a4ceea9f8fef8ce14f4f6c81e8eb/packages/components/package.json",
+      "sha256": "2f8e3274c998385c6c5ac8bae5fe4344ef201461926cac23fc6773745600ed26"
+    },
+    {
+      "repository": "https://github.com/spring-projects/spring-ai",
+      "commit": "00f230f9ee828f12517b2234e5a279cc9c061851",
+      "path": "auto-configurations/models/spring-ai-autoconfigure-model-ollama/src/test/kotlin/org/springframework/ai/model/ollama/autoconfigure/tool/FunctionCallbackContextKotlinIT.kt",
+      "url": "https://raw.githubusercontent.com/spring-projects/spring-ai/00f230f9ee828f12517b2234e5a279cc9c061851/auto-configurations/models/spring-ai-autoconfigure-model-ollama/src/test/kotlin/org/springframework/ai/model/ollama/autoconfigure/tool/FunctionCallbackContextKotlinIT.kt",
+      "sha256": "4c9546cb3a002888546d2af6417f2c05897aafc0983665d3083ab03465964b4a"
+    },
+    {
+      "repository": "https://github.com/spring-projects/spring-ai",
+      "commit": "00f230f9ee828f12517b2234e5a279cc9c061851",
+      "path": "auto-configurations/models/spring-ai-autoconfigure-model-ollama/src/test/kotlin/org/springframework/ai/model/ollama/autoconfigure/tool/MockKotlinWeatherService.kt",
+      "url": "https://raw.githubusercontent.com/spring-projects/spring-ai/00f230f9ee828f12517b2234e5a279cc9c061851/auto-configurations/models/spring-ai-autoconfigure-model-ollama/src/test/kotlin/org/springframework/ai/model/ollama/autoconfigure/tool/MockKotlinWeatherService.kt",
+      "sha256": "9fe4d76f8fe888006c640c57d7514ffec12dd61f1b1c071b45579c7bd328d914"
+    },
+    {
+      "repository": "https://github.com/spring-projects/spring-ai",
+      "commit": "00f230f9ee828f12517b2234e5a279cc9c061851",
+      "path": "auto-configurations/models/spring-ai-autoconfigure-model-ollama/src/test/kotlin/org/springframework/ai/model/ollama/autoconfigure/tool/ToolCallbackKotlinIT.kt",
+      "url": "https://raw.githubusercontent.com/spring-projects/spring-ai/00f230f9ee828f12517b2234e5a279cc9c061851/auto-configurations/models/spring-ai-autoconfigure-model-ollama/src/test/kotlin/org/springframework/ai/model/ollama/autoconfigure/tool/ToolCallbackKotlinIT.kt",
+      "sha256": "f212d5677adb9a963a3ca682221aa1423f09f85f60b88846914874c5efa5e18f"
+    },
+    {
+      "repository": "https://github.com/spring-projects/spring-ai",
+      "commit": "00f230f9ee828f12517b2234e5a279cc9c061851",
+      "path": "mcp/mcp-annotations/src/test/kotlin/org/springframework/ai/mcp/annotation/method/tool/utils/McpJsonSchemaGeneratorKotlinTests.kt",
+      "url": "https://raw.githubusercontent.com/spring-projects/spring-ai/00f230f9ee828f12517b2234e5a279cc9c061851/mcp/mcp-annotations/src/test/kotlin/org/springframework/ai/mcp/annotation/method/tool/utils/McpJsonSchemaGeneratorKotlinTests.kt",
+      "sha256": "6ed9721ab0ab6727866545e4a2de6c4d5feba55741da3a63657fb26933649997"
+    },
+    {
+      "repository": "https://github.com/spring-projects/spring-ai",
+      "commit": "00f230f9ee828f12517b2234e5a279cc9c061851",
+      "path": "spring-ai-client-chat/src/main/kotlin/org/springframework/ai/chat/client/ChatClientExtensions.kt",
+      "url": "https://raw.githubusercontent.com/spring-projects/spring-ai/00f230f9ee828f12517b2234e5a279cc9c061851/spring-ai-client-chat/src/main/kotlin/org/springframework/ai/chat/client/ChatClientExtensions.kt",
+      "sha256": "bf778e4828166f6e451e27fcbe9725699af5f73c84e7b941b2014ade59192bec"
+    },
+    {
+      "repository": "https://github.com/spring-projects/spring-ai",
+      "commit": "00f230f9ee828f12517b2234e5a279cc9c061851",
+      "path": "spring-ai-client-chat/src/test/kotlin/org/springframework/ai/chat/client/ChatClientExtensionsTests.kt",
+      "url": "https://raw.githubusercontent.com/spring-projects/spring-ai/00f230f9ee828f12517b2234e5a279cc9c061851/spring-ai-client-chat/src/test/kotlin/org/springframework/ai/chat/client/ChatClientExtensionsTests.kt",
+      "sha256": "e71c989a027cc801b8672b5fb50b33c6a57f35c13d594fec9e49f69703c788e2"
+    },
+    {
+      "repository": "https://github.com/spring-projects/spring-ai",
+      "commit": "00f230f9ee828f12517b2234e5a279cc9c061851",
+      "path": "spring-ai-commons/src/test/kotlin/org/springframework/ai/utils/JacksonUtilsKotlinTests.kt",
+      "url": "https://raw.githubusercontent.com/spring-projects/spring-ai/00f230f9ee828f12517b2234e5a279cc9c061851/spring-ai-commons/src/test/kotlin/org/springframework/ai/utils/JacksonUtilsKotlinTests.kt",
+      "sha256": "496db6b1a4c98ce4cf6d300a191541ffe4f1e501ee00d5283c7ad89f8572a211"
+    },
+    {
+      "repository": "https://github.com/spring-projects/spring-ai",
+      "commit": "00f230f9ee828f12517b2234e5a279cc9c061851",
+      "path": "spring-ai-model/src/test/kotlin/org/springframework/ai/converter/BeanOutputConverterTests.kt",
+      "url": "https://raw.githubusercontent.com/spring-projects/spring-ai/00f230f9ee828f12517b2234e5a279cc9c061851/spring-ai-model/src/test/kotlin/org/springframework/ai/converter/BeanOutputConverterTests.kt",
+      "sha256": "7aacf81f3eb11aa4972dda4263bd5ddc54904ddda04162c41a6be54bab60ebfb"
+    },
+    {
+      "repository": "https://github.com/spring-projects/spring-ai",
+      "commit": "00f230f9ee828f12517b2234e5a279cc9c061851",
+      "path": "spring-ai-model/src/test/kotlin/org/springframework/ai/tool/resolution/StandaloneWeatherKotlinFunction.kt",
+      "url": "https://raw.githubusercontent.com/spring-projects/spring-ai/00f230f9ee828f12517b2234e5a279cc9c061851/spring-ai-model/src/test/kotlin/org/springframework/ai/tool/resolution/StandaloneWeatherKotlinFunction.kt",
+      "sha256": "2cc0b333af34a79e80f4472e1ec0cb160975acb48da48121ebaff32c62c6d9fa"
+    },
+    {
+      "repository": "https://github.com/spring-projects/spring-ai",
+      "commit": "00f230f9ee828f12517b2234e5a279cc9c061851",
+      "path": "spring-ai-model/src/test/kotlin/org/springframework/ai/tool/resolution/TypeResolverHelperKotlinIT.kt",
+      "url": "https://raw.githubusercontent.com/spring-projects/spring-ai/00f230f9ee828f12517b2234e5a279cc9c061851/spring-ai-model/src/test/kotlin/org/springframework/ai/tool/resolution/TypeResolverHelperKotlinIT.kt",
+      "sha256": "47efdc833f9a2791179b24b4c65ed06a51439e51a036a6ec5045f437f3cf8894"
+    },
+    {
+      "repository": "https://github.com/spring-projects/spring-ai",
+      "commit": "00f230f9ee828f12517b2234e5a279cc9c061851",
+      "path": "spring-ai-model/src/test/kotlin/org/springframework/ai/tool/resolution/kotlinconfig/TypeResolverHelperKotlinConfiguration.kt",
+      "url": "https://raw.githubusercontent.com/spring-projects/spring-ai/00f230f9ee828f12517b2234e5a279cc9c061851/spring-ai-model/src/test/kotlin/org/springframework/ai/tool/resolution/kotlinconfig/TypeResolverHelperKotlinConfiguration.kt",
+      "sha256": "0c6f68c8cf4c3adaa262caff68d5f672549b81b3de75251a8019db9a6c5227e4"
+    },
+    {
+      "repository": "https://github.com/spring-projects/spring-ai",
+      "commit": "00f230f9ee828f12517b2234e5a279cc9c061851",
+      "path": "spring-ai-model/src/test/kotlin/org/springframework/ai/util/json/schema/JsonSchemaGeneratorKotlinTests.kt",
+      "url": "https://raw.githubusercontent.com/spring-projects/spring-ai/00f230f9ee828f12517b2234e5a279cc9c061851/spring-ai-model/src/test/kotlin/org/springframework/ai/util/json/schema/JsonSchemaGeneratorKotlinTests.kt",
+      "sha256": "7c35f717cc98a887ba78ffd087c4d564725c0e82f1f72e0ee4c724fde78034db"
+    },
+    {
+      "repository": "https://github.com/langchain4j/langchain4j",
+      "commit": "872eca4b97b85a42f8409d0437ed4fc1994157b5",
+      "path": "langchain4j-core/src/test/kotlin/dev/langchain4j/internal/JacksonJsonCodecTest.kt",
+      "url": "https://raw.githubusercontent.com/langchain4j/langchain4j/872eca4b97b85a42f8409d0437ed4fc1994157b5/langchain4j-core/src/test/kotlin/dev/langchain4j/internal/JacksonJsonCodecTest.kt",
+      "sha256": "526876fcb66615d868f4dece754b0d675d96daf6cff7ce05544d0813b4979606"
+    },
+    {
+      "repository": "https://github.com/langchain4j/langchain4j",
+      "commit": "872eca4b97b85a42f8409d0437ed4fc1994157b5",
+      "path": "langchain4j-core/src/test/kotlin/dev/langchain4j/internal/VirtualThreadUtilsTest.kt",
+      "url": "https://raw.githubusercontent.com/langchain4j/langchain4j/872eca4b97b85a42f8409d0437ed4fc1994157b5/langchain4j-core/src/test/kotlin/dev/langchain4j/internal/VirtualThreadUtilsTest.kt",
+      "sha256": "317b700fe4eb794c1e2b54d529fa9aa580f5820094a5d295f7fc8477c11d921b"
+    },
+    {
+      "repository": "https://github.com/langchain4j/langchain4j",
+      "commit": "872eca4b97b85a42f8409d0437ed4fc1994157b5",
+      "path": "langchain4j-kotlin/src/main/kotlin/dev/langchain4j/kotlin/data/document/DocumentLoaderExtensions.kt",
+      "url": "https://raw.githubusercontent.com/langchain4j/langchain4j/872eca4b97b85a42f8409d0437ed4fc1994157b5/langchain4j-kotlin/src/main/kotlin/dev/langchain4j/kotlin/data/document/DocumentLoaderExtensions.kt",
+      "sha256": "9916848e389471cd4ca14ec82ddfa31adcab50501924e0ce8bc5d5d83c96a785"
+    },
+    {
+      "repository": "https://github.com/langchain4j/langchain4j",
+      "commit": "872eca4b97b85a42f8409d0437ed4fc1994157b5",
+      "path": "langchain4j-kotlin/src/main/kotlin/dev/langchain4j/kotlin/data/document/DocumentParserExtensions.kt",
+      "url": "https://raw.githubusercontent.com/langchain4j/langchain4j/872eca4b97b85a42f8409d0437ed4fc1994157b5/langchain4j-kotlin/src/main/kotlin/dev/langchain4j/kotlin/data/document/DocumentParserExtensions.kt",
+      "sha256": "fa0fde3465ae5ff41c06c9af7776d2a7b704c608420f758c3bd6cd620a909512"
+    },
+    {
+      "repository": "https://github.com/langchain4j/langchain4j",
+      "commit": "872eca4b97b85a42f8409d0437ed4fc1994157b5",
+      "path": "langchain4j-kotlin/src/main/kotlin/dev/langchain4j/kotlin/data/document/loader/FileSystemDocumentLoaderExtensions.kt",
+      "url": "https://raw.githubusercontent.com/langchain4j/langchain4j/872eca4b97b85a42f8409d0437ed4fc1994157b5/langchain4j-kotlin/src/main/kotlin/dev/langchain4j/kotlin/data/document/loader/FileSystemDocumentLoaderExtensions.kt",
+      "sha256": "a9f6868c8641b0616320d99159a5bab2bd94b7669eb08dcaab5224716f7ca9a1"
+    },
+    {
+      "repository": "https://github.com/langchain4j/langchain4j",
+      "commit": "872eca4b97b85a42f8409d0437ed4fc1994157b5",
+      "path": "langchain4j-kotlin/src/main/kotlin/dev/langchain4j/kotlin/model/chat/ChatModelExtensions.kt",
+      "url": "https://raw.githubusercontent.com/langchain4j/langchain4j/872eca4b97b85a42f8409d0437ed4fc1994157b5/langchain4j-kotlin/src/main/kotlin/dev/langchain4j/kotlin/model/chat/ChatModelExtensions.kt",
+      "sha256": "fd5deec65f089d30a04abcad918d901790481499de7305042244cafa0ecec278"
+    },
+    {
+      "repository": "https://github.com/langchain4j/langchain4j",
+      "commit": "872eca4b97b85a42f8409d0437ed4fc1994157b5",
+      "path": "langchain4j-kotlin/src/main/kotlin/dev/langchain4j/kotlin/model/chat/StreamingChatModelExtensions.kt",
+      "url": "https://raw.githubusercontent.com/langchain4j/langchain4j/872eca4b97b85a42f8409d0437ed4fc1994157b5/langchain4j-kotlin/src/main/kotlin/dev/langchain4j/kotlin/model/chat/StreamingChatModelExtensions.kt",
+      "sha256": "f990b178ed595e8c9e8279a3bd917c56f662065a9e2012b9b744ae646768ac2e"
+    },
+    {
+      "repository": "https://github.com/langchain4j/langchain4j",
+      "commit": "872eca4b97b85a42f8409d0437ed4fc1994157b5",
+      "path": "langchain4j-kotlin/src/main/kotlin/dev/langchain4j/kotlin/model/chat/request/ChatRequestExtensions.kt",
+      "url": "https://raw.githubusercontent.com/langchain4j/langchain4j/872eca4b97b85a42f8409d0437ed4fc1994157b5/langchain4j-kotlin/src/main/kotlin/dev/langchain4j/kotlin/model/chat/request/ChatRequestExtensions.kt",
+      "sha256": "d283938384feecd4680b116da53911563666e653eeb4087a3b3af6abc79dc6bc"
+    },
+    {
+      "repository": "https://github.com/langchain4j/langchain4j",
+      "commit": "872eca4b97b85a42f8409d0437ed4fc1994157b5",
+      "path": "langchain4j-kotlin/src/main/kotlin/dev/langchain4j/kotlin/service/TokenStreamExtensions.kt",
+      "url": "https://raw.githubusercontent.com/langchain4j/langchain4j/872eca4b97b85a42f8409d0437ed4fc1994157b5/langchain4j-kotlin/src/main/kotlin/dev/langchain4j/kotlin/service/TokenStreamExtensions.kt",
+      "sha256": "833101029270f340a7ab6094662fb9cf6c130a7a31ffccc08f2becada0e1a8fb"
+    },
+    {
+      "repository": "https://github.com/langchain4j/langchain4j",
+      "commit": "872eca4b97b85a42f8409d0437ed4fc1994157b5",
+      "path": "langchain4j-kotlin/src/main/kotlin/dev/langchain4j/kotlin/service/TokenStreamToReplyFlowAdapter.kt",
+      "url": "https://raw.githubusercontent.com/langchain4j/langchain4j/872eca4b97b85a42f8409d0437ed4fc1994157b5/langchain4j-kotlin/src/main/kotlin/dev/langchain4j/kotlin/service/TokenStreamToReplyFlowAdapter.kt",
+      "sha256": "b91da78a5ed3bc1ee4955b469899fb1a9a1cdbd2ad6ae1d97ed2db2fe0cb8e73"
+    },
+    {
+      "repository": "https://github.com/langchain4j/langchain4j",
+      "commit": "872eca4b97b85a42f8409d0437ed4fc1994157b5",
+      "path": "langchain4j-kotlin/src/main/kotlin/dev/langchain4j/kotlin/service/TokenStreamToStringFlowAdapter.kt",
+      "url": "https://raw.githubusercontent.com/langchain4j/langchain4j/872eca4b97b85a42f8409d0437ed4fc1994157b5/langchain4j-kotlin/src/main/kotlin/dev/langchain4j/kotlin/service/TokenStreamToStringFlowAdapter.kt",
+      "sha256": "c7649a6c05188f401792bf8cedaebf2dd464b559370e2fae8692151a52a73723"
+    },
+    {
+      "repository": "https://github.com/langchain4j/langchain4j",
+      "commit": "872eca4b97b85a42f8409d0437ed4fc1994157b5",
+      "path": "langchain4j-kotlin/src/test/kotlin/dev/langchain4j/kotlin/data/document/DocumentParserExtensionsKtTest.kt",
+      "url": "https://raw.githubusercontent.com/langchain4j/langchain4j/872eca4b97b85a42f8409d0437ed4fc1994157b5/langchain4j-kotlin/src/test/kotlin/dev/langchain4j/kotlin/data/document/DocumentParserExtensionsKtTest.kt",
+      "sha256": "924dbf55688a8094dde966b2879c6b9136aeb78a583377360e4ca4844ec7b4f7"
+    },
+    {
+      "repository": "https://github.com/langchain4j/langchain4j",
+      "commit": "872eca4b97b85a42f8409d0437ed4fc1994157b5",
+      "path": "langchain4j-kotlin/src/test/kotlin/dev/langchain4j/kotlin/data/document/MergeMetadataTest.kt",
+      "url": "https://raw.githubusercontent.com/langchain4j/langchain4j/872eca4b97b85a42f8409d0437ed4fc1994157b5/langchain4j-kotlin/src/test/kotlin/dev/langchain4j/kotlin/data/document/MergeMetadataTest.kt",
+      "sha256": "dc6dde0716f9108254a007ee1e2c1f5ac99f62055a45d0df1acd6cc5dce196aa"
+    },
+    {
+      "repository": "https://github.com/langchain4j/langchain4j",
+      "commit": "872eca4b97b85a42f8409d0437ed4fc1994157b5",
+      "path": "langchain4j-kotlin/src/test/kotlin/dev/langchain4j/kotlin/data/document/loader/AsyncDocumentLoaderTest.kt",
+      "url": "https://raw.githubusercontent.com/langchain4j/langchain4j/872eca4b97b85a42f8409d0437ed4fc1994157b5/langchain4j-kotlin/src/test/kotlin/dev/langchain4j/kotlin/data/document/loader/AsyncDocumentLoaderTest.kt",
+      "sha256": "6276cc37d005ecc432e4e8759cb8aa33603b587341dae0a08d71a50f3e54e272"
+    },
+    {
+      "repository": "https://github.com/langchain4j/langchain4j",
+      "commit": "872eca4b97b85a42f8409d0437ed4fc1994157b5",
+      "path": "langchain4j-kotlin/src/test/kotlin/dev/langchain4j/kotlin/data/document/loader/LoadDocumentsFailureTest.kt",
+      "url": "https://raw.githubusercontent.com/langchain4j/langchain4j/872eca4b97b85a42f8409d0437ed4fc1994157b5/langchain4j-kotlin/src/test/kotlin/dev/langchain4j/kotlin/data/document/loader/LoadDocumentsFailureTest.kt",
+      "sha256": "33e5091d554dd8ede6558d9cdf6b01a6a528c9014f0fcbb24ce2636762f7a9ba"
+    },
+    {
+      "repository": "https://github.com/langchain4j/langchain4j",
+      "commit": "872eca4b97b85a42f8409d0437ed4fc1994157b5",
+      "path": "langchain4j-kotlin/src/test/kotlin/dev/langchain4j/kotlin/model/chat/ChatModelExtensionsTest.kt",
+      "url": "https://raw.githubusercontent.com/langchain4j/langchain4j/872eca4b97b85a42f8409d0437ed4fc1994157b5/langchain4j-kotlin/src/test/kotlin/dev/langchain4j/kotlin/model/chat/ChatModelExtensionsTest.kt",
+      "sha256": "28d854c0e53209f5ce41ce8a3e7264be0ee279b7da94fec2a9c839448fb9022f"
+    },
+    {
+      "repository": "https://github.com/langchain4j/langchain4j",
+      "commit": "872eca4b97b85a42f8409d0437ed4fc1994157b5",
+      "path": "langchain4j-kotlin/src/test/kotlin/dev/langchain4j/kotlin/model/chat/StreamingChatModelExtensionsKtTest.kt",
+      "url": "https://raw.githubusercontent.com/langchain4j/langchain4j/872eca4b97b85a42f8409d0437ed4fc1994157b5/langchain4j-kotlin/src/test/kotlin/dev/langchain4j/kotlin/model/chat/StreamingChatModelExtensionsKtTest.kt",
+      "sha256": "c76f6d6fddd7276b41d093f1a3b909ae9d86a04b28f3e8b941f7316581ca0355"
+    },
+    {
+      "repository": "https://github.com/langchain4j/langchain4j",
+      "commit": "872eca4b97b85a42f8409d0437ed4fc1994157b5",
+      "path": "langchain4j-kotlin/src/test/kotlin/dev/langchain4j/kotlin/model/chat/request/ChatRequestExtensionsTest.kt",
+      "url": "https://raw.githubusercontent.com/langchain4j/langchain4j/872eca4b97b85a42f8409d0437ed4fc1994157b5/langchain4j-kotlin/src/test/kotlin/dev/langchain4j/kotlin/model/chat/request/ChatRequestExtensionsTest.kt",
+      "sha256": "1a9ca32e2f633168bb4df24ead32578a2023c705b60797281db048a272c9191c"
+    },
+    {
+      "repository": "https://github.com/langchain4j/langchain4j",
+      "commit": "872eca4b97b85a42f8409d0437ed4fc1994157b5",
+      "path": "langchain4j-kotlin/src/test/kotlin/dev/langchain4j/kotlin/service/ServiceWithFlowTest.kt",
+      "url": "https://raw.githubusercontent.com/langchain4j/langchain4j/872eca4b97b85a42f8409d0437ed4fc1994157b5/langchain4j-kotlin/src/test/kotlin/dev/langchain4j/kotlin/service/ServiceWithFlowTest.kt",
+      "sha256": "a4e1424653301755f56a734b2531d26218f302533f87a04859a2d4f2354200a3"
+    },
+    {
+      "repository": "https://github.com/langchain4j/langchain4j",
+      "commit": "872eca4b97b85a42f8409d0437ed4fc1994157b5",
+      "path": "langchain4j-kotlin/src/test/kotlin/dev/langchain4j/kotlin/service/TokenStreamExtensionTest.kt",
+      "url": "https://raw.githubusercontent.com/langchain4j/langchain4j/872eca4b97b85a42f8409d0437ed4fc1994157b5/langchain4j-kotlin/src/test/kotlin/dev/langchain4j/kotlin/service/TokenStreamExtensionTest.kt",
+      "sha256": "aa1f978f0d8f4701c664ba59493bf98de064a2144d8fbffbb74a876d15a92cdd"
+    },
+    {
+      "repository": "https://github.com/crmne/ruby_llm",
+      "commit": "a999ef9552125d137ee797ff54e13a6d59584ea1",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/crmne/ruby_llm/a999ef9552125d137ee797ff54e13a6d59584ea1/README.md",
+      "sha256": "6b8cc4ee52074c010aa984051e05aa0e5c6091fcc32a8586cdecd7da3701d2b6"
+    },
+    {
+      "repository": "https://github.com/crmne/ruby_llm",
+      "commit": "a999ef9552125d137ee797ff54e13a6d59584ea1",
+      "path": "lib/ruby_llm/chat.rb",
+      "url": "https://raw.githubusercontent.com/crmne/ruby_llm/a999ef9552125d137ee797ff54e13a6d59584ea1/lib/ruby_llm/chat.rb",
+      "sha256": "1393ce9c9a2062f0d9fd124b6ba7c2457d273e9d5fb410bafa90031ca75e1dd7"
+    },
+    {
+      "repository": "https://github.com/crmne/ruby_llm",
+      "commit": "a999ef9552125d137ee797ff54e13a6d59584ea1",
+      "path": "lib/ruby_llm.rb",
+      "url": "https://raw.githubusercontent.com/crmne/ruby_llm/a999ef9552125d137ee797ff54e13a6d59584ea1/lib/ruby_llm.rb",
+      "sha256": "286c3288de0fd682ce4805635a2ba9d1fd2745b639e7a23fa9a1879f7e6d1233"
+    },
+    {
+      "repository": "https://github.com/crmne/ruby_llm",
+      "commit": "a999ef9552125d137ee797ff54e13a6d59584ea1",
+      "path": "spec/ruby_llm/chat_spec.rb",
+      "url": "https://raw.githubusercontent.com/crmne/ruby_llm/a999ef9552125d137ee797ff54e13a6d59584ea1/spec/ruby_llm/chat_spec.rb",
+      "sha256": "54cf9f524042732c1aee035d72c7e5a7cd2a83b4126169e18412bbeea5bcb7c6"
+    },
+    {
+      "repository": "https://github.com/crmne/ruby_llm",
+      "commit": "a999ef9552125d137ee797ff54e13a6d59584ea1",
+      "path": "spec/spec_helper.rb",
+      "url": "https://raw.githubusercontent.com/crmne/ruby_llm/a999ef9552125d137ee797ff54e13a6d59584ea1/spec/spec_helper.rb",
+      "sha256": "529bf00199d57d200469e9d76d1db2b44f63266affea93b5d713160ce8b2853a"
+    },
+    {
+      "repository": "https://github.com/ollama/ollama",
+      "commit": "eab97e9f92b9a25c2d52d2cc6c1b1c99bd9fae21",
+      "path": "api/client.go",
+      "url": "https://raw.githubusercontent.com/ollama/ollama/eab97e9f92b9a25c2d52d2cc6c1b1c99bd9fae21/api/client.go",
+      "sha256": "6386430b675bbfb3959869202c9a0b500e649f809e6704568d57d92a7d995aad"
+    },
+    {
+      "repository": "https://github.com/ollama/ollama",
+      "commit": "eab97e9f92b9a25c2d52d2cc6c1b1c99bd9fae21",
+      "path": "api/types.go",
+      "url": "https://raw.githubusercontent.com/ollama/ollama/eab97e9f92b9a25c2d52d2cc6c1b1c99bd9fae21/api/types.go",
+      "sha256": "75369e029dcfc815013243b1e728fcff32514a3b38b26f3288eb1ee2b7fa4d1b"
+    },
+    {
+      "repository": "https://github.com/modelcontextprotocol/csharp-sdk",
+      "commit": "3338e88e15c42cfc27465143c140d7d10f1a2707",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/modelcontextprotocol/csharp-sdk/3338e88e15c42cfc27465143c140d7d10f1a2707/README.md",
+      "sha256": "169092bcfb1f6cf722a1e71c93d406c7f727aec06c82aa696d3796987253210b"
+    },
+    {
+      "repository": "https://github.com/modelcontextprotocol/csharp-sdk",
+      "commit": "3338e88e15c42cfc27465143c140d7d10f1a2707",
+      "path": "docs/concepts/elicitation/samples/client/Program.cs",
+      "url": "https://raw.githubusercontent.com/modelcontextprotocol/csharp-sdk/3338e88e15c42cfc27465143c140d7d10f1a2707/docs/concepts/elicitation/samples/client/Program.cs",
+      "sha256": "01b82c49fdcc83f6bdeaee357ce729663586914f178e774725a043f1ef548d6e"
+    },
+    {
+      "repository": "https://github.com/modelcontextprotocol/csharp-sdk",
+      "commit": "3338e88e15c42cfc27465143c140d7d10f1a2707",
+      "path": "docs/concepts/logging/samples/client/Program.cs",
+      "url": "https://raw.githubusercontent.com/modelcontextprotocol/csharp-sdk/3338e88e15c42cfc27465143c140d7d10f1a2707/docs/concepts/logging/samples/client/Program.cs",
+      "sha256": "33d0ec5c5b5fc853110a1f7dc8be86e9309ab16390b948f26c7f738cce9d673b"
+    },
+    {
+      "repository": "https://github.com/modelcontextprotocol/csharp-sdk",
+      "commit": "3338e88e15c42cfc27465143c140d7d10f1a2707",
+      "path": "docs/concepts/progress/samples/client/Program.cs",
+      "url": "https://raw.githubusercontent.com/modelcontextprotocol/csharp-sdk/3338e88e15c42cfc27465143c140d7d10f1a2707/docs/concepts/progress/samples/client/Program.cs",
+      "sha256": "6e16b1666001828f602508ee3dcdd48eda4027507013cc40f40f51330ee64ce0"
+    },
+    {
+      "repository": "https://github.com/modelcontextprotocol/csharp-sdk",
+      "commit": "3338e88e15c42cfc27465143c140d7d10f1a2707",
+      "path": "src/ModelContextProtocol.Core/Client/McpClient.cs",
+      "url": "https://raw.githubusercontent.com/modelcontextprotocol/csharp-sdk/3338e88e15c42cfc27465143c140d7d10f1a2707/src/ModelContextProtocol.Core/Client/McpClient.cs",
+      "sha256": "2a1acf581184af4b12ff833567bf292b103c73f616ea9012c7d45df769ebe1be"
+    },
+    {
+      "repository": "https://github.com/a2aproject/a2a-samples",
+      "commit": "6603ba3f2c31a7ef33e70b9d8b5b5f8be42ac9a3",
+      "path": "samples/java/koog/src/main/kotlin/ai/koog/example/advancedjoke/Client.kt",
+      "url": "https://raw.githubusercontent.com/a2aproject/a2a-samples/6603ba3f2c31a7ef33e70b9d8b5b5f8be42ac9a3/samples/java/koog/src/main/kotlin/ai/koog/example/advancedjoke/Client.kt",
+      "sha256": "040205ce4e1cb192496c7f0575f46cbcdbc041ca93c31aaa827d54f4c274ac44"
+    },
+    {
+      "repository": "https://github.com/a2aproject/a2a-samples",
+      "commit": "6603ba3f2c31a7ef33e70b9d8b5b5f8be42ac9a3",
+      "path": "samples/java/koog/src/main/kotlin/ai/koog/example/advancedjoke/JokeWriterAgentExecutor.kt",
+      "url": "https://raw.githubusercontent.com/a2aproject/a2a-samples/6603ba3f2c31a7ef33e70b9d8b5b5f8be42ac9a3/samples/java/koog/src/main/kotlin/ai/koog/example/advancedjoke/JokeWriterAgentExecutor.kt",
+      "sha256": "642e086849c302e21b282c906ebd397dad9b30de40cbf17fbcdd8cb60e9dd87a"
+    },
+    {
+      "repository": "https://github.com/a2aproject/a2a-samples",
+      "commit": "6603ba3f2c31a7ef33e70b9d8b5b5f8be42ac9a3",
+      "path": "samples/java/koog/src/main/kotlin/ai/koog/example/advancedjoke/Server.kt",
+      "url": "https://raw.githubusercontent.com/a2aproject/a2a-samples/6603ba3f2c31a7ef33e70b9d8b5b5f8be42ac9a3/samples/java/koog/src/main/kotlin/ai/koog/example/advancedjoke/Server.kt",
+      "sha256": "ce099df729ec54aa05663fa51a68b2bf5620599dcd5736059c4a7b000f3eaa12"
+    },
+    {
+      "repository": "https://github.com/a2aproject/a2a-samples",
+      "commit": "6603ba3f2c31a7ef33e70b9d8b5b5f8be42ac9a3",
+      "path": "samples/java/koog/src/main/kotlin/ai/koog/example/simplejoke/Client.kt",
+      "url": "https://raw.githubusercontent.com/a2aproject/a2a-samples/6603ba3f2c31a7ef33e70b9d8b5b5f8be42ac9a3/samples/java/koog/src/main/kotlin/ai/koog/example/simplejoke/Client.kt",
+      "sha256": "74dd778772958af6ef2776227891ed1cf98c1a0a21f08e8595f790cef4aebf9c"
+    },
+    {
+      "repository": "https://github.com/a2aproject/a2a-samples",
+      "commit": "6603ba3f2c31a7ef33e70b9d8b5b5f8be42ac9a3",
+      "path": "samples/java/koog/src/main/kotlin/ai/koog/example/simplejoke/Server.kt",
+      "url": "https://raw.githubusercontent.com/a2aproject/a2a-samples/6603ba3f2c31a7ef33e70b9d8b5b5f8be42ac9a3/samples/java/koog/src/main/kotlin/ai/koog/example/simplejoke/Server.kt",
+      "sha256": "3248618f27979a7b004dbdc25a4a91c36f001c821aad1729197d74883e546bc5"
+    },
+    {
+      "repository": "https://github.com/a2aproject/a2a-samples",
+      "commit": "6603ba3f2c31a7ef33e70b9d8b5b5f8be42ac9a3",
+      "path": "samples/java/koog/src/main/kotlin/ai/koog/example/simplejoke/SimpleJokeAgentExecutor.kt",
+      "url": "https://raw.githubusercontent.com/a2aproject/a2a-samples/6603ba3f2c31a7ef33e70b9d8b5b5f8be42ac9a3/samples/java/koog/src/main/kotlin/ai/koog/example/simplejoke/SimpleJokeAgentExecutor.kt",
+      "sha256": "541494eca20f158e0337bbf1cdbc7a0c069f1d815ec603ec003c4c303f05a305"
+    },
+    {
+      "repository": "https://github.com/mlflow/mlflow",
+      "commit": "b7a5c98c19edde5adc503ca36db8eaef23790566",
+      "path": "examples/sklearn_elasticnet_wine/train.py",
+      "url": "https://raw.githubusercontent.com/mlflow/mlflow/b7a5c98c19edde5adc503ca36db8eaef23790566/examples/sklearn_elasticnet_wine/train.py",
+      "sha256": "5c241ae72f9b705f57065932b3397f10faac530ac202377d1d9870fcc5721f26"
+    },
+    {
+      "repository": "https://github.com/mlflow/mlflow",
+      "commit": "b7a5c98c19edde5adc503ca36db8eaef23790566",
+      "path": "mlflow/tracking/client.py",
+      "url": "https://raw.githubusercontent.com/mlflow/mlflow/b7a5c98c19edde5adc503ca36db8eaef23790566/mlflow/tracking/client.py",
+      "sha256": "29a8709739a00efe21972297d86923d20c5547a7db725b384e92e6224490958c"
+    },
+    {
+      "repository": "https://github.com/mlflow/mlflow",
+      "commit": "b7a5c98c19edde5adc503ca36db8eaef23790566",
+      "path": "mlflow/tracking/fluent.py",
+      "url": "https://raw.githubusercontent.com/mlflow/mlflow/b7a5c98c19edde5adc503ca36db8eaef23790566/mlflow/tracking/fluent.py",
+      "sha256": "49e9a1ea8213abe6ea3bf3e967395d90827f2ca979890995d248e4a72fddf1e9"
+    },
+    {
+      "repository": "https://github.com/mlflow/mlflow",
+      "commit": "b7a5c98c19edde5adc503ca36db8eaef23790566",
+      "path": "pyproject.toml",
+      "url": "https://raw.githubusercontent.com/mlflow/mlflow/b7a5c98c19edde5adc503ca36db8eaef23790566/pyproject.toml",
+      "sha256": "a46a950f2822429b2cf5f54d47b52bcc5052e30c7383bff83e6c28ea36d1bcc7"
+    },
+    {
+      "repository": "https://github.com/treeverse/dvc",
+      "commit": "56e59829512ff134aa269099a2099587b810b4dd",
+      "path": "pyproject.toml",
+      "url": "https://raw.githubusercontent.com/treeverse/dvc/56e59829512ff134aa269099a2099587b810b4dd/pyproject.toml",
+      "sha256": "7c9a77d69f45b5d260c374c49132cb60439cb1e5d19c739987c693beba92b9ac"
+    },
+    {
+      "repository": "https://github.com/feast-dev/feast",
+      "commit": "4fc97261f1c11211f6c1e34ba41b0cdc4e3810c1",
+      "path": "pyproject.toml",
+      "url": "https://raw.githubusercontent.com/feast-dev/feast/4fc97261f1c11211f6c1e34ba41b0cdc4e3810c1/pyproject.toml",
+      "sha256": "d5f8be70e8d75cb295224bf8b25dc9988c8f01d76ba0e3624b506ff4a308da51"
+    },
+    {
+      "repository": "https://github.com/feast-dev/feast",
+      "commit": "4fc97261f1c11211f6c1e34ba41b0cdc4e3810c1",
+      "path": "sdk/python/feast/__init__.py",
+      "url": "https://raw.githubusercontent.com/feast-dev/feast/4fc97261f1c11211f6c1e34ba41b0cdc4e3810c1/sdk/python/feast/__init__.py",
+      "sha256": "a5dcb21320010fff60f827764e1da7f64db47392bba8cbe2a76369397e010161"
+    },
+    {
+      "repository": "https://github.com/NVIDIA-NeMo/Guardrails",
+      "commit": "4512d081cb970be8a99ac2ccd1c6a39b1a81d352",
+      "path": "pyproject.toml",
+      "url": "https://raw.githubusercontent.com/NVIDIA-NeMo/Guardrails/4512d081cb970be8a99ac2ccd1c6a39b1a81d352/pyproject.toml",
+      "sha256": "6f243a871171d72cd20ab20d7c73c4170a6fb4ee7085f80241130f83910f85f0"
+    },
+    {
+      "repository": "https://github.com/NVIDIA-NeMo/Guardrails",
+      "commit": "4512d081cb970be8a99ac2ccd1c6a39b1a81d352",
+      "path": "nemoguardrails/__init__.py",
+      "url": "https://raw.githubusercontent.com/NVIDIA-NeMo/Guardrails/4512d081cb970be8a99ac2ccd1c6a39b1a81d352/nemoguardrails/__init__.py",
+      "sha256": "11ae5dd25818076f6941ef54031e551ba17d2cf5212842084c8a43ba51174741"
+    }
+  ]
+}

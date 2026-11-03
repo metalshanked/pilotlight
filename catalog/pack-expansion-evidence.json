@@ -1,0 +1,74 @@
+{
+  "reviewed_at": "2026-10-27",
+  "scope": "Exact reviewed API bindings; not universal SDK/version support or market-share ranking",
+  "sources": [
+    {
+      "file": "@strands-agents-sdk-npm.json",
+      "sha256": "84c3634db9bce553e73e183961dd6530aa95310f3423317f4d479b6b3c89456c"
+    },
+    {
+      "file": "agent-framework-csharp-source.json",
+      "sha256": "3d393d461f67f24a4925e15c4e790e4df4f7aac6f64a9aa0a1662d38c99a8c3c"
+    },
+    {
+      "file": "agent-framework-csharp.txt",
+      "sha256": "3b3f88c7f4e78b03b0c01390f9295702b32c99e15bd2716026e585a9361b7ff9"
+    },
+    {
+      "file": "agent-framework.txt",
+      "sha256": "7cd4e34f1c7debc27236f2906f8371fcc0c4dd7d62ba925ccf9a059957684d97"
+    },
+    {
+      "file": "fastmcp-npm.json",
+      "sha256": "4c407ceb19694924efb3c660b1591e31a7627393396b06d22b0a62dd0150860e"
+    },
+    {
+      "file": "fastmcp-ts.txt",
+      "sha256": "459921aa448370395338cdb7cc1fa41c7546dd4e665ab9c93c1b9ee81a6b43b5"
+    },
+    {
+      "file": "langchain-mcp-adapters-npm.json",
+      "sha256": "5f82a818da19e067be47cb3b71732eb3c1bb07c0fefb4969f11e57a094818a43"
+    },
+    {
+      "file": "langchain-mcp-adapters-pypi.json",
+      "sha256": "9ca04257575c2bc9e5087de1f97d9fb0f2aacfd042f06147f49da51264b04eac"
+    },
+    {
+      "file": "langchain-mcp-ts-v1.txt",
+      "sha256": "33401e6f8d7b9de4cd37051637ef676ed13ae848e92ab516c3bc5e3997b22032"
+    },
+    {
+      "file": "langchain-mcp-ts.txt",
+      "sha256": "2b92523c860fcfd3ab9382d87d05fec94d3bb34dfba836505badd19899dd56a7"
+    },
+    {
+      "file": "mcp-go-client.txt",
+      "sha256": "64d6dd282abba2d77ba76bd53b99f1f067ca43ce2f7e20f690d60c6cd97e82a2"
+    },
+    {
+      "file": "mcp-go.txt",
+      "sha256": "f30204e0f9820d993ea8779c09478472f187e908c75bef40f69fe3244a4d3f68"
+    },
+    {
+      "file": "mcp-use-npm.json",
+      "sha256": "c19d3474358cb15b994b1e4f700f64c0000e1ba30f64f03e1e9cdf88b6ad3b79"
+    },
+    {
+      "file": "mcp-use-pypi.json",
+      "sha256": "19c2d40175985cf20a49e0a482007237a159e6c6ec9521a802b8a0aa7a67838e"
+    },
+    {
+      "file": "mcp-use.txt",
+      "sha256": "278f2f9b00237ecdafa9282fce21c60126c6d889d631c420f030f60a2cc6bd1d"
+    },
+    {
+      "file": "pydantic-mcp-v1.txt",
+      "sha256": "d6c28481df04b9ee6f59a53253eb374d694e687eab7d77adb2ecffb07628ad71"
+    },
+    {
+      "file": "pydantic-mcp.txt",
+      "sha256": "2b881825749fc649be3170ca435bb9844fd693c12f51ffc5b4d7b37597d0238c"
+    }
+  ]
+}

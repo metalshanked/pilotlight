@@ -1,0 +1,1 @@
+import {createDeepAgent} from 'deepagents'; const agent=createDeepAgent({model:'openai:gpt-4o',tools:[]});

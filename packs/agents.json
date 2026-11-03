@@ -1,0 +1,2097 @@
+{
+  "schema_version": 1,
+  "id": "pilotlight.agents",
+  "version": "0.1.0",
+  "minimum_engine_version": "0.1.0",
+  "description": "Reviewed agents framework mappings and semantic rules",
+  "license": "Apache-2.0",
+  "sources": [
+    "https://github.com/0xPlaygrounds/rig",
+    "https://github.com/agno-agi/agno",
+    "https://github.com/anthropics/anthropic-sdk-python",
+    "https://github.com/anthropics/claude-agent-sdk-python",
+    "https://github.com/crewAIInc/crewAI",
+    "https://github.com/google/adk-python",
+    "https://github.com/huggingface/smolagents",
+    "https://github.com/langchain-ai/deepagents",
+    "https://github.com/langchain-ai/langchain",
+    "https://github.com/langchain-ai/langgraph",
+    "https://github.com/langchain4j/langchain4j",
+    "https://github.com/mastra-ai/mastra",
+    "https://github.com/microsoft/autogen",
+    "https://github.com/microsoft/semantic-kernel",
+    "https://github.com/openai/openai-agents-python",
+    "https://github.com/openai/openai-python",
+    "https://github.com/pydantic/pydantic-ai",
+    "https://github.com/spring-projects/spring-ai",
+    "https://github.com/strands-agents/sdk-python",
+    "https://github.com/vercel/ai"
+  ],
+  "requires": [
+    "catalog-v1",
+    "receiver-operations-v1",
+    "tool-loops-v1",
+    "configured-loops-v1",
+    "model-records-v1",
+    "model-arguments-v1"
+  ],
+  "rules": [
+    {
+      "id": "openai",
+      "entry": {
+        "id": "openai",
+        "name": "OpenAI",
+        "category": "model_sdk",
+        "homepage": "https://github.com/openai/openai-python",
+        "packages": {
+          "gem": [
+            "ruby-openai",
+            "openai"
+          ],
+          "go": [
+            "github.com/openai/openai-go",
+            "github.com/openai/openai-go/v2",
+            "github.com/openai/openai-go/v3"
+          ],
+          "maven": [
+            "com.openai:openai-java"
+          ],
+          "npm": [
+            "openai"
+          ],
+          "nuget": [
+            "OpenAI"
+          ],
+          "pypi": [
+            "openai"
+          ]
+        },
+        "imports": {
+          "csharp": [
+            "OpenAI"
+          ],
+          "go": [
+            "github.com/openai/openai-go",
+            "github.com/openai/openai-go/v2",
+            "github.com/openai/openai-go/v3"
+          ],
+          "java": [
+            "com.openai"
+          ],
+          "javascript": [
+            "openai"
+          ],
+          "kotlin": [
+            "com.openai"
+          ],
+          "python": [
+            "openai"
+          ],
+          "ruby": [
+            "openai"
+          ],
+          "typescript": [
+            "openai"
+          ]
+        },
+        "symbols": {
+          "OpenAI.Chat.ChatClient": "llm_client",
+          "github.com/openai/openai-go.NewClient": "llm_client",
+          "github.com/openai/openai-go/v2.NewClient": "llm_client",
+          "github.com/openai/openai-go/v3.NewClient": "llm_client",
+          "openai.AsyncOpenAI": "llm_client",
+          "openai.AzureOpenAI": "llm_client",
+          "openai.OpenAI": "llm_client",
+          "openai.chat.completions.create": "llm_call",
+          "openai.default": "llm_client"
+        },
+        "operations": {
+          "Chat.Completions.New": "llm_call",
+          "CompleteChat": "llm_call",
+          "CompleteChatAsync": "llm_call",
+          "Responses.New": "llm_call",
+          "chat.completions.create": "llm_call",
+          "completions.create": "llm_call",
+          "decisions.create": "decision_call",
+          "responses.create": "llm_call"
+        },
+        "sources": [
+          "https://github.com/openai/openai-python",
+          "https://github.com/openai/openai-go",
+          "https://github.com/openai/openai-dotnet",
+          "https://developers.openai.com/api/docs/models/gpt-4o",
+          "https://developers.openai.com/api/docs/models/gpt-4.1"
+        ],
+        "reviewed_at": "2026-10-27",
+        "symbol_languages": {
+          "OpenAI.Chat.ChatClient": [
+            "csharp"
+          ],
+          "github.com/openai/openai-go.NewClient": [
+            "go"
+          ],
+          "github.com/openai/openai-go/v2.NewClient": [
+            "go"
+          ],
+          "github.com/openai/openai-go/v3.NewClient": [
+            "go"
+          ]
+        },
+        "module_names": {
+          "github.com/openai/openai-go": "openai",
+          "github.com/openai/openai-go/v2": "openai",
+          "github.com/openai/openai-go/v3": "openai"
+        },
+        "model_identifiers": [
+          "gpt-4o",
+          "gpt-4o-mini",
+          "gpt-4o-2024-05-13",
+          "gpt-4o-2024-08-06",
+          "gpt-4o-2024-11-20",
+          "gpt-4.1",
+          "gpt-4.1-mini",
+          "gpt-4.1-nano"
+        ]
+      }
+    },
+    {
+      "id": "anthropic",
+      "entry": {
+        "id": "anthropic",
+        "name": "Anthropic",
+        "category": "model_sdk",
+        "homepage": "https://github.com/anthropics/anthropic-sdk-python",
+        "packages": {
+          "maven": [
+            "com.anthropic:anthropic-java"
+          ],
+          "npm": [
+            "@anthropic-ai/sdk"
+          ],
+          "pypi": [
+            "anthropic"
+          ]
+        },
+        "imports": {
+          "java": [
+            "com.anthropic"
+          ],
+          "javascript": [
+            "@anthropic-ai/sdk"
+          ],
+          "kotlin": [
+            "com.anthropic"
+          ],
+          "python": [
+            "anthropic"
+          ],
+          "typescript": [
+            "@anthropic-ai/sdk"
+          ]
+        },
+        "symbols": {
+          "@anthropic-ai/sdk.default": "llm_client",
+          "anthropic.Anthropic": "llm_client",
+          "anthropic.Anthropic.beta.messages.tool_runner": "agent",
+          "anthropic.AsyncAnthropic": "llm_client",
+          "anthropic.AsyncAnthropic.beta.messages.tool_runner": "agent",
+          "anthropic.beta_async_tool": "tool",
+          "anthropic.beta_tool": "tool"
+        },
+        "operations": {
+          "messages.create": "llm_call",
+          "messages.stream": "llm_call"
+        },
+        "sources": [
+          "https://github.com/anthropics/anthropic-sdk-python",
+          "https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-runner"
+        ],
+        "reviewed_at": "2026-10-11",
+        "symbol_languages": {
+          "anthropic.Anthropic.beta.messages.tool_runner": [
+            "python"
+          ],
+          "anthropic.AsyncAnthropic.beta.messages.tool_runner": [
+            "python"
+          ],
+          "anthropic.beta_async_tool": [
+            "python"
+          ],
+          "anthropic.beta_tool": [
+            "python"
+          ]
+        },
+        "symbol_subtypes": {
+          "anthropic.Anthropic.beta.messages.tool_runner": "sdk_tool_runner",
+          "anthropic.AsyncAnthropic.beta.messages.tool_runner": "sdk_tool_runner"
+        }
+      }
+    },
+    {
+      "id": "langchain",
+      "entry": {
+        "id": "langchain",
+        "name": "LangChain",
+        "category": "agent_framework",
+        "homepage": "https://github.com/langchain-ai/langchain",
+        "packages": {
+          "npm": [
+            "langchain",
+            "@langchain/core",
+            "@langchain/openai",
+            "@langchain/anthropic",
+            "@langchain/community",
+            "@langchain/aws",
+            "@langchain/google-genai",
+            "@langchain/google-vertexai",
+            "@langchain/ollama",
+            "@langchain/cohere",
+            "@langchain/groq",
+            "@langchain/mistralai",
+            "@langchain/qdrant",
+            "@langchain/textsplitters",
+            "@langchain/baidu-qianfan",
+            "@langchain/classic",
+            "@langchain/cloudflare",
+            "@langchain/deepseek",
+            "@langchain/exa",
+            "@langchain/mongodb",
+            "@langchain/pinecone",
+            "@langchain/redis",
+            "@langchain/tavily",
+            "@langchain/weaviate",
+            "@langchain/xai"
+          ],
+          "pypi": [
+            "langchain",
+            "langchain-core",
+            "langchain-community",
+            "langchain-openai",
+            "langchain-anthropic"
+          ]
+        },
+        "imports": {
+          "javascript": [
+            "langchain",
+            "@langchain/core",
+            "@langchain/openai",
+            "@langchain/anthropic",
+            "@langchain/community",
+            "@langchain/aws",
+            "@langchain/google-genai",
+            "@langchain/google-vertexai",
+            "@langchain/ollama",
+            "@langchain/cohere",
+            "@langchain/groq",
+            "@langchain/mistralai",
+            "@langchain/qdrant",
+            "@langchain/textsplitters",
+            "@langchain/baidu-qianfan",
+            "@langchain/classic",
+            "@langchain/cloudflare",
+            "@langchain/deepseek",
+            "@langchain/exa",
+            "@langchain/mongodb",
+            "@langchain/pinecone",
+            "@langchain/redis",
+            "@langchain/tavily",
+            "@langchain/weaviate",
+            "@langchain/xai"
+          ],
+          "python": [
+            "langchain",
+            "langchain_core",
+            "langchain_community",
+            "langchain_openai",
+            "langchain_anthropic"
+          ],
+          "typescript": [
+            "langchain",
+            "@langchain/core",
+            "@langchain/openai",
+            "@langchain/anthropic",
+            "@langchain/community",
+            "@langchain/aws",
+            "@langchain/google-genai",
+            "@langchain/google-vertexai",
+            "@langchain/ollama",
+            "@langchain/cohere",
+            "@langchain/groq",
+            "@langchain/mistralai",
+            "@langchain/qdrant",
+            "@langchain/textsplitters",
+            "@langchain/baidu-qianfan",
+            "@langchain/classic",
+            "@langchain/cloudflare",
+            "@langchain/deepseek",
+            "@langchain/exa",
+            "@langchain/mongodb",
+            "@langchain/pinecone",
+            "@langchain/redis",
+            "@langchain/tavily",
+            "@langchain/weaviate",
+            "@langchain/xai"
+          ]
+        },
+        "symbols": {
+          "@langchain/core/tools.tool": "tool",
+          "@langchain/openai.ChatOpenAI": "llm_client",
+          "langchain.agents.create_agent": "agent",
+          "langchain.agents.create_react_agent": "agent",
+          "langchain.createAgent": "agent",
+          "langchain.tools.tool": "tool",
+          "langchain_anthropic.ChatAnthropic": "llm_client",
+          "langchain_core.tools.tool": "tool",
+          "langchain_openai.ChatOpenAI": "llm_client",
+          "langchain_openai.OpenAIEmbeddings": "embedding"
+        },
+        "operations": {
+          "ainvoke": "llm_call",
+          "astream": "llm_call",
+          "invoke": "llm_call",
+          "stream": "llm_call"
+        },
+        "sources": [
+          "https://docs.langchain.com/oss/python/langchain/models",
+          "https://reference.langchain.com/javascript/langchain-langgraph/prebuilt/createReactAgent",
+          "https://reference.langchain.com/javascript/langchain/index/createAgent",
+          "https://reference.langchain.com/python/langchain/tools",
+          "https://registry.npmjs.org/%40langchain%2Faws/latest",
+          "https://registry.npmjs.org/%40langchain%2Fbaidu-qianfan/latest",
+          "https://registry.npmjs.org/%40langchain%2Fclassic/latest",
+          "https://registry.npmjs.org/%40langchain%2Fcloudflare/latest",
+          "https://registry.npmjs.org/%40langchain%2Fcohere/latest",
+          "https://registry.npmjs.org/%40langchain%2Fcommunity/latest",
+          "https://registry.npmjs.org/%40langchain%2Fdeepseek/latest",
+          "https://registry.npmjs.org/%40langchain%2Fexa/latest",
+          "https://registry.npmjs.org/%40langchain%2Fgoogle-genai/latest",
+          "https://registry.npmjs.org/%40langchain%2Fgoogle-vertexai/latest",
+          "https://registry.npmjs.org/%40langchain%2Fgroq/latest",
+          "https://registry.npmjs.org/%40langchain%2Fmistralai/latest",
+          "https://registry.npmjs.org/%40langchain%2Fmongodb/latest",
+          "https://registry.npmjs.org/%40langchain%2Follama/latest",
+          "https://registry.npmjs.org/%40langchain%2Fpinecone/latest",
+          "https://registry.npmjs.org/%40langchain%2Fqdrant/latest",
+          "https://registry.npmjs.org/%40langchain%2Fredis/latest",
+          "https://registry.npmjs.org/%40langchain%2Ftavily/latest",
+          "https://registry.npmjs.org/%40langchain%2Ftextsplitters/latest",
+          "https://registry.npmjs.org/%40langchain%2Fweaviate/latest",
+          "https://registry.npmjs.org/%40langchain%2Fxai/latest"
+        ],
+        "reviewed_at": "2026-10-10",
+        "symbol_languages": {
+          "@langchain/core/tools.tool": [
+            "javascript",
+            "typescript"
+          ],
+          "langchain.createAgent": [
+            "javascript",
+            "typescript"
+          ],
+          "langchain.tools.tool": [
+            "python"
+          ],
+          "langchain_core.tools.tool": [
+            "python"
+          ]
+        }
+      }
+    },
+    {
+      "id": "langgraph",
+      "entry": {
+        "id": "langgraph",
+        "name": "LangGraph",
+        "category": "agent_framework",
+        "homepage": "https://github.com/langchain-ai/langgraph",
+        "packages": {
+          "npm": [
+            "@langchain/langgraph"
+          ],
+          "pypi": [
+            "langgraph"
+          ]
+        },
+        "imports": {
+          "javascript": [
+            "@langchain/langgraph"
+          ],
+          "python": [
+            "langgraph"
+          ],
+          "typescript": [
+            "@langchain/langgraph"
+          ]
+        },
+        "symbols": {
+          "@langchain/langgraph.StateGraph": "dependency",
+          "@langchain/langgraph/prebuilt.createReactAgent": "agent",
+          "langgraph.graph.StateGraph": "dependency",
+          "langgraph.prebuilt.create_react_agent": "agent"
+        },
+        "sources": [
+          "https://reference.langchain.com/javascript/langchain-langgraph/prebuilt/createReactAgent",
+          "https://reference.langchain.com/python/langgraph/graph/state/StateGraph"
+        ],
+        "reviewed_at": "2026-10-10",
+        "symbol_languages": {
+          "@langchain/langgraph.StateGraph": [
+            "javascript",
+            "typescript"
+          ],
+          "@langchain/langgraph/prebuilt.createReactAgent": [
+            "javascript",
+            "typescript"
+          ],
+          "langgraph.graph.StateGraph": [
+            "python"
+          ]
+        },
+        "symbol_subtypes": {
+          "@langchain/langgraph.StateGraph": "workflow_builder",
+          "langgraph.graph.StateGraph": "workflow_builder"
+        }
+      }
+    },
+    {
+      "id": "crewai",
+      "entry": {
+        "id": "crewai",
+        "name": "CrewAI",
+        "category": "agent_framework",
+        "homepage": "https://github.com/crewAIInc/crewAI",
+        "packages": {
+          "pypi": [
+            "crewai",
+            "crewai-tools"
+          ]
+        },
+        "imports": {
+          "python": [
+            "crewai",
+            "crewai_tools"
+          ]
+        },
+        "symbols": {
+          "crewai.Agent": "agent",
+          "crewai.Crew": "agent",
+          "crewai.LLM": "llm_client"
+        }
+      }
+    },
+    {
+      "id": "autogen",
+      "entry": {
+        "id": "autogen",
+        "name": "AutoGen",
+        "category": "agent_framework",
+        "homepage": "https://github.com/microsoft/autogen",
+        "packages": {
+          "pypi": [
+            "autogen-agentchat",
+            "autogen-core",
+            "autogen-ext",
+            "pyautogen"
+          ]
+        },
+        "imports": {
+          "python": [
+            "autogen",
+            "autogen_agentchat",
+            "autogen_core",
+            "autogen_ext"
+          ]
+        },
+        "symbols": {
+          "autogen.AssistantAgent": "agent",
+          "autogen.UserProxyAgent": "agent",
+          "autogen_agentchat.agents.AssistantAgent": "agent",
+          "autogen_agentchat.teams.RoundRobinGroupChat": "agent",
+          "autogen_agentchat.teams.SelectorGroupChat": "agent",
+          "autogen_agentchat.teams.Swarm": "agent"
+        },
+        "sources": [
+          "https://microsoft.github.io/autogen/dev/user-guide/agentchat-user-guide/tutorial/teams.html"
+        ],
+        "reviewed_at": "2026-10-10",
+        "symbol_languages": {
+          "autogen_agentchat.teams.RoundRobinGroupChat": [
+            "python"
+          ],
+          "autogen_agentchat.teams.SelectorGroupChat": [
+            "python"
+          ],
+          "autogen_agentchat.teams.Swarm": [
+            "python"
+          ]
+        },
+        "symbol_subtypes": {
+          "autogen_agentchat.teams.RoundRobinGroupChat": "orchestration",
+          "autogen_agentchat.teams.SelectorGroupChat": "orchestration",
+          "autogen_agentchat.teams.Swarm": "orchestration"
+        }
+      }
+    },
+    {
+      "id": "pydantic-ai",
+      "entry": {
+        "id": "pydantic-ai",
+        "name": "Pydantic AI",
+        "category": "agent_framework",
+        "homepage": "https://github.com/pydantic/pydantic-ai",
+        "packages": {
+          "pypi": [
+            "pydantic-ai",
+            "pydantic-ai-slim",
+            "pydantic-ai-harness"
+          ]
+        },
+        "imports": {
+          "python": [
+            "pydantic_ai"
+          ]
+        },
+        "symbols": {
+          "pydantic_ai.Agent": "agent",
+          "pydantic_ai.mcp.MCPToolset": "mcp_client",
+          "pydantic_ai.mcp.MCPServerStdio": "mcp_client",
+          "pydantic_ai.mcp.MCPServerSSE": "mcp_client",
+          "pydantic_ai.mcp.MCPServerStreamableHTTP": "mcp_client"
+        },
+        "sources": [
+          "https://pypi.org/pypi/pydantic-ai-slim/json",
+          "https://pypi.org/pypi/pydantic-ai-harness/json",
+          "https://pydantic.dev/docs/ai/mcp/client/",
+          "https://raw.githubusercontent.com/pydantic/pydantic-ai/v1.0.0/pydantic_ai_slim/pydantic_ai/mcp.py"
+        ],
+        "reviewed_at": "2026-10-27",
+        "symbol_languages": {
+          "pydantic_ai.mcp.MCPToolset": [
+            "python"
+          ],
+          "pydantic_ai.mcp.MCPServerStdio": [
+            "python"
+          ],
+          "pydantic_ai.mcp.MCPServerSSE": [
+            "python"
+          ],
+          "pydantic_ai.mcp.MCPServerStreamableHTTP": [
+            "python"
+          ]
+        }
+      }
+    },
+    {
+      "id": "openai-agents",
+      "entry": {
+        "id": "openai-agents",
+        "name": "OpenAI Agents SDK",
+        "category": "agent_framework",
+        "homepage": "https://github.com/openai/openai-agents-python",
+        "packages": {
+          "npm": [
+            "@openai/agents",
+            "@openai/agents-core"
+          ],
+          "pypi": [
+            "openai-agents"
+          ]
+        },
+        "imports": {
+          "javascript": [
+            "@openai/agents",
+            "@openai/agents-core"
+          ],
+          "python": [
+            "agents"
+          ],
+          "typescript": [
+            "@openai/agents",
+            "@openai/agents-core"
+          ]
+        },
+        "symbols": {
+          "@openai/agents.Agent": "agent",
+          "agents.Agent": "agent",
+          "agents.mcp.MCPServerStdio": "mcp_client",
+          "agents.mcp.server.MCPServerStdio": "mcp_client",
+          "agents.mcp.MCPServerSse": "mcp_client",
+          "agents.mcp.server.MCPServerSse": "mcp_client",
+          "agents.mcp.MCPServerStreamableHttp": "mcp_client",
+          "agents.mcp.server.MCPServerStreamableHttp": "mcp_client",
+          "@openai/agents.MCPServerStdio": "mcp_client",
+          "@openai/agents-core.MCPServerStdio": "mcp_client",
+          "@openai/agents.MCPServerSSE": "mcp_client",
+          "@openai/agents-core.MCPServerSSE": "mcp_client",
+          "@openai/agents.MCPServerStreamableHttp": "mcp_client",
+          "@openai/agents-core.MCPServerStreamableHttp": "mcp_client",
+          "@openai/agents-core.Agent": "agent",
+          "agents.function_tool": "tool",
+          "@openai/agents.tool": "tool"
+        },
+        "sources": [
+          "https://github.com/openai/openai-agents-python/blob/125efa029b4bfd84238bd2c4fd69c3406f802663/src/agents/mcp/server.py",
+          "https://github.com/openai/openai-agents-js/blob/89a9ddf1e241e75f2e0ad4c15d89de9e215ebac6/packages/agents-core/src/index.ts"
+        ],
+        "reviewed_at": "2026-10-27",
+        "symbol_languages": {
+          "agents.mcp.MCPServerStdio": [
+            "python"
+          ],
+          "agents.mcp.server.MCPServerStdio": [
+            "python"
+          ],
+          "agents.mcp.MCPServerSse": [
+            "python"
+          ],
+          "agents.mcp.server.MCPServerSse": [
+            "python"
+          ],
+          "agents.mcp.MCPServerStreamableHttp": [
+            "python"
+          ],
+          "agents.mcp.server.MCPServerStreamableHttp": [
+            "python"
+          ],
+          "@openai/agents.MCPServerStdio": [
+            "javascript",
+            "typescript"
+          ],
+          "@openai/agents-core.MCPServerStdio": [
+            "javascript",
+            "typescript"
+          ],
+          "@openai/agents.MCPServerSSE": [
+            "javascript",
+            "typescript"
+          ],
+          "@openai/agents-core.MCPServerSSE": [
+            "javascript",
+            "typescript"
+          ],
+          "@openai/agents.MCPServerStreamableHttp": [
+            "javascript",
+            "typescript"
+          ],
+          "@openai/agents-core.MCPServerStreamableHttp": [
+            "javascript",
+            "typescript"
+          ],
+          "@openai/agents-core.Agent": [
+            "javascript",
+            "typescript"
+          ],
+          "agents.function_tool": [
+            "python"
+          ],
+          "@openai/agents.tool": [
+            "javascript",
+            "typescript"
+          ]
+        }
+      }
+    },
+    {
+      "id": "google-adk",
+      "entry": {
+        "id": "google-adk",
+        "name": "Google ADK",
+        "category": "agent_framework",
+        "homepage": "https://github.com/google/adk-python",
+        "packages": {
+          "npm": [
+            "@google/adk"
+          ],
+          "pypi": [
+            "google-adk"
+          ]
+        },
+        "imports": {
+          "javascript": [
+            "@google/adk"
+          ],
+          "python": [
+            "google.adk"
+          ],
+          "typescript": [
+            "@google/adk"
+          ]
+        },
+        "symbols": {
+          "@google/adk.LlmAgent": "agent",
+          "@google/adk.LoopAgent": "agent",
+          "@google/adk.ParallelAgent": "agent",
+          "@google/adk.SequentialAgent": "agent",
+          "google.adk.agents.Agent": "agent",
+          "google.adk.agents.LlmAgent": "agent",
+          "google.adk.agents.LoopAgent": "agent",
+          "google.adk.agents.ParallelAgent": "agent",
+          "google.adk.agents.SequentialAgent": "agent",
+          "google.adk.agents.remote_a2a_agent.RemoteA2aAgent": "agent_proxy"
+        },
+        "sources": [
+          "https://github.com/google/adk-docs/blob/main/docs/a2a/quickstart-consuming.md",
+          "https://github.com/google/adk-docs/blob/main/docs/agents/custom-agents.md"
+        ],
+        "reviewed_at": "2026-10-10",
+        "symbol_languages": {
+          "@google/adk.LlmAgent": [
+            "javascript",
+            "typescript"
+          ],
+          "@google/adk.LoopAgent": [
+            "javascript",
+            "typescript"
+          ],
+          "@google/adk.ParallelAgent": [
+            "javascript",
+            "typescript"
+          ],
+          "@google/adk.SequentialAgent": [
+            "javascript",
+            "typescript"
+          ],
+          "google.adk.agents.LlmAgent": [
+            "python"
+          ],
+          "google.adk.agents.LoopAgent": [
+            "python"
+          ],
+          "google.adk.agents.ParallelAgent": [
+            "python"
+          ],
+          "google.adk.agents.SequentialAgent": [
+            "python"
+          ],
+          "google.adk.agents.remote_a2a_agent.RemoteA2aAgent": [
+            "python"
+          ]
+        },
+        "symbol_subtypes": {
+          "@google/adk.LoopAgent": "orchestration",
+          "@google/adk.ParallelAgent": "orchestration",
+          "@google/adk.SequentialAgent": "orchestration",
+          "google.adk.agents.LoopAgent": "orchestration",
+          "google.adk.agents.ParallelAgent": "orchestration",
+          "google.adk.agents.SequentialAgent": "orchestration"
+        }
+      }
+    },
+    {
+      "id": "strands",
+      "entry": {
+        "id": "strands",
+        "name": "Strands Agents",
+        "category": "agent_framework",
+        "homepage": "https://github.com/strands-agents/sdk-python",
+        "packages": {
+          "pypi": [
+            "strands-agents",
+            "strands-agents-tools"
+          ],
+          "npm": [
+            "@strands-agents/sdk"
+          ]
+        },
+        "imports": {
+          "python": [
+            "strands",
+            "strands_tools"
+          ],
+          "typescript": [
+            "@strands-agents/sdk"
+          ],
+          "javascript": [
+            "@strands-agents/sdk"
+          ]
+        },
+        "symbols": {
+          "strands.Agent": "agent",
+          "strands.tools.mcp.MCPClient": "mcp_client",
+          "strands.tools.mcp.mcp_client.MCPClient": "mcp_client",
+          "@strands-agents/sdk.Agent": "agent",
+          "@strands-agents/sdk.McpClient": "mcp_client"
+        },
+        "sources": [
+          "https://strandsagents.com/latest/documentation/docs/user-guide/concepts/tools/mcp-tools/"
+        ],
+        "symbol_languages": {
+          "@strands-agents/sdk.Agent": [
+            "javascript",
+            "typescript"
+          ],
+          "@strands-agents/sdk.McpClient": [
+            "javascript",
+            "typescript"
+          ]
+        }
+      }
+    },
+    {
+      "id": "smolagents",
+      "entry": {
+        "id": "smolagents",
+        "name": "smolagents",
+        "category": "agent_framework",
+        "homepage": "https://github.com/huggingface/smolagents",
+        "packages": {
+          "pypi": [
+            "smolagents"
+          ]
+        },
+        "imports": {
+          "python": [
+            "smolagents"
+          ]
+        },
+        "symbols": {
+          "smolagents.CodeAgent": "agent",
+          "smolagents.ToolCallingAgent": "agent"
+        }
+      }
+    },
+    {
+      "id": "agno",
+      "entry": {
+        "id": "agno",
+        "name": "Agno",
+        "category": "agent_framework",
+        "homepage": "https://github.com/agno-agi/agno",
+        "packages": {
+          "pypi": [
+            "agno",
+            "phidata"
+          ]
+        },
+        "imports": {
+          "python": [
+            "agno",
+            "phi"
+          ]
+        },
+        "symbols": {
+          "agno.agent.Agent": "agent",
+          "phi.agent.Agent": "agent"
+        }
+      }
+    },
+    {
+      "id": "semantic-kernel",
+      "entry": {
+        "id": "semantic-kernel",
+        "name": "Semantic Kernel",
+        "category": "agent_framework",
+        "homepage": "https://github.com/microsoft/semantic-kernel",
+        "packages": {
+          "nuget": [
+            "Microsoft.SemanticKernel",
+            "Microsoft.SemanticKernel.Agents.Core"
+          ],
+          "pypi": [
+            "semantic-kernel"
+          ]
+        },
+        "imports": {
+          "csharp": [
+            "Microsoft.SemanticKernel"
+          ],
+          "python": [
+            "semantic_kernel"
+          ]
+        },
+        "symbols": {
+          "Microsoft.SemanticKernel.Agents.ChatCompletionAgent": "agent",
+          "semantic_kernel.agents.ChatCompletionAgent": "agent"
+        },
+        "sources": [
+          "https://learn.microsoft.com/en-us/semantic-kernel/frameworks/agent/agent-types/chat-completion-agent",
+          "https://github.com/microsoft/semantic-kernel/blob/11f072362e24207da9db55779c0fd73eb15123b1/python/semantic_kernel/agents/agent.py",
+          "https://github.com/microsoft/semantic-kernel/blob/11f072362e24207da9db55779c0fd73eb15123b1/python/semantic_kernel/agents/__init__.py"
+        ],
+        "reviewed_at": "2026-10-27",
+        "symbol_languages": {
+          "Microsoft.SemanticKernel.Agents.ChatCompletionAgent": [
+            "csharp"
+          ]
+        },
+        "model_arguments": {
+          "semantic_kernel.agents.agent.ModelSpec": {
+            "position": null,
+            "keywords": [
+              "id"
+            ]
+          },
+          "semantic_kernel.agents.ModelSpec": {
+            "position": null,
+            "keywords": [
+              "id"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "vercel-ai",
+      "entry": {
+        "id": "vercel-ai",
+        "name": "Vercel AI SDK",
+        "category": "agent_framework",
+        "homepage": "https://github.com/vercel/ai",
+        "packages": {
+          "npm": [
+            "ai",
+            "@ai-sdk/openai",
+            "@ai-sdk/anthropic",
+            "@ai-sdk/google",
+            "@ai-sdk/mcp",
+            "@ai-sdk/azure",
+            "@ai-sdk/amazon-bedrock",
+            "@ai-sdk/groq",
+            "@ai-sdk/mistral",
+            "@ai-sdk/cohere",
+            "@ai-sdk/xai",
+            "@ai-sdk/deepseek",
+            "@ai-sdk/togetherai",
+            "@ai-sdk/perplexity"
+          ]
+        },
+        "imports": {
+          "javascript": [
+            "ai",
+            "@ai-sdk/openai",
+            "@ai-sdk/anthropic",
+            "@ai-sdk/google",
+            "@ai-sdk/mcp",
+            "@ai-sdk/azure",
+            "@ai-sdk/amazon-bedrock",
+            "@ai-sdk/groq",
+            "@ai-sdk/mistral",
+            "@ai-sdk/cohere",
+            "@ai-sdk/xai",
+            "@ai-sdk/deepseek",
+            "@ai-sdk/togetherai",
+            "@ai-sdk/perplexity"
+          ],
+          "typescript": [
+            "ai",
+            "@ai-sdk/openai",
+            "@ai-sdk/anthropic",
+            "@ai-sdk/google",
+            "@ai-sdk/mcp",
+            "@ai-sdk/azure",
+            "@ai-sdk/amazon-bedrock",
+            "@ai-sdk/groq",
+            "@ai-sdk/mistral",
+            "@ai-sdk/cohere",
+            "@ai-sdk/xai",
+            "@ai-sdk/deepseek",
+            "@ai-sdk/togetherai",
+            "@ai-sdk/perplexity"
+          ]
+        },
+        "symbols": {
+          "@ai-sdk/mcp.createMCPClient": "mcp_client",
+          "ai.ToolLoopAgent": "agent",
+          "ai.generateText": "llm_call",
+          "ai.streamText": "llm_call"
+        },
+        "sources": [
+          "https://registry.npmjs.org/%40ai-sdk%2Fazure/latest",
+          "https://registry.npmjs.org/%40ai-sdk%2Famazon-bedrock/latest",
+          "https://registry.npmjs.org/%40ai-sdk%2Fgroq/latest",
+          "https://registry.npmjs.org/%40ai-sdk%2Fmistral/latest",
+          "https://registry.npmjs.org/%40ai-sdk%2Fcohere/latest",
+          "https://registry.npmjs.org/%40ai-sdk%2Fxai/latest",
+          "https://registry.npmjs.org/%40ai-sdk%2Fdeepseek/latest",
+          "https://registry.npmjs.org/%40ai-sdk%2Ftogetherai/latest",
+          "https://registry.npmjs.org/%40ai-sdk%2Fperplexity/latest",
+          "https://ai-sdk.dev/docs/ai-sdk-core/tools-and-tool-calling"
+        ],
+        "reviewed_at": "2026-10-11",
+        "symbol_languages": {
+          "ai.generateText": [
+            "javascript",
+            "typescript"
+          ],
+          "ai.streamText": [
+            "javascript",
+            "typescript"
+          ]
+        },
+        "configured_loops": {
+          "ai.generateText": {
+            "tools_argument": "tools",
+            "count_argument": "maxSteps",
+            "stop_argument": "stopWhen",
+            "stop_functions": [
+              "ai.stepCountIs",
+              "ai.isStepCount"
+            ]
+          },
+          "ai.streamText": {
+            "tools_argument": "tools",
+            "count_argument": "maxSteps",
+            "stop_argument": "stopWhen",
+            "stop_functions": [
+              "ai.stepCountIs",
+              "ai.isStepCount"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "mastra",
+      "entry": {
+        "id": "mastra",
+        "name": "Mastra",
+        "category": "agent_framework",
+        "homepage": "https://github.com/mastra-ai/mastra",
+        "packages": {
+          "npm": [
+            "@mastra/core",
+            "@mastra/mcp"
+          ]
+        },
+        "imports": {
+          "javascript": [
+            "@mastra/core",
+            "@mastra/mcp"
+          ],
+          "typescript": [
+            "@mastra/core",
+            "@mastra/mcp"
+          ]
+        },
+        "symbols": {
+          "@mastra/core/agent.Agent": "agent",
+          "@mastra/mcp.MCPClient": "mcp_client",
+          "@mastra/mcp.MCPServer": "mcp_server"
+        },
+        "sources": [
+          "https://github.com/mastra-ai/mastra/blob/main/packages/mcp/README.md",
+          "https://mastra.ai/blog/introducing-mcp-support"
+        ],
+        "reviewed_at": "2026-10-10",
+        "symbol_languages": {
+          "@mastra/mcp.MCPClient": [
+            "javascript",
+            "typescript"
+          ],
+          "@mastra/mcp.MCPServer": [
+            "javascript",
+            "typescript"
+          ]
+        }
+      }
+    },
+    {
+      "id": "spring-ai",
+      "entry": {
+        "id": "spring-ai",
+        "name": "Spring AI",
+        "category": "agent_framework",
+        "homepage": "https://github.com/spring-projects/spring-ai",
+        "packages": {
+          "maven": [
+            "org.springframework.ai:spring-ai-core",
+            "org.springframework.ai:spring-ai-starter-model-openai",
+            "org.springframework.ai:spring-ai-starter-mcp-server"
+          ]
+        },
+        "imports": {
+          "java": [
+            "org.springframework.ai"
+          ],
+          "kotlin": [
+            "org.springframework.ai"
+          ]
+        },
+        "symbols": {
+          "org.springframework.ai.chat.client.ChatClient.builder": "llm_client",
+          "org.springframework.ai.chat.client.ChatClient.create": "llm_client"
+        },
+        "sources": [
+          "https://docs.spring.io/spring-ai/reference/api/chatclient.html"
+        ],
+        "reviewed_at": "2026-10-10",
+        "symbol_languages": {
+          "org.springframework.ai.chat.client.ChatClient.builder": [
+            "java",
+            "kotlin"
+          ],
+          "org.springframework.ai.chat.client.ChatClient.create": [
+            "java",
+            "kotlin"
+          ]
+        },
+        "symbol_subtypes": {
+          "org.springframework.ai.chat.client.ChatClient.builder": "configuration_builder"
+        }
+      }
+    },
+    {
+      "id": "langchain4j",
+      "entry": {
+        "id": "langchain4j",
+        "name": "LangChain4j",
+        "category": "agent_framework",
+        "homepage": "https://github.com/langchain4j/langchain4j",
+        "packages": {
+          "maven": [
+            "dev.langchain4j:langchain4j",
+            "dev.langchain4j:langchain4j-open-ai"
+          ]
+        },
+        "imports": {
+          "java": [
+            "dev.langchain4j"
+          ],
+          "kotlin": [
+            "dev.langchain4j"
+          ]
+        },
+        "symbols": {
+          "dev.langchain4j.model.openai.OpenAiChatModel.builder": "llm_client",
+          "dev.langchain4j.model.openai.OpenAiStreamingChatModel.builder": "llm_client"
+        },
+        "sources": [
+          "https://docs.langchain4j.dev/integrations/language-models/open-ai/"
+        ],
+        "reviewed_at": "2026-10-10",
+        "symbol_languages": {
+          "dev.langchain4j.model.openai.OpenAiChatModel.builder": [
+            "java",
+            "kotlin"
+          ],
+          "dev.langchain4j.model.openai.OpenAiStreamingChatModel.builder": [
+            "java",
+            "kotlin"
+          ]
+        },
+        "symbol_subtypes": {
+          "dev.langchain4j.model.openai.OpenAiChatModel.builder": "configuration_builder",
+          "dev.langchain4j.model.openai.OpenAiStreamingChatModel.builder": "configuration_builder"
+        }
+      }
+    },
+    {
+      "id": "rig",
+      "entry": {
+        "id": "rig",
+        "name": "Rig",
+        "category": "agent_framework",
+        "homepage": "https://github.com/0xPlaygrounds/rig",
+        "packages": {
+          "cargo": [
+            "rig-core",
+            "rig"
+          ]
+        },
+        "imports": {
+          "rust": [
+            "rig"
+          ]
+        },
+        "symbols": {
+          "rig::prelude::AgentBuilder::new": "agent",
+          "rig::providers::openai::OpenAI::from_env": "llm_client"
+        },
+        "sources": [
+          "https://raw.githubusercontent.com/0xPlaygrounds/rig/9e7cb6000355b7ae1a89c913bf98b8a6f17661ee/README.md",
+          "https://raw.githubusercontent.com/0xPlaygrounds/rig/9e7cb6000355b7ae1a89c913bf98b8a6f17661ee/README.md"
+        ],
+        "reviewed_at": "2026-10-10",
+        "symbol_languages": {
+          "rig::prelude::AgentBuilder::new": [
+            "rust"
+          ],
+          "rig::providers::openai::OpenAI::from_env": [
+            "rust"
+          ]
+        },
+        "wildcard_exports": {
+          "rig::prelude": [
+            "AgentBuilder"
+          ]
+        },
+        "symbol_subtypes": {
+          "rig::prelude::AgentBuilder::new": "configuration_builder"
+        }
+      }
+    },
+    {
+      "id": "claude-agent",
+      "entry": {
+        "id": "claude-agent",
+        "name": "Claude Agent SDK",
+        "category": "agent_framework",
+        "homepage": "https://github.com/anthropics/claude-agent-sdk-python",
+        "packages": {
+          "npm": [
+            "@anthropic-ai/claude-agent-sdk"
+          ],
+          "pypi": [
+            "claude-agent-sdk"
+          ]
+        },
+        "imports": {
+          "javascript": [
+            "@anthropic-ai/claude-agent-sdk"
+          ],
+          "python": [
+            "claude_agent_sdk"
+          ],
+          "typescript": [
+            "@anthropic-ai/claude-agent-sdk"
+          ]
+        },
+        "symbols": {
+          "claude_agent_sdk.ClaudeSDKClient": "agent"
+        }
+      }
+    },
+    {
+      "id": "deepagents",
+      "entry": {
+        "id": "deepagents",
+        "name": "Deep Agents",
+        "category": "agent_framework",
+        "homepage": "https://github.com/langchain-ai/deepagents",
+        "packages": {
+          "npm": [
+            "deepagents"
+          ],
+          "pypi": [
+            "deepagents"
+          ]
+        },
+        "imports": {
+          "javascript": [
+            "deepagents"
+          ],
+          "python": [
+            "deepagents",
+            "deepagents_code"
+          ],
+          "typescript": [
+            "deepagents"
+          ]
+        },
+        "symbols": {
+          "deepagents.createDeepAgent": "agent",
+          "deepagents.create_deep_agent": "agent",
+          "deepagents/browser.createDeepAgent": "agent",
+          "deepagents/node.createDeepAgent": "agent"
+        },
+        "sources": [
+          "https://github.com/langchain-ai/deepagents/tree/9f0e39d55a5f31003b206b31b955154f2f1bc49a",
+          "https://github.com/langchain-ai/deepagentsjs/tree/b448f220866bbb5d41924dfdbb1e0079c3b11838",
+          "https://github.com/langchain-ai/deepagents/blob/9f0e39d55a5f31003b206b31b955154f2f1bc49a/libs/code/deepagents_code/model_config.py"
+        ],
+        "reviewed_at": "2026-10-27",
+        "symbol_languages": {
+          "deepagents.createDeepAgent": [
+            "javascript",
+            "typescript"
+          ],
+          "deepagents.create_deep_agent": [
+            "python"
+          ],
+          "deepagents/browser.createDeepAgent": [
+            "javascript",
+            "typescript"
+          ],
+          "deepagents/node.createDeepAgent": [
+            "javascript",
+            "typescript"
+          ]
+        },
+        "model_arguments": {
+          "deepagents_code.model_config.ModelSpec": {
+            "position": 1,
+            "keywords": [
+              "model"
+            ]
+          },
+          "deepagents_code.model_config.ModelSpec.parse": {
+            "position": 0,
+            "keywords": [
+              "spec"
+            ],
+            "require_provider_prefix": true
+          },
+          "deepagents_code.model_config.ModelSpec.try_parse": {
+            "position": 0,
+            "keywords": [
+              "spec"
+            ],
+            "require_provider_prefix": true
+          }
+        }
+      }
+    },
+    {
+      "id": "agent-framework-bindings",
+      "entry": {
+        "id": "agent-framework",
+        "name": "agent-framework",
+        "category": "agent",
+        "homepage": "https://aka.ms/agent-framework",
+        "packages": {
+          "pypi": [
+            "agent-framework"
+          ],
+          "nuget": [
+            "Microsoft.Agents.AI"
+          ]
+        },
+        "imports": {
+          "python": [
+            "agent_framework"
+          ],
+          "csharp": [
+            "Microsoft.Agents.AI"
+          ]
+        },
+        "symbols": {
+          "agent_framework.Agent": "agent",
+          "agent_framework.openai.OpenAIChatClient": "llm_client",
+          "agent_framework.MCPStdioTool": "mcp_client",
+          "agent_framework.MCPStreamableHTTPTool": "mcp_client",
+          "agent_framework.MCPWebsocketTool": "mcp_client",
+          "Microsoft.Agents.AI.ChatClientAgent": "agent"
+        },
+        "sources": [
+          "https://pypi.org/pypi/agent-framework/json",
+          "https://github.com/microsoft/agent-framework/blob/main/python/packages/core/agent_framework/__init__.py",
+          "https://raw.githubusercontent.com/microsoft/agent-framework/abaf33a3c8eb98ac1bccc6f2ea317218143d0d06/dotnet/src/Microsoft.Agents.AI/ChatClient/ChatClientAgent.cs"
+        ],
+        "reviewed_at": "2026-10-27",
+        "symbol_languages": {
+          "agent_framework.Agent": [
+            "python"
+          ],
+          "agent_framework.openai.OpenAIChatClient": [
+            "python"
+          ],
+          "agent_framework.MCPStdioTool": [
+            "python"
+          ],
+          "agent_framework.MCPStreamableHTTPTool": [
+            "python"
+          ],
+          "agent_framework.MCPWebsocketTool": [
+            "python"
+          ],
+          "Microsoft.Agents.AI.ChatClientAgent": [
+            "csharp"
+          ]
+        }
+      }
+    },
+    {
+      "id": "haystack-bindings",
+      "entry": {
+        "id": "haystack",
+        "name": "Haystack",
+        "category": "rag_framework",
+        "homepage": "https://github.com/deepset-ai/haystack",
+        "packages": {
+          "pypi": [
+            "haystack-ai",
+            "farm-haystack"
+          ]
+        },
+        "imports": {
+          "python": [
+            "haystack"
+          ]
+        },
+        "symbols": {
+          "haystack.components.agents.Agent": "agent"
+        },
+        "sources": [
+          "https://docs.haystack.deepset.ai/docs/agent"
+        ],
+        "reviewed_at": "2026-10-27",
+        "symbol_languages": {
+          "haystack.components.agents.Agent": [
+            "python"
+          ]
+        }
+      }
+    },
+    {
+      "id": "llamaindex-bindings",
+      "entry": {
+        "id": "llamaindex",
+        "name": "LlamaIndex",
+        "category": "rag_framework",
+        "homepage": "https://github.com/run-llama/llama_index",
+        "packages": {
+          "pypi": [
+            "llama-index",
+            "llama-index-core",
+            "llama-index-llms-openai"
+          ],
+          "npm": [
+            "llamaindex"
+          ]
+        },
+        "imports": {
+          "python": [
+            "llama_index"
+          ],
+          "javascript": [
+            "llamaindex"
+          ],
+          "typescript": [
+            "llamaindex"
+          ]
+        },
+        "symbols": {
+          "llama_index.core.VectorStoreIndex": "retriever",
+          "llama_index.core.agent.FunctionCallingAgent": "agent",
+          "llama_index.core.agent.FunctionAgent": "agent",
+          "llama_index.core.agent.ReActAgent": "agent",
+          "llama_index.core.agent.AgentWorkflow": "agent",
+          "llama_index.core.agent.workflow.FunctionAgent": "agent",
+          "llama_index.core.agent.workflow.ReActAgent": "agent",
+          "llama_index.core.agent.workflow.AgentWorkflow": "agent"
+        },
+        "symbol_languages": {
+          "llama_index.core.agent.FunctionAgent": [
+            "python"
+          ],
+          "llama_index.core.agent.ReActAgent": [
+            "python"
+          ],
+          "llama_index.core.agent.AgentWorkflow": [
+            "python"
+          ],
+          "llama_index.core.agent.workflow.FunctionAgent": [
+            "python"
+          ],
+          "llama_index.core.agent.workflow.ReActAgent": [
+            "python"
+          ],
+          "llama_index.core.agent.workflow.AgentWorkflow": [
+            "python"
+          ]
+        },
+        "sources": [
+          "https://github.com/run-llama/llama_index/blob/main/llama-index-core/llama_index/core/agent/__init__.py"
+        ],
+        "reviewed_at": "2026-10-10",
+        "symbol_subtypes": {
+          "llama_index.core.agent.AgentWorkflow": "orchestration",
+          "llama_index.core.agent.workflow.AgentWorkflow": "orchestration"
+        }
+      }
+    }
+  ],
+  "fixtures": [
+    {
+      "id": "deepagents-python",
+      "language": "python",
+      "source": "from deepagents import create_deep_agent\nagent=create_deep_agent(model=\"openai:gpt-4o\",tools=[])\n",
+      "expect": {
+        "agent": 1
+      }
+    },
+    {
+      "id": "deepagents-typescript",
+      "language": "typescript",
+      "source": "import {createDeepAgent} from 'deepagents'; const agent=createDeepAgent({model:'openai:gpt-4o',tools:[]});",
+      "expect": {
+        "agent": 1
+      }
+    },
+    {
+      "id": "openai-agents-python",
+      "language": "python",
+      "source": "from agents import Agent\nagent=Agent(name=\"Helper\",instructions=\"Help\",model=\"gpt-4o\")\n",
+      "expect": {
+        "agent": 1
+      }
+    },
+    {
+      "id": "openai-agents-typescript",
+      "language": "typescript",
+      "source": "import {Agent} from '@openai/agents'; const agent=new Agent({name:'Helper',instructions:'Help'});",
+      "expect": {
+        "agent": 1
+      }
+    },
+    {
+      "id": "langgraph-python",
+      "language": "python",
+      "source": "from langgraph.prebuilt import create_react_agent\nagent=create_react_agent(model=\"openai:gpt-4o\",tools=[])\n",
+      "expect": {
+        "agent": 1
+      }
+    },
+    {
+      "id": "langgraph-typescript",
+      "language": "typescript",
+      "source": "import {createReactAgent} from '@langchain/langgraph/prebuilt'; const agent=createReactAgent({llm:model,tools:[]});",
+      "expect": {
+        "agent": 1
+      }
+    },
+    {
+      "id": "crewai-python",
+      "language": "python",
+      "source": "from crewai import Agent\nagent=Agent(role=\"Researcher\",goal=\"Research\",backstory=\"Research assistant\")\n",
+      "expect": {
+        "agent": 1
+      }
+    },
+    {
+      "id": "autogen-python",
+      "language": "python",
+      "source": "from autogen_agentchat.agents import AssistantAgent\nagent=AssistantAgent(\"assistant\",model_client=model)\n",
+      "expect": {
+        "agent": 1
+      }
+    },
+    {
+      "id": "adk-python",
+      "language": "python",
+      "source": "from google.adk.agents import LlmAgent\nagent=LlmAgent(name=\"helper\",model=\"gemini-2.5-flash\")\n",
+      "expect": {
+        "agent": 1
+      }
+    },
+    {
+      "id": "pydantic-ai-python",
+      "language": "python",
+      "source": "from pydantic_ai import Agent\nagent=Agent(\"openai:gpt-4o\")\n",
+      "expect": {
+        "agent": 1
+      }
+    },
+    {
+      "id": "strands-python",
+      "language": "python",
+      "source": "from strands import Agent\nagent=Agent(model=\"us.anthropic.claude-sonnet-4-20250514-v1:0\")\n",
+      "expect": {
+        "agent": 1
+      }
+    },
+    {
+      "id": "mastra-typescript",
+      "language": "typescript",
+      "source": "import {Agent} from '@mastra/core/agent'; const agent=new Agent({name:'helper',instructions:'Help',model:'openai/gpt-4o'});",
+      "expect": {
+        "agent": 1
+      }
+    },
+    {
+      "id": "semantic-kernel-csharp",
+      "language": "csharp",
+      "source": "using Microsoft.SemanticKernel.Agents; var agent=new ChatCompletionAgent();",
+      "expect": {
+        "agent": 1
+      }
+    },
+    {
+      "id": "vercel-configured-loop",
+      "language": "typescript",
+      "source": "import {generateText,stepCountIs} from 'ai'; const result=await generateText({model,tools:{lookup},stopWhen:stepCountIs(5),prompt:'Help'});",
+      "expect": {
+        "agent": 1
+      }
+    },
+    {
+      "id": "anthropic-tool-runner",
+      "language": "python",
+      "source": "from anthropic import Anthropic\nclient=Anthropic()\nrunner=client.beta.messages.tool_runner(model=\"claude-sonnet-4-5\",max_tokens=1024,tools=[lookup],messages=[])\n",
+      "expect": {
+        "agent": 1
+      }
+    },
+    {
+      "id": "handwritten-python",
+      "language": "python",
+      "source": "from openai import OpenAI\nclient=OpenAI()\nmessages=[]\nwhile True:\n    response=client.chat.completions.create(model=\"gpt-4o\",messages=messages,tools=tools)\n    for tc in response.choices[0].message.tool_calls:\n        result=dispatch(tc.function.name,tc.function.arguments)\n        messages.append({\"role\":\"tool\",\"tool_call_id\":tc.id,\"content\":result})\n",
+      "expect": {
+        "agent": 1
+      }
+    },
+    {
+      "id": "handwritten-typescript",
+      "language": "typescript",
+      "source": "import OpenAI from 'openai'; const client=new OpenAI(); const input=[]; while(true){ const response=await client.responses.create({model:'gpt-4o',input,tools}); for(const tc of response.output){const result=await dispatch(tc.name,tc.arguments);input.push({type:'function_call_output',call_id:tc.call_id,output:result});}}",
+      "expect": {
+        "agent": 1
+      }
+    },
+    {
+      "id": "langgraph-state-only",
+      "language": "python",
+      "source": "from langgraph.graph import StateGraph\ngraph=StateGraph(State)\n",
+      "expect": {
+        "agent": 0
+      }
+    },
+    {
+      "id": "agent-import-only",
+      "language": "python",
+      "source": "from agents import Agent\n",
+      "expect": {
+        "agent": 0
+      }
+    },
+    {
+      "id": "agent-unrelated-name",
+      "language": "python",
+      "source": "class Agent: pass\na=Agent()\n",
+      "expect": {
+        "agent": 0
+      }
+    },
+    {
+      "id": "agent-shadowed",
+      "language": "python",
+      "source": "from agents import Agent\nAgent=other\na=Agent()\n",
+      "expect": {
+        "agent": 0
+      }
+    },
+    {
+      "id": "vercel-single-step",
+      "language": "typescript",
+      "source": "import {generateText} from 'ai'; const result=await generateText({model,tools:{lookup},maxSteps:1});",
+      "expect": {
+        "agent": 0
+      }
+    },
+    {
+      "id": "llm-retry-not-agent",
+      "language": "python",
+      "source": "from openai import OpenAI\nclient=OpenAI()\nfor i in range(3):\n    response=client.chat.completions.create(model=\"gpt-4o\",messages=[])\n",
+      "expect": {
+        "agent": 0
+      }
+    },
+    {
+      "id": "strands-mcp-client",
+      "language": "python",
+      "source": "from strands.tools.mcp import MCPClient\nclient=MCPClient(lambda: transport())\n",
+      "expect": {
+        "mcp_client": 1
+      }
+    },
+    {
+      "id": "strands-mcp-shadowed",
+      "language": "python",
+      "source": "from strands.tools.mcp import MCPClient\nMCPClient=other\nclient=MCPClient()\n",
+      "expect": {
+        "mcp_client": 0
+      }
+    },
+    {
+      "id": "local-model-record",
+      "language": "python",
+      "source": "from dataclasses import dataclass\n@dataclass\nclass ModelSpec:\n model: str\nspec=ModelSpec(\"gpt-4o\")\n",
+      "expect": {
+        "model": 1
+      }
+    },
+    {
+      "id": "non-model-record",
+      "language": "python",
+      "source": "from dataclasses import dataclass\n@dataclass\nclass ModelSpec:\n model: str\nspec=ModelSpec(\"sedan\")\n",
+      "expect": {
+        "model": 0
+      }
+    },
+    {
+      "id": "openai-mcpserverstdio",
+      "language": "python",
+      "source": "from agents.mcp import MCPServerStdio as Construct\nvalue=Construct()\n",
+      "expect": {
+        "mcp_client": 1
+      }
+    },
+    {
+      "id": "openai-mcpserverstdio-shadow",
+      "language": "python",
+      "source": "from agents.mcp import MCPServerStdio as Construct\nConstruct=other\nvalue=Construct()\n",
+      "expect": {
+        "mcp_client": 0
+      }
+    },
+    {
+      "id": "openai-mcpserversse",
+      "language": "python",
+      "source": "from agents.mcp import MCPServerSse as Construct\nvalue=Construct()\n",
+      "expect": {
+        "mcp_client": 1
+      }
+    },
+    {
+      "id": "openai-mcpserversse-shadow",
+      "language": "python",
+      "source": "from agents.mcp import MCPServerSse as Construct\nConstruct=other\nvalue=Construct()\n",
+      "expect": {
+        "mcp_client": 0
+      }
+    },
+    {
+      "id": "openai-mcpserverstreamablehttp",
+      "language": "python",
+      "source": "from agents.mcp import MCPServerStreamableHttp as Construct\nvalue=Construct()\n",
+      "expect": {
+        "mcp_client": 1
+      }
+    },
+    {
+      "id": "openai-mcpserverstreamablehttp-shadow",
+      "language": "python",
+      "source": "from agents.mcp import MCPServerStreamableHttp as Construct\nConstruct=other\nvalue=Construct()\n",
+      "expect": {
+        "mcp_client": 0
+      }
+    },
+    {
+      "id": "openai-ts-mcpserverstdio",
+      "language": "typescript",
+      "source": "import { MCPServerStdio } from \"@openai/agents\"; const c=new MCPServerStdio({});",
+      "expect": {
+        "mcp_client": 1,
+        "mcp_server": 0
+      }
+    },
+    {
+      "id": "openai-ts-mcpserversse",
+      "language": "typescript",
+      "source": "import { MCPServerSSE } from \"@openai/agents\"; const c=new MCPServerSSE({});",
+      "expect": {
+        "mcp_client": 1,
+        "mcp_server": 0
+      }
+    },
+    {
+      "id": "openai-ts-mcpserverstreamablehttp",
+      "language": "typescript",
+      "source": "import { MCPServerStreamableHttp } from \"@openai/agents\"; const c=new MCPServerStreamableHttp({});",
+      "expect": {
+        "mcp_client": 1,
+        "mcp_server": 0
+      }
+    },
+    {
+      "id": "openai-function-tool",
+      "language": "python",
+      "source": "from agents import function_tool\n@function_tool\ndef lookup(): pass\n",
+      "expect": {
+        "tool": 1
+      }
+    },
+    {
+      "id": "strands-ts-agent",
+      "language": "typescript",
+      "source": "import { Agent } from \"@strands-agents/sdk\"; const x=new Agent({});",
+      "expect": {
+        "agent": 1
+      }
+    },
+    {
+      "id": "strands-ts-mcpclient",
+      "language": "typescript",
+      "source": "import { McpClient } from \"@strands-agents/sdk\"; const x=new McpClient({});",
+      "expect": {
+        "mcp_client": 1
+      }
+    },
+    {
+      "id": "pydantic-mcp",
+      "language": "python",
+      "source": "from pydantic_ai.mcp import MCPToolset as Construct\nvalue=Construct()\n",
+      "expect": {
+        "mcp_client": 1
+      }
+    },
+    {
+      "id": "pydantic-mcp-shadow",
+      "language": "python",
+      "source": "from pydantic_ai.mcp import MCPToolset as Construct\nConstruct=other\nvalue=Construct()\n",
+      "expect": {
+        "mcp_client": 0
+      }
+    },
+    {
+      "id": "maf-mcpstdiotool",
+      "language": "python",
+      "source": "from agent_framework import MCPStdioTool as Construct\nvalue=Construct()\n",
+      "expect": {
+        "mcp_client": 1
+      }
+    },
+    {
+      "id": "maf-mcpstdiotool-shadow",
+      "language": "python",
+      "source": "from agent_framework import MCPStdioTool as Construct\nConstruct=other\nvalue=Construct()\n",
+      "expect": {
+        "mcp_client": 0
+      }
+    },
+    {
+      "id": "maf-mcpstreamablehttptool",
+      "language": "python",
+      "source": "from agent_framework import MCPStreamableHTTPTool as Construct\nvalue=Construct()\n",
+      "expect": {
+        "mcp_client": 1
+      }
+    },
+    {
+      "id": "maf-mcpstreamablehttptool-shadow",
+      "language": "python",
+      "source": "from agent_framework import MCPStreamableHTTPTool as Construct\nConstruct=other\nvalue=Construct()\n",
+      "expect": {
+        "mcp_client": 0
+      }
+    },
+    {
+      "id": "maf-mcpwebsockettool",
+      "language": "python",
+      "source": "from agent_framework import MCPWebsocketTool as Construct\nvalue=Construct()\n",
+      "expect": {
+        "mcp_client": 1
+      }
+    },
+    {
+      "id": "maf-mcpwebsockettool-shadow",
+      "language": "python",
+      "source": "from agent_framework import MCPWebsocketTool as Construct\nConstruct=other\nvalue=Construct()\n",
+      "expect": {
+        "mcp_client": 0
+      }
+    },
+    {
+      "id": "maf-agent",
+      "language": "python",
+      "source": "from agent_framework import Agent as Construct\nvalue=Construct()\n",
+      "expect": {
+        "agent": 1
+      }
+    },
+    {
+      "id": "maf-agent-shadow",
+      "language": "python",
+      "source": "from agent_framework import Agent as Construct\nConstruct=other\nvalue=Construct()\n",
+      "expect": {
+        "agent": 0
+      }
+    },
+    {
+      "id": "haystack-agent",
+      "language": "python",
+      "source": "from haystack.components.agents import Agent as Construct\nvalue=Construct()\n",
+      "expect": {
+        "agent": 1
+      }
+    },
+    {
+      "id": "haystack-agent-shadow",
+      "language": "python",
+      "source": "from haystack.components.agents import Agent as Construct\nConstruct=other\nvalue=Construct()\n",
+      "expect": {
+        "agent": 0
+      }
+    },
+    {
+      "id": "llamaindex-workflow",
+      "language": "python",
+      "source": "from llama_index.core.agent.workflow import FunctionAgent as Construct\nvalue=Construct()\n",
+      "expect": {
+        "agent": 1
+      }
+    },
+    {
+      "id": "llamaindex-workflow-shadow",
+      "language": "python",
+      "source": "from llama_index.core.agent.workflow import FunctionAgent as Construct\nConstruct=other\nvalue=Construct()\n",
+      "expect": {
+        "agent": 0
+      }
+    },
+    {
+      "id": "imported-model-spec",
+      "language": "python",
+      "source": "from deepagents_code.model_config import ModelSpec\nx=ModelSpec('openai','gpt-4o')\n",
+      "expect": {
+        "model": 1
+      }
+    },
+    {
+      "id": "imported-model-spec-shadow",
+      "language": "python",
+      "source": "from deepagents_code.model_config import ModelSpec\nModelSpec=other\nx=ModelSpec('openai','gpt-4o')\n",
+      "expect": {
+        "model": 0
+      }
+    },
+    {
+      "id": "kernel-model-spec",
+      "language": "python",
+      "source": "from semantic_kernel.agents.agent import ModelSpec\nx=ModelSpec(id='gpt-4o')\n",
+      "expect": {
+        "model": 1
+      }
+    },
+    {
+      "id": "kernel-model-spec-unrelated",
+      "language": "python",
+      "source": "from semantic_kernel.agents.agent import ModelSpec\nx=ModelSpec(api='gpt-4o')\n",
+      "expect": {
+        "model": 0
+      }
+    },
+    {
+      "id": "maf-csharp",
+      "language": "csharp",
+      "source": "using Microsoft.Agents.AI; class App { void Run() { var a = new ChatClientAgent(client); } }",
+      "expect": {
+        "agent": 1
+      }
+    },
+    {
+      "id": "maf-csharp-unresolved",
+      "language": "csharp",
+      "source": "using Unrelated; class App { void Run() { var a = new ChatClientAgent(client); } }",
+      "expect": {
+        "agent": 0
+      }
+    },
+    {
+      "id": "kernel-model-spec-public",
+      "language": "python",
+      "source": "from semantic_kernel.agents import ModelSpec\nx=ModelSpec(id='gpt-4o')\n",
+      "expect": {
+        "model": 1
+      }
+    },
+    {
+      "id": "kernel-model-spec-public-shadow",
+      "language": "python",
+      "source": "from semantic_kernel.agents import ModelSpec\nModelSpec=other\nx=ModelSpec(id='gpt-4o')\n",
+      "expect": {
+        "model": 0
+      }
+    },
+    {
+      "id": "pydantic-legacy-mcpserverstdio",
+      "language": "python",
+      "source": "from pydantic_ai.mcp import MCPServerStdio\nx=MCPServerStdio(\"demo\")\n",
+      "expect": {
+        "mcp_client": 1,
+        "mcp_server": 0
+      }
+    },
+    {
+      "id": "pydantic-shadow-mcpserverstdio",
+      "language": "python",
+      "source": "from pydantic_ai.mcp import MCPServerStdio\nMCPServerStdio=other\nx=MCPServerStdio(\"demo\")\n",
+      "expect": {
+        "mcp_client": 0,
+        "mcp_server": 0
+      }
+    },
+    {
+      "id": "pydantic-legacy-mcpserversse",
+      "language": "python",
+      "source": "from pydantic_ai.mcp import MCPServerSSE\nx=MCPServerSSE(\"demo\")\n",
+      "expect": {
+        "mcp_client": 1,
+        "mcp_server": 0
+      }
+    },
+    {
+      "id": "pydantic-shadow-mcpserversse",
+      "language": "python",
+      "source": "from pydantic_ai.mcp import MCPServerSSE\nMCPServerSSE=other\nx=MCPServerSSE(\"demo\")\n",
+      "expect": {
+        "mcp_client": 0,
+        "mcp_server": 0
+      }
+    },
+    {
+      "id": "pydantic-legacy-mcpserverstreamablehttp",
+      "language": "python",
+      "source": "from pydantic_ai.mcp import MCPServerStreamableHTTP\nx=MCPServerStreamableHTTP(\"demo\")\n",
+      "expect": {
+        "mcp_client": 1,
+        "mcp_server": 0
+      }
+    },
+    {
+      "id": "pydantic-shadow-mcpserverstreamablehttp",
+      "language": "python",
+      "source": "from pydantic_ai.mcp import MCPServerStreamableHTTP\nMCPServerStreamableHTTP=other\nx=MCPServerStreamableHTTP(\"demo\")\n",
+      "expect": {
+        "mcp_client": 0,
+        "mcp_server": 0
+      }
+    },
+    {
+      "id": "deepagents-model-spec-future-id",
+      "language": "python",
+      "source": "from deepagents_code.model_config import ModelSpec\nx=ModelSpec('private','vendor/model-next')\n",
+      "expect": {
+        "model": 1
+      }
+    },
+    {
+      "id": "kernel-model-spec-private-id",
+      "language": "python",
+      "source": "from semantic_kernel.agents import ModelSpec\nx=ModelSpec(id='private-deployment')\n",
+      "expect": {
+        "model": 1
+      }
+    },
+    {
+      "id": "deepagents-model-spec-parse",
+      "language": "python",
+      "source": "from deepagents_code.model_config import ModelSpec\nx=ModelSpec.parse(\"custom:model:with:colons\")\n",
+      "expect": {
+        "model": 1
+      }
+    },
+    {
+      "id": "deepagents-model-spec-try_parse",
+      "language": "python",
+      "source": "from deepagents_code.model_config import ModelSpec\nx=ModelSpec.try_parse(\"custom:model:with:colons\")\n",
+      "expect": {
+        "model": 1
+      }
+    },
+    {
+      "id": "deepagents-spec-no-provider",
+      "language": "python",
+      "source": "from deepagents_code.model_config import ModelSpec\nx=ModelSpec.parse(\"no-prefix\")\n",
+      "expect": {
+        "model": 0
+      }
+    },
+    {
+      "id": "deepagents-spec-empty-provider",
+      "language": "python",
+      "source": "from deepagents_code.model_config import ModelSpec\nx=ModelSpec.parse(\":model\")\n",
+      "expect": {
+        "model": 0
+      }
+    },
+    {
+      "id": "deepagents-spec-dynamic-parser",
+      "language": "python",
+      "source": "from deepagents_code.model_config import ModelSpec\nx=ModelSpec.parse(value)\n",
+      "expect": {
+        "model": 0
+      }
+    }
+  ]
+}

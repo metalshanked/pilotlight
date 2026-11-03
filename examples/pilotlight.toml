@@ -1,0 +1,12 @@
+# Pass explicitly: pilotlight scan /path/to/repo --config examples/pilotlight.toml
+[[indicators]]
+name = "application_id"
+path = ".company/.source/appinfo.yaml"
+key = "appid"
+required = true
+
+[[indicators]]
+name = "owner"
+path = ".company/.source/appinfo.yaml"
+key = "application.owner"
+required = false

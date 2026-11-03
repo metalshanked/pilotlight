@@ -1,0 +1,1 @@
+import OpenAI from 'openai'; const client=new OpenAI(); const input=[]; while(true){ const response=await client.responses.create({model:'gpt-4o',input,tools}); for(const tc of response.output){const result=await dispatch(tc.name,tc.arguments);input.push({type:'function_call_output',call_id:tc.call_id,output:result});}}

@@ -1,0 +1,35 @@
+/target/
+/bin/
+/.idea/
+/.venv/
+*.duckdb
+*.duckdb.wal
+/reports/
+.env
+
+# Local credentials, editor state, generated inventories and release artifacts.
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+credentials.json
+secrets.*
+/.vscode/
+/.codebase-memory/
+/.codex/
+/.agents/
+/dist/
+/artifacts/
+/outputs/
+/audit-results/
+*.coverage.json
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+# Local IDE-generated Python starter; unrelated to the Rust application.
+/main.py
+

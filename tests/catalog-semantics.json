@@ -1,0 +1,146 @@
+[
+  {
+    "framework": "agent-framework",
+    "language": "python",
+    "path": "app.py",
+    "source": "from agent_framework import Agent as selected\nasset = selected()\n",
+    "kind": "agent",
+    "symbol": "agent_framework.Agent"
+  },
+  {
+    "framework": "agent-framework",
+    "language": "python",
+    "path": "app.py",
+    "source": "from agent_framework.openai import OpenAIChatClient as selected\nasset = selected()\n",
+    "kind": "llm_client",
+    "symbol": "agent_framework.openai.OpenAIChatClient"
+  },
+  {
+    "framework": "agentscope",
+    "language": "python",
+    "path": "app.py",
+    "source": "from agentscope.agent import Agent as selected\nasset = selected()\n",
+    "kind": "agent",
+    "symbol": "agentscope.agent.Agent"
+  },
+  {
+    "framework": "camel-ai",
+    "language": "python",
+    "path": "app.py",
+    "source": "from camel.agents import ChatAgent as selected\nasset = selected()\n",
+    "kind": "agent",
+    "symbol": "camel.agents.ChatAgent"
+  },
+  {
+    "framework": "mem0ai",
+    "language": "python",
+    "path": "app.py",
+    "source": "from mem0 import Memory as selected\nasset = selected()\n",
+    "kind": "memory",
+    "symbol": "mem0.Memory"
+  },
+  {
+    "framework": "langroid",
+    "language": "python",
+    "path": "app.py",
+    "source": "from langroid import ChatAgent as selected\nasset = selected()\n",
+    "kind": "agent",
+    "symbol": "langroid.ChatAgent"
+  },
+  {
+    "framework": "diffusers",
+    "language": "python",
+    "path": "app.py",
+    "source": "from diffusers.DiffusionPipeline import from_pretrained as selected\nasset = selected()\n",
+    "kind": "model",
+    "symbol": "diffusers.DiffusionPipeline.from_pretrained"
+  },
+  {
+    "framework": "diffusers",
+    "language": "python",
+    "path": "app.py",
+    "source": "from diffusers.UNet2DModel import from_pretrained as selected\nasset = selected()\n",
+    "kind": "model",
+    "symbol": "diffusers.UNet2DModel.from_pretrained"
+  },
+  {
+    "framework": "datasets",
+    "language": "python",
+    "path": "app.py",
+    "source": "from datasets import load_dataset as selected\nasset = selected()\n",
+    "kind": "dataset",
+    "symbol": "datasets.load_dataset"
+  },
+  {
+    "framework": "wandb",
+    "language": "python",
+    "path": "app.py",
+    "source": "from wandb import init as selected\nasset = selected()\n",
+    "kind": "experiment_tracker",
+    "symbol": "wandb.init"
+  },
+  {
+    "framework": "clearml",
+    "language": "python",
+    "path": "app.py",
+    "source": "from clearml.Task import init as selected\nasset = selected()\n",
+    "kind": "experiment_tracker",
+    "symbol": "clearml.Task.init"
+  },
+  {
+    "framework": "portkey-ai",
+    "language": "python",
+    "path": "app.py",
+    "source": "from portkey_ai import Portkey as selected\nasset = selected()\n",
+    "kind": "llm_client",
+    "symbol": "portkey_ai.Portkey"
+  },
+  {
+    "framework": "portkey-ai",
+    "language": "python",
+    "path": "app.py",
+    "source": "from portkey_ai import AsyncPortkey as selected\nasset = selected()\n",
+    "kind": "llm_client",
+    "symbol": "portkey_ai.AsyncPortkey"
+  },
+  {
+    "framework": "cerebras-cloud-sdk",
+    "language": "python",
+    "path": "app.py",
+    "source": "from cerebras.cloud.sdk import Cerebras as selected\nasset = selected()\n",
+    "kind": "llm_client",
+    "symbol": "cerebras.cloud.sdk.Cerebras"
+  },
+  {
+    "framework": "cerebras-cloud-sdk",
+    "language": "python",
+    "path": "app.py",
+    "source": "from cerebras.cloud.sdk import AsyncCerebras as selected\nasset = selected()\n",
+    "kind": "llm_client",
+    "symbol": "cerebras.cloud.sdk.AsyncCerebras"
+  },
+  {
+    "framework": "fireworks-ai",
+    "language": "python",
+    "path": "app.py",
+    "source": "from fireworks import Fireworks as selected\nasset = selected()\n",
+    "kind": "llm_client",
+    "symbol": "fireworks.Fireworks"
+  },
+  {
+    "framework": "fireworks-ai",
+    "language": "python",
+    "path": "app.py",
+    "source": "from fireworks import AsyncFireworks as selected\nasset = selected()\n",
+    "kind": "llm_client",
+    "symbol": "fireworks.AsyncFireworks"
+  },
+  {
+    "framework": "kfp",
+    "language": "python",
+    "path": "app.py",
+    "source": "from kfp.dsl import pipeline as selected\nasset = selected()\n",
+    "kind": "ml_pipeline",
+    "symbol": "kfp.dsl.pipeline"
+  }
+]

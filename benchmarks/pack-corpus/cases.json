@@ -1,0 +1,319 @@
+{
+  "schema_version": 1,
+  "purpose": "Authored deterministic case/type presence probes; not held-out accuracy or production qualification",
+  "created_at": "2026-10-27",
+  "cases": [
+    {
+      "id": "deepagents-python",
+      "language": "python",
+      "target_type": "agent",
+      "expected_present": true,
+      "pack": "agents",
+      "file": "app.py"
+    },
+    {
+      "id": "deepagents-typescript",
+      "language": "typescript",
+      "target_type": "agent",
+      "expected_present": true,
+      "pack": "agents",
+      "file": "app.ts"
+    },
+    {
+      "id": "openai-agents-python",
+      "language": "python",
+      "target_type": "agent",
+      "expected_present": true,
+      "pack": "agents",
+      "file": "app.py"
+    },
+    {
+      "id": "openai-agents-typescript",
+      "language": "typescript",
+      "target_type": "agent",
+      "expected_present": true,
+      "pack": "agents",
+      "file": "app.ts"
+    },
+    {
+      "id": "langgraph-python",
+      "language": "python",
+      "target_type": "agent",
+      "expected_present": true,
+      "pack": "agents",
+      "file": "app.py"
+    },
+    {
+      "id": "langgraph-typescript",
+      "language": "typescript",
+      "target_type": "agent",
+      "expected_present": true,
+      "pack": "agents",
+      "file": "app.ts"
+    },
+    {
+      "id": "crewai-python",
+      "language": "python",
+      "target_type": "agent",
+      "expected_present": true,
+      "pack": "agents",
+      "file": "app.py"
+    },
+    {
+      "id": "autogen-python",
+      "language": "python",
+      "target_type": "agent",
+      "expected_present": true,
+      "pack": "agents",
+      "file": "app.py"
+    },
+    {
+      "id": "adk-python",
+      "language": "python",
+      "target_type": "agent",
+      "expected_present": true,
+      "pack": "agents",
+      "file": "app.py"
+    },
+    {
+      "id": "pydantic-ai-python",
+      "language": "python",
+      "target_type": "agent",
+      "expected_present": true,
+      "pack": "agents",
+      "file": "app.py"
+    },
+    {
+      "id": "strands-python",
+      "language": "python",
+      "target_type": "agent",
+      "expected_present": true,
+      "pack": "agents",
+      "file": "app.py"
+    },
+    {
+      "id": "mastra-typescript",
+      "language": "typescript",
+      "target_type": "agent",
+      "expected_present": true,
+      "pack": "agents",
+      "file": "app.ts"
+    },
+    {
+      "id": "semantic-kernel-csharp",
+      "language": "csharp",
+      "target_type": "agent",
+      "expected_present": true,
+      "pack": "agents",
+      "file": "app.cs"
+    },
+    {
+      "id": "vercel-configured-loop",
+      "language": "typescript",
+      "target_type": "agent",
+      "expected_present": true,
+      "pack": "agents",
+      "file": "app.ts"
+    },
+    {
+      "id": "anthropic-tool-runner",
+      "language": "python",
+      "target_type": "agent",
+      "expected_present": true,
+      "pack": "agents",
+      "file": "app.py"
+    },
+    {
+      "id": "handwritten-python",
+      "language": "python",
+      "target_type": "agent",
+      "expected_present": true,
+      "pack": "agents",
+      "file": "app.py"
+    },
+    {
+      "id": "handwritten-typescript",
+      "language": "typescript",
+      "target_type": "agent",
+      "expected_present": true,
+      "pack": "agents",
+      "file": "app.ts"
+    },
+    {
+      "id": "langgraph-state-only",
+      "language": "python",
+      "target_type": "agent",
+      "expected_present": false,
+      "pack": "agents",
+      "file": "app.py"
+    },
+    {
+      "id": "agent-import-only",
+      "language": "python",
+      "target_type": "agent",
+      "expected_present": false,
+      "pack": "agents",
+      "file": "app.py"
+    },
+    {
+      "id": "agent-unrelated-name",
+      "language": "python",
+      "target_type": "agent",
+      "expected_present": false,
+      "pack": "agents",
+      "file": "app.py"
+    },
+    {
+      "id": "agent-shadowed",
+      "language": "python",
+      "target_type": "agent",
+      "expected_present": false,
+      "pack": "agents",
+      "file": "app.py"
+    },
+    {
+      "id": "vercel-single-step",
+      "language": "typescript",
+      "target_type": "agent",
+      "expected_present": false,
+      "pack": "agents",
+      "file": "app.ts"
+    },
+    {
+      "id": "llm-retry-not-agent",
+      "language": "python",
+      "target_type": "agent",
+      "expected_present": false,
+      "pack": "agents",
+      "file": "app.py"
+    },
+    {
+      "id": "fastmcp-server",
+      "language": "python",
+      "target_type": "mcp_server",
+      "expected_present": true,
+      "pack": "mcp",
+      "file": "app.py"
+    },
+    {
+      "id": "fastmcp-tool",
+      "language": "python",
+      "target_type": "tool",
+      "expected_present": true,
+      "pack": "mcp",
+      "file": "app.py"
+    },
+    {
+      "id": "fastmcp-proxy",
+      "language": "python",
+      "target_type": "mcp_gateway",
+      "expected_present": true,
+      "pack": "mcp",
+      "file": "app.py"
+    },
+    {
+      "id": "mcp-typescript-server",
+      "language": "typescript",
+      "target_type": "mcp_server",
+      "expected_present": true,
+      "pack": "mcp",
+      "file": "app.ts"
+    },
+    {
+      "id": "mcp-typescript-client",
+      "language": "typescript",
+      "target_type": "mcp_client",
+      "expected_present": true,
+      "pack": "mcp",
+      "file": "app.ts"
+    },
+    {
+      "id": "mcp-csharp-di",
+      "language": "csharp",
+      "target_type": "mcp_server",
+      "expected_present": true,
+      "pack": "mcp",
+      "file": "app.cs"
+    },
+    {
+      "id": "mcp-rust-handler",
+      "language": "rust",
+      "target_type": "mcp_server",
+      "expected_present": true,
+      "pack": "mcp",
+      "file": "app.rs"
+    },
+    {
+      "id": "mcp-rust-tool",
+      "language": "rust",
+      "target_type": "tool",
+      "expected_present": true,
+      "pack": "mcp",
+      "file": "app.rs"
+    },
+    {
+      "id": "mcp-go-server",
+      "language": "go",
+      "target_type": "mcp_server",
+      "expected_present": true,
+      "pack": "mcp",
+      "file": "app.go"
+    },
+    {
+      "id": "mcp-import-only",
+      "language": "python",
+      "target_type": "mcp_server",
+      "expected_present": false,
+      "pack": "mcp",
+      "file": "app.py"
+    },
+    {
+      "id": "mcp-unrelated-server",
+      "language": "python",
+      "target_type": "mcp_server",
+      "expected_present": false,
+      "pack": "mcp",
+      "file": "app.py"
+    },
+    {
+      "id": "mcp-rust-wrong-trait",
+      "language": "rust",
+      "target_type": "mcp_server",
+      "expected_present": false,
+      "pack": "mcp",
+      "file": "app.rs"
+    },
+    {
+      "id": "mcp-csharp-unresolved",
+      "language": "csharp",
+      "target_type": "mcp_server",
+      "expected_present": false,
+      "pack": "mcp",
+      "file": "app.cs"
+    },
+    {
+      "id": "strands-mcp-client",
+      "language": "python",
+      "target_type": "mcp_client",
+      "expected_present": true,
+      "pack": null,
+      "file": "app.py"
+    },
+    {
+      "id": "model-spec-positional",
+      "language": "python",
+      "target_type": "model",
+      "expected_present": true,
+      "pack": null,
+      "file": "app.py"
+    },
+    {
+      "id": "registered-cross-file-tool",
+      "language": "python",
+      "target_type": "tool",
+      "expected_present": true,
+      "pack": "mcp",
+      "file": "app.py"
+    }
+  ]
+}

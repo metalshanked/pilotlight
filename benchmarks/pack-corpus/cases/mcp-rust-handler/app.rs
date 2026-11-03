@@ -1,0 +1,1 @@
+use rmcp::{tool_handler,ServerHandler}; struct Demo; #[tool_handler] impl ServerHandler for Demo {}

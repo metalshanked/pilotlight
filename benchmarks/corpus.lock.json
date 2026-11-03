@@ -1,0 +1,514 @@
+{
+  "schema_version": 1,
+  "corpus_id": "pilotlight-public-corpus-v1",
+  "status": "pinned_candidates_unlabeled_not_benchmarked",
+  "resolved_at": "2026-10-10T14:59:17.775438+00:00",
+  "authentication": "public_unauthenticated",
+  "source_downloaded": false,
+  "scan_executed": false,
+  "limitations": [
+    "Repository purpose and target languages are selection hypotheses, not gold labels.",
+    "No negative-control repository is assumed AI-free without review.",
+    "Partition by framework/application family before using acceptance labels."
+  ],
+  "repositories": [
+    {
+      "repository": "https://github.com/openai/openai-agents-python",
+      "commit": "125efa029b4bfd84238bd2c4fd69c3406f802663",
+      "commit_url": "https://github.com/openai/openai-agents-python/commit/125efa029b4bfd84238bd2c4fd69c3406f802663",
+      "stratum": "agent_sdk",
+      "target_languages": [
+        "python"
+      ],
+      "purpose": "agents; tools; handoffs; MCP integration",
+      "label_status": "unreviewed",
+      "split": "unassigned",
+      "scope_status": "paths_pending_review",
+      "expected_findings": null
+    },
+    {
+      "repository": "https://github.com/openai/openai-agents-js",
+      "commit": "89a9ddf1e241e75f2e0ad4c15d89de9e215ebac6",
+      "commit_url": "https://github.com/openai/openai-agents-js/commit/89a9ddf1e241e75f2e0ad4c15d89de9e215ebac6",
+      "stratum": "agent_sdk",
+      "target_languages": [
+        "typescript"
+      ],
+      "purpose": "agents; tools; browser/server module boundaries",
+      "label_status": "unreviewed",
+      "split": "unassigned",
+      "scope_status": "paths_pending_review",
+      "expected_findings": null
+    },
+    {
+      "repository": "https://github.com/crewAIInc/crewAI-examples",
+      "commit": "da94a91e691e1cf5b3151416bb15b5b62729bea8",
+      "commit_url": "https://github.com/crewAIInc/crewAI-examples/commit/da94a91e691e1cf5b3151416bb15b5b62729bea8",
+      "stratum": "agent_applications",
+      "target_languages": [
+        "python"
+      ],
+      "purpose": "application-level agents; crews; configuration",
+      "label_status": "unreviewed",
+      "split": "unassigned",
+      "scope_status": "paths_pending_review",
+      "expected_findings": null
+    },
+    {
+      "repository": "https://github.com/langchain-ai/langgraph",
+      "commit": "b4991f1ba36a2449ab59c38ab71828ee865bff84",
+      "commit_url": "https://github.com/langchain-ai/langgraph/commit/b4991f1ba36a2449ab59c38ab71828ee865bff84",
+      "stratum": "agent_framework",
+      "target_languages": [
+        "python",
+        "javascript",
+        "typescript"
+      ],
+      "purpose": "graphs; agent workflows; monorepos",
+      "label_status": "unreviewed",
+      "split": "unassigned",
+      "scope_status": "paths_pending_review",
+      "expected_findings": null
+    },
+    {
+      "repository": "https://github.com/mastra-ai/mastra",
+      "commit": "8e98b38a2e15a78c56178a978bf49281e4eda80e",
+      "commit_url": "https://github.com/mastra-ai/mastra/commit/8e98b38a2e15a78c56178a978bf49281e4eda80e",
+      "stratum": "agent_framework",
+      "target_languages": [
+        "typescript"
+      ],
+      "purpose": "agents; workflows; MCP; package boundaries",
+      "label_status": "unreviewed",
+      "split": "unassigned",
+      "scope_status": "paths_pending_review",
+      "expected_findings": null
+    },
+    {
+      "repository": "https://github.com/langgenius/dify",
+      "commit": "2ac4c221d5f7e99ddcfaa14e22775ecd1769a191",
+      "commit_url": "https://github.com/langgenius/dify/commit/2ac4c221d5f7e99ddcfaa14e22775ecd1769a191",
+      "stratum": "ai_application",
+      "target_languages": [
+        "python",
+        "typescript"
+      ],
+      "purpose": "agents; retrieval; providers; deployment configuration",
+      "label_status": "unreviewed",
+      "split": "unassigned",
+      "scope_status": "paths_pending_review",
+      "expected_findings": null
+    },
+    {
+      "repository": "https://github.com/langflow-ai/langflow",
+      "commit": "504c02fc47e76087b82b0e7cbe4186e9cdd916d4",
+      "commit_url": "https://github.com/langflow-ai/langflow/commit/504c02fc47e76087b82b0e7cbe4186e9cdd916d4",
+      "stratum": "ai_application",
+      "target_languages": [
+        "python",
+        "typescript"
+      ],
+      "purpose": "component graphs; providers; custom wrappers",
+      "label_status": "unreviewed",
+      "split": "unassigned",
+      "scope_status": "paths_pending_review",
+      "expected_findings": null
+    },
+    {
+      "repository": "https://github.com/FlowiseAI/Flowise",
+      "commit": "9291856d1ea4a4ceea9f8fef8ce14f4f6c81e8eb",
+      "commit_url": "https://github.com/FlowiseAI/Flowise/commit/9291856d1ea4a4ceea9f8fef8ce14f4f6c81e8eb",
+      "stratum": "ai_application",
+      "target_languages": [
+        "typescript"
+      ],
+      "purpose": "agent workflows; retrieval; monorepos",
+      "label_status": "unreviewed",
+      "split": "unassigned",
+      "scope_status": "paths_pending_review",
+      "expected_findings": null
+    },
+    {
+      "repository": "https://github.com/microsoft/semantic-kernel",
+      "commit": "11f072362e24207da9db55779c0fd73eb15123b1",
+      "commit_url": "https://github.com/microsoft/semantic-kernel/commit/11f072362e24207da9db55779c0fd73eb15123b1",
+      "stratum": "agent_framework",
+      "target_languages": [
+        "csharp",
+        "python",
+        "java"
+      ],
+      "purpose": "plugins; tools; agents; multi-language SDK",
+      "label_status": "unreviewed",
+      "split": "unassigned",
+      "scope_status": "paths_pending_review",
+      "expected_findings": null
+    },
+    {
+      "repository": "https://github.com/spring-projects/spring-ai",
+      "commit": "00f230f9ee828f12517b2234e5a279cc9c061851",
+      "commit_url": "https://github.com/spring-projects/spring-ai/commit/00f230f9ee828f12517b2234e5a279cc9c061851",
+      "stratum": "ai_framework",
+      "target_languages": [
+        "java"
+      ],
+      "purpose": "model clients; MCP; dependency injection",
+      "label_status": "unreviewed",
+      "split": "unassigned",
+      "scope_status": "paths_pending_review",
+      "expected_findings": null
+    },
+    {
+      "repository": "https://github.com/langchain4j/langchain4j",
+      "commit": "872eca4b97b85a42f8409d0437ed4fc1994157b5",
+      "commit_url": "https://github.com/langchain4j/langchain4j/commit/872eca4b97b85a42f8409d0437ed4fc1994157b5",
+      "stratum": "ai_framework",
+      "target_languages": [
+        "java"
+      ],
+      "purpose": "model providers; retrieval; annotation-driven calls",
+      "label_status": "unreviewed",
+      "split": "unassigned",
+      "scope_status": "paths_pending_review",
+      "expected_findings": null
+    },
+    {
+      "repository": "https://github.com/0xPlaygrounds/rig",
+      "commit": "9e7cb6000355b7ae1a89c913bf98b8a6f17661ee",
+      "commit_url": "https://github.com/0xPlaygrounds/rig/commit/9e7cb6000355b7ae1a89c913bf98b8a6f17661ee",
+      "stratum": "ai_framework",
+      "target_languages": [
+        "rust"
+      ],
+      "purpose": "agents; traits; provider clients",
+      "label_status": "unreviewed",
+      "split": "unassigned",
+      "scope_status": "paths_pending_review",
+      "expected_findings": null
+    },
+    {
+      "repository": "https://github.com/crmne/ruby_llm",
+      "commit": "a999ef9552125d137ee797ff54e13a6d59584ea1",
+      "commit_url": "https://github.com/crmne/ruby_llm/commit/a999ef9552125d137ee797ff54e13a6d59584ea1",
+      "stratum": "ai_framework",
+      "target_languages": [
+        "ruby"
+      ],
+      "purpose": "model clients; tools; dynamic language boundaries",
+      "label_status": "unreviewed",
+      "split": "unassigned",
+      "scope_status": "paths_pending_review",
+      "expected_findings": null
+    },
+    {
+      "repository": "https://github.com/ollama/ollama",
+      "commit": "eab97e9f92b9a25c2d52d2cc6c1b1c99bd9fae21",
+      "commit_url": "https://github.com/ollama/ollama/commit/eab97e9f92b9a25c2d52d2cc6c1b1c99bd9fae21",
+      "stratum": "model_runtime",
+      "target_languages": [
+        "go"
+      ],
+      "purpose": "model serving; model files; endpoints",
+      "label_status": "unreviewed",
+      "split": "unassigned",
+      "scope_status": "paths_pending_review",
+      "expected_findings": null
+    },
+    {
+      "repository": "https://github.com/modelcontextprotocol/servers",
+      "commit": "956d36f8a148908b2e2394669ef5ae1f1230c9e9",
+      "commit_url": "https://github.com/modelcontextprotocol/servers/commit/956d36f8a148908b2e2394669ef5ae1f1230c9e9",
+      "stratum": "mcp_implementations",
+      "target_languages": [
+        "typescript",
+        "python"
+      ],
+      "purpose": "server definitions; tools; resources; prompts",
+      "label_status": "unreviewed",
+      "split": "unassigned",
+      "scope_status": "paths_pending_review",
+      "expected_findings": null
+    },
+    {
+      "repository": "https://github.com/modelcontextprotocol/python-sdk",
+      "commit": "91941ed4d3985d59def99e090baa3f880c626cc8",
+      "commit_url": "https://github.com/modelcontextprotocol/python-sdk/commit/91941ed4d3985d59def99e090baa3f880c626cc8",
+      "stratum": "mcp_sdk",
+      "target_languages": [
+        "python"
+      ],
+      "purpose": "client/server definitions and examples",
+      "label_status": "unreviewed",
+      "split": "unassigned",
+      "scope_status": "paths_pending_review",
+      "expected_findings": null
+    },
+    {
+      "repository": "https://github.com/modelcontextprotocol/typescript-sdk",
+      "commit": "b022522089a0c8b632595c6e7b536453945ed5a9",
+      "commit_url": "https://github.com/modelcontextprotocol/typescript-sdk/commit/b022522089a0c8b632595c6e7b536453945ed5a9",
+      "stratum": "mcp_sdk",
+      "target_languages": [
+        "typescript"
+      ],
+      "purpose": "client/server definitions and examples",
+      "label_status": "unreviewed",
+      "split": "unassigned",
+      "scope_status": "paths_pending_review",
+      "expected_findings": null
+    },
+    {
+      "repository": "https://github.com/modelcontextprotocol/go-sdk",
+      "commit": "218aedde7c7e2c3c24f8f3b09e093e8eb1fb08c3",
+      "commit_url": "https://github.com/modelcontextprotocol/go-sdk/commit/218aedde7c7e2c3c24f8f3b09e093e8eb1fb08c3",
+      "stratum": "mcp_sdk",
+      "target_languages": [
+        "go"
+      ],
+      "purpose": "client/server definitions and examples",
+      "label_status": "unreviewed",
+      "split": "unassigned",
+      "scope_status": "paths_pending_review",
+      "expected_findings": null
+    },
+    {
+      "repository": "https://github.com/modelcontextprotocol/csharp-sdk",
+      "commit": "3338e88e15c42cfc27465143c140d7d10f1a2707",
+      "commit_url": "https://github.com/modelcontextprotocol/csharp-sdk/commit/3338e88e15c42cfc27465143c140d7d10f1a2707",
+      "stratum": "mcp_sdk",
+      "target_languages": [
+        "csharp"
+      ],
+      "purpose": "client/server definitions and examples",
+      "label_status": "unreviewed",
+      "split": "unassigned",
+      "scope_status": "paths_pending_review",
+      "expected_findings": null
+    },
+    {
+      "repository": "https://github.com/modelcontextprotocol/java-sdk",
+      "commit": "e6c532e54b3f8bc34687542a301f6b6103e6ee6c",
+      "commit_url": "https://github.com/modelcontextprotocol/java-sdk/commit/e6c532e54b3f8bc34687542a301f6b6103e6ee6c",
+      "stratum": "mcp_sdk",
+      "target_languages": [
+        "java"
+      ],
+      "purpose": "client/server definitions and examples",
+      "label_status": "unreviewed",
+      "split": "unassigned",
+      "scope_status": "paths_pending_review",
+      "expected_findings": null
+    },
+    {
+      "repository": "https://github.com/a2aproject/a2a-samples",
+      "commit": "6603ba3f2c31a7ef33e70b9d8b5b5f8be42ac9a3",
+      "commit_url": "https://github.com/a2aproject/a2a-samples/commit/6603ba3f2c31a7ef33e70b9d8b5b5f8be42ac9a3",
+      "stratum": "agent_proxy",
+      "target_languages": [
+        "python",
+        "typescript",
+        "java",
+        "go"
+      ],
+      "purpose": "agent cards; remote agent proxies; delegation",
+      "label_status": "unreviewed",
+      "split": "unassigned",
+      "scope_status": "paths_pending_review",
+      "expected_findings": null
+    },
+    {
+      "repository": "https://github.com/anthropics/skills",
+      "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "commit_url": "https://github.com/anthropics/skills/commit/dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "stratum": "skill_definitions",
+      "target_languages": [
+        "markdown"
+      ],
+      "purpose": "SKILL.md metadata; references; bundled scripts",
+      "label_status": "unreviewed",
+      "split": "unassigned",
+      "scope_status": "paths_pending_review",
+      "expected_findings": null
+    },
+    {
+      "repository": "https://github.com/huggingface/transformers",
+      "commit": "536ecc007387a50e77603bb5d92100e9b07514cc",
+      "commit_url": "https://github.com/huggingface/transformers/commit/536ecc007387a50e77603bb5d92100e9b07514cc",
+      "stratum": "model_lifecycle",
+      "target_languages": [
+        "python"
+      ],
+      "purpose": "model construction; training; artifacts",
+      "label_status": "unreviewed",
+      "split": "unassigned",
+      "scope_status": "paths_pending_review",
+      "expected_findings": null
+    },
+    {
+      "repository": "https://github.com/mlflow/mlflow",
+      "commit": "b7a5c98c19edde5adc503ca36db8eaef23790566",
+      "commit_url": "https://github.com/mlflow/mlflow/commit/b7a5c98c19edde5adc503ca36db8eaef23790566",
+      "stratum": "model_lifecycle",
+      "target_languages": [
+        "python"
+      ],
+      "purpose": "tracking; registry; pipelines; model definitions",
+      "label_status": "unreviewed",
+      "split": "unassigned",
+      "scope_status": "paths_pending_review",
+      "expected_findings": null
+    },
+    {
+      "repository": "https://github.com/treeverse/dvc",
+      "commit": "56e59829512ff134aa269099a2099587b810b4dd",
+      "commit_url": "https://github.com/treeverse/dvc/commit/56e59829512ff134aa269099a2099587b810b4dd",
+      "stratum": "data_lifecycle",
+      "target_languages": [
+        "python",
+        "yaml"
+      ],
+      "purpose": "dataset versioning; pipeline manifests",
+      "label_status": "unreviewed",
+      "split": "unassigned",
+      "scope_status": "paths_pending_review",
+      "expected_findings": null,
+      "requested_repository": "https://github.com/iterative/dvc",
+      "identity_note": "Canonical owner/name returned by GitHub commit metadata; source commit unchanged."
+    },
+    {
+      "repository": "https://github.com/feast-dev/feast",
+      "commit": "4fc97261f1c11211f6c1e34ba41b0cdc4e3810c1",
+      "commit_url": "https://github.com/feast-dev/feast/commit/4fc97261f1c11211f6c1e34ba41b0cdc4e3810c1",
+      "stratum": "feature_store",
+      "target_languages": [
+        "python",
+        "java"
+      ],
+      "purpose": "feature definitions; data sources",
+      "label_status": "unreviewed",
+      "split": "unassigned",
+      "scope_status": "paths_pending_review",
+      "expected_findings": null
+    },
+    {
+      "repository": "https://github.com/qdrant/qdrant",
+      "commit": "016542aa5deb6c66380bb137badf73d54f742bde",
+      "commit_url": "https://github.com/qdrant/qdrant/commit/016542aa5deb6c66380bb137badf73d54f742bde",
+      "stratum": "vector_store",
+      "target_languages": [
+        "rust"
+      ],
+      "purpose": "service definitions; storage; avoid classifying every client call",
+      "label_status": "unreviewed",
+      "split": "unassigned",
+      "scope_status": "paths_pending_review",
+      "expected_findings": null
+    },
+    {
+      "repository": "https://github.com/chroma-core/chroma",
+      "commit": "5f30478c11ffdcf8cba1f872993c29d8f84ce0d9",
+      "commit_url": "https://github.com/chroma-core/chroma/commit/5f30478c11ffdcf8cba1f872993c29d8f84ce0d9",
+      "stratum": "vector_store",
+      "target_languages": [
+        "python",
+        "rust",
+        "typescript"
+      ],
+      "purpose": "retrieval; embeddings; multi-language boundaries",
+      "label_status": "unreviewed",
+      "split": "unassigned",
+      "scope_status": "paths_pending_review",
+      "expected_findings": null
+    },
+    {
+      "repository": "https://github.com/NVIDIA-NeMo/Guardrails",
+      "commit": "4512d081cb970be8a99ac2ccd1c6a39b1a81d352",
+      "commit_url": "https://github.com/NVIDIA-NeMo/Guardrails/commit/4512d081cb970be8a99ac2ccd1c6a39b1a81d352",
+      "stratum": "guardrail",
+      "target_languages": [
+        "python",
+        "yaml"
+      ],
+      "purpose": "guardrail definitions; model integrations",
+      "label_status": "unreviewed",
+      "split": "unassigned",
+      "scope_status": "paths_pending_review",
+      "expected_findings": null,
+      "requested_repository": "https://github.com/NVIDIA/NeMo-Guardrails",
+      "identity_note": "Canonical owner/name returned by GitHub commit metadata; source commit unchanged."
+    },
+    {
+      "repository": "https://github.com/psf/requests",
+      "commit": "611c6162cbc4ac2020a2f91c7cfa4f3abf9bbb60",
+      "commit_url": "https://github.com/psf/requests/commit/611c6162cbc4ac2020a2f91c7cfa4f3abf9bbb60",
+      "stratum": "candidate_negative_control",
+      "target_languages": [
+        "python"
+      ],
+      "purpose": "ordinary HTTP library; inspect before assigning negative labels",
+      "label_status": "unreviewed",
+      "split": "unassigned",
+      "scope_status": "paths_pending_review",
+      "expected_findings": null
+    },
+    {
+      "repository": "https://github.com/expressjs/express",
+      "commit": "a419aa7350389a275ab45fde2e849ed1f02449ef",
+      "commit_url": "https://github.com/expressjs/express/commit/a419aa7350389a275ab45fde2e849ed1f02449ef",
+      "stratum": "candidate_negative_control",
+      "target_languages": [
+        "javascript"
+      ],
+      "purpose": "ordinary server framework; inspect before assigning negative labels",
+      "label_status": "unreviewed",
+      "split": "unassigned",
+      "scope_status": "paths_pending_review",
+      "expected_findings": null
+    },
+    {
+      "repository": "https://github.com/BurntSushi/ripgrep",
+      "commit": "3fce3b5bb0236da2df6d99672afb8a719642eca7",
+      "commit_url": "https://github.com/BurntSushi/ripgrep/commit/3fce3b5bb0236da2df6d99672afb8a719642eca7",
+      "stratum": "candidate_negative_control",
+      "target_languages": [
+        "rust"
+      ],
+      "purpose": "ordinary search utility; inspect before assigning negative labels",
+      "label_status": "unreviewed",
+      "split": "unassigned",
+      "scope_status": "paths_pending_review",
+      "expected_findings": null
+    },
+    {
+      "repository": "https://github.com/langchain-ai/deepagents",
+      "commit": "9f0e39d55a5f31003b206b31b955154f2f1bc49a",
+      "commit_url": "https://github.com/langchain-ai/deepagents/commit/9f0e39d55a5f31003b206b31b955154f2f1bc49a",
+      "stratum": "agent_harness",
+      "target_languages": [
+        "python"
+      ],
+      "purpose": "Deep Agents factories; subagents; tools; skill references; known catalog gap",
+      "label_status": "unreviewed",
+      "split": "unassigned",
+      "scope_status": "paths_pending_review",
+      "expected_findings": null
+    },
+    {
+      "repository": "https://github.com/langchain-ai/deepagentsjs",
+      "commit": "b448f220866bbb5d41924dfdbb1e0079c3b11838",
+      "commit_url": "https://github.com/langchain-ai/deepagentsjs/commit/b448f220866bbb5d41924dfdbb1e0079c3b11838",
+      "stratum": "agent_harness",
+      "target_languages": [
+        "javascript",
+        "typescript"
+      ],
+      "purpose": "Deep Agents factories; subagents; tools; skill references; known catalog gap",
+      "label_status": "unreviewed",
+      "split": "unassigned",
+      "scope_status": "paths_pending_review",
+      "expected_findings": null
+    }
+  ],
+  "amended_at": "2026-10-10T15:06:36.833275+00:00",
+  "amendment": "Added two Deep Agents candidates before labels, partitions or benchmark execution; existing 32 commit pins unchanged."
+}

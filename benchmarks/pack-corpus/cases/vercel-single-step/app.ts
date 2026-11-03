@@ -1,0 +1,1 @@
+import {generateText} from 'ai'; const result=await generateText({model,tools:{lookup},maxSteps:1});

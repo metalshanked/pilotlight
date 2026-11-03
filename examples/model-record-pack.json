@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "company.model-records",
+  "version": "0.1.0",
+  "minimum_engine_version": "0.1.0",
+  "description": "Fictional private SDK and local model record example; replace with reviewed company bindings.",
+  "license": "Apache-2.0",
+  "sources": [
+    "https://example.com/company-model-sdk"
+  ],
+  "requires": [
+    "model-records-v1",
+    "model-arguments-v1"
+  ],
+  "rules": [
+    {
+      "id": "company-model-sdk",
+      "entry": {
+        "id": "company-model-sdk",
+        "name": "Company model SDK",
+        "category": "model",
+        "homepage": "https://example.com/company-model-sdk",
+        "packages": {},
+        "imports": {
+          "python": [
+            "company_ai.models"
+          ]
+        },
+        "model_identifiers": [
+          "company/model-v1"
+        ],
+        "model_arguments": {
+          "company_ai.models.Deployment": {
+            "position": 1,
+            "keywords": [
+              "model"
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "fixtures": [
+    {
+      "id": "private-sdk",
+      "language": "python",
+      "source": "from company_ai.models import Deployment\nx=Deployment('production','future-private-model')\n",
+      "expect": {
+        "model": 1
+      }
+    },
+    {
+      "id": "private-local-record",
+      "language": "python",
+      "source": "from dataclasses import dataclass\n@dataclass\nclass Settings:\n model: str\nx=Settings('company/model-v1')\n",
+      "expect": {
+        "model": 1
+      }
+    },
+    {
+      "id": "shadowed-sdk",
+      "language": "python",
+      "source": "from company_ai.models import Deployment\nDeployment=other\nx=Deployment('production','future-private-model')\n",
+      "expect": {
+        "model": 0
+      }
+    },
+    {
+      "id": "unreviewed-local-record",
+      "language": "python",
+      "source": "from dataclasses import dataclass\n@dataclass\nclass Settings:\n model: str\nx=Settings('unreviewed')\n",
+      "expect": {
+        "model": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+import {Client} from '@modelcontextprotocol/sdk/client/index.js'; const client=new Client({name:'demo',version:'1.0.0'});

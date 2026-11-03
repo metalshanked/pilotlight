@@ -1,0 +1,4 @@
+[scan]
+types = ["agents", "mcp", "tool", "skill"]
+# Coverage retains language limits and unresolved detector gaps.
+strict_coverage = false

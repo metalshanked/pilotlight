@@ -1,0 +1,1 @@
+import {generateText,stepCountIs} from 'ai'; const result=await generateText({model,tools:{lookup},stopWhen:stepCountIs(5),prompt:'Help'});

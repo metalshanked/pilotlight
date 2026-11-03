@@ -1,0 +1,488 @@
+{
+  "reviewed_at": "2026-10-10",
+  "rules": [
+    {
+      "framework": "langchain",
+      "symbol": "langchain.createAgent",
+      "kind": "agent",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "source_url": "https://reference.langchain.com/javascript/langchain/index/createAgent"
+    },
+    {
+      "framework": "langgraph",
+      "symbol": "@langchain/langgraph/prebuilt.createReactAgent",
+      "kind": "agent",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "source_url": "https://reference.langchain.com/javascript/langchain-langgraph/prebuilt/createReactAgent"
+    },
+    {
+      "framework": "langchain",
+      "symbol": "langchain.tools.tool",
+      "kind": "tool",
+      "languages": [
+        "python"
+      ],
+      "source_url": "https://reference.langchain.com/python/langchain/tools"
+    },
+    {
+      "framework": "langchain",
+      "symbol": "langchain_core.tools.tool",
+      "kind": "tool",
+      "languages": [
+        "python"
+      ],
+      "source_url": "https://reference.langchain.com/python/langchain/tools"
+    },
+    {
+      "framework": "langchain",
+      "symbol": "@langchain/core/tools.tool",
+      "kind": "tool",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "source_url": "https://reference.langchain.com/javascript/langchain-langgraph/prebuilt/createReactAgent"
+    },
+    {
+      "framework": "google-adk",
+      "symbol": "google.adk.agents.LlmAgent",
+      "kind": "agent",
+      "languages": [
+        "python"
+      ],
+      "source_url": "https://github.com/google/adk-docs/blob/main/docs/agents/custom-agents.md"
+    },
+    {
+      "framework": "google-adk",
+      "symbol": "@google/adk.LlmAgent",
+      "kind": "agent",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "source_url": "https://github.com/google/adk-docs/blob/main/docs/agents/custom-agents.md"
+    },
+    {
+      "framework": "google-adk",
+      "symbol": "google.adk.agents.SequentialAgent",
+      "kind": "agent",
+      "languages": [
+        "python"
+      ],
+      "source_url": "https://github.com/google/adk-docs/blob/main/docs/agents/custom-agents.md"
+    },
+    {
+      "framework": "google-adk",
+      "symbol": "@google/adk.SequentialAgent",
+      "kind": "agent",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "source_url": "https://github.com/google/adk-docs/blob/main/docs/agents/custom-agents.md"
+    },
+    {
+      "framework": "google-adk",
+      "symbol": "google.adk.agents.ParallelAgent",
+      "kind": "agent",
+      "languages": [
+        "python"
+      ],
+      "source_url": "https://github.com/google/adk-docs/blob/main/docs/agents/custom-agents.md"
+    },
+    {
+      "framework": "google-adk",
+      "symbol": "@google/adk.ParallelAgent",
+      "kind": "agent",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "source_url": "https://github.com/google/adk-docs/blob/main/docs/agents/custom-agents.md"
+    },
+    {
+      "framework": "google-adk",
+      "symbol": "google.adk.agents.LoopAgent",
+      "kind": "agent",
+      "languages": [
+        "python"
+      ],
+      "source_url": "https://github.com/google/adk-docs/blob/main/docs/agents/custom-agents.md"
+    },
+    {
+      "framework": "google-adk",
+      "symbol": "@google/adk.LoopAgent",
+      "kind": "agent",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "source_url": "https://github.com/google/adk-docs/blob/main/docs/agents/custom-agents.md"
+    },
+    {
+      "framework": "autogen",
+      "symbol": "autogen_agentchat.teams.RoundRobinGroupChat",
+      "kind": "agent",
+      "languages": [
+        "python"
+      ],
+      "source_url": "https://microsoft.github.io/autogen/dev/user-guide/agentchat-user-guide/tutorial/teams.html"
+    },
+    {
+      "framework": "autogen",
+      "symbol": "autogen_agentchat.teams.SelectorGroupChat",
+      "kind": "agent",
+      "languages": [
+        "python"
+      ],
+      "source_url": "https://microsoft.github.io/autogen/dev/user-guide/agentchat-user-guide/tutorial/teams.html"
+    },
+    {
+      "framework": "autogen",
+      "symbol": "autogen_agentchat.teams.Swarm",
+      "kind": "agent",
+      "languages": [
+        "python"
+      ],
+      "source_url": "https://microsoft.github.io/autogen/dev/user-guide/agentchat-user-guide/tutorial/teams.html"
+    },
+    {
+      "framework": "llamaindex",
+      "symbol": "llama_index.core.agent.FunctionAgent",
+      "kind": "agent",
+      "languages": [
+        "python"
+      ],
+      "source_url": "https://github.com/run-llama/llama_index/blob/main/llama-index-core/llama_index/core/agent/__init__.py"
+    },
+    {
+      "framework": "llamaindex",
+      "symbol": "llama_index.core.agent.ReActAgent",
+      "kind": "agent",
+      "languages": [
+        "python"
+      ],
+      "source_url": "https://github.com/run-llama/llama_index/blob/main/llama-index-core/llama_index/core/agent/__init__.py"
+    },
+    {
+      "framework": "llamaindex",
+      "symbol": "llama_index.core.agent.AgentWorkflow",
+      "kind": "agent",
+      "languages": [
+        "python"
+      ],
+      "source_url": "https://github.com/run-llama/llama_index/blob/main/llama-index-core/llama_index/core/agent/__init__.py"
+    },
+    {
+      "framework": "llamaindex",
+      "symbol": "llama_index.core.agent.workflow.FunctionAgent",
+      "kind": "agent",
+      "languages": [
+        "python"
+      ],
+      "source_url": "https://github.com/run-llama/llama_index/blob/main/llama-index-core/llama_index/core/agent/__init__.py"
+    },
+    {
+      "framework": "llamaindex",
+      "symbol": "llama_index.core.agent.workflow.ReActAgent",
+      "kind": "agent",
+      "languages": [
+        "python"
+      ],
+      "source_url": "https://github.com/run-llama/llama_index/blob/main/llama-index-core/llama_index/core/agent/__init__.py"
+    },
+    {
+      "framework": "llamaindex",
+      "symbol": "llama_index.core.agent.workflow.AgentWorkflow",
+      "kind": "agent",
+      "languages": [
+        "python"
+      ],
+      "source_url": "https://github.com/run-llama/llama_index/blob/main/llama-index-core/llama_index/core/agent/__init__.py"
+    },
+    {
+      "framework": "mastra",
+      "symbol": "@mastra/mcp.MCPClient",
+      "kind": "mcp_client",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "source_url": "https://github.com/mastra-ai/mastra/blob/main/packages/mcp/README.md"
+    },
+    {
+      "framework": "mastra",
+      "symbol": "@mastra/mcp.MCPServer",
+      "kind": "mcp_server",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "source_url": "https://mastra.ai/blog/introducing-mcp-support"
+    },
+    {
+      "framework": "mcp",
+      "symbol": "@modelcontextprotocol/sdk/server/mcp.js.McpServer.registerTool",
+      "kind": "tool",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "source_url": "https://ts.sdk.modelcontextprotocol.io/server"
+    },
+    {
+      "framework": "mcp",
+      "symbol": "@modelcontextprotocol/sdk/server/mcp.js.McpServer.tool",
+      "kind": "tool",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "source_url": "https://ts.sdk.modelcontextprotocol.io/server"
+    },
+    {
+      "framework": "mcp",
+      "symbol": "@modelcontextprotocol/server.McpServer.registerTool",
+      "kind": "tool",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "source_url": "https://ts.sdk.modelcontextprotocol.io/v2/api/%40modelcontextprotocol/server/server/mcp.html"
+    },
+    {
+      "framework": "mcp",
+      "symbol": "mcp.server.fastmcp.FastMCP.tool",
+      "kind": "tool",
+      "languages": [
+        "python"
+      ],
+      "source_url": "https://github.com/modelcontextprotocol/python-sdk/blob/v1.10.1/src/mcp/server/fastmcp/server.py"
+    },
+    {
+      "framework": "mcp",
+      "symbol": "mcp.server.fastmcp.FastMCP.add_tool",
+      "kind": "tool",
+      "languages": [
+        "python"
+      ],
+      "source_url": "https://github.com/modelcontextprotocol/python-sdk/blob/v1.10.1/src/mcp/server/fastmcp/server.py"
+    },
+    {
+      "framework": "fastmcp",
+      "symbol": "fastmcp.FastMCP.tool",
+      "kind": "tool",
+      "languages": [
+        "python"
+      ],
+      "source_url": "https://github.com/PrefectHQ/fastmcp/blob/main/docs/servers/tools.mdx"
+    },
+    {
+      "framework": "fastmcp",
+      "symbol": "fastmcp.FastMCP.add_tool",
+      "kind": "tool",
+      "languages": [
+        "python"
+      ],
+      "source_url": "https://github.com/PrefectHQ/fastmcp/blob/main/docs/servers/tools.mdx"
+    },
+    {
+      "framework": "mcp",
+      "symbol": "ModelContextProtocol.Server.McpServer.Create",
+      "kind": "mcp_server",
+      "languages": [
+        "csharp"
+      ],
+      "source_url": "https://csharp.sdk.modelcontextprotocol.io/v2/api/ModelContextProtocol.Server.McpServer.html"
+    },
+    {
+      "framework": "mcp",
+      "symbol": "ModelContextProtocol.Server.McpServerTool",
+      "kind": "tool",
+      "languages": [
+        "csharp"
+      ],
+      "source_url": "https://csharp.sdk.modelcontextprotocol.io/v1/concepts/tools/tools.html"
+    },
+    {
+      "framework": "mcp",
+      "symbol": "ModelContextProtocol.Server.McpServerToolAttribute",
+      "kind": "tool",
+      "languages": [
+        "csharp"
+      ],
+      "source_url": "https://csharp.sdk.modelcontextprotocol.io/v1/concepts/tools/tools.html"
+    },
+    {
+      "framework": "mcp",
+      "symbol": "ModelContextProtocol.Server.McpServerTool.Create",
+      "kind": "tool",
+      "languages": [
+        "csharp"
+      ],
+      "source_url": "https://github.com/modelcontextprotocol/csharp-sdk/blob/main/src/ModelContextProtocol.Core/Server/McpServerTool.cs"
+    },
+    {
+      "framework": "mcp",
+      "symbol": "mcp.server.MCPServer",
+      "kind": "mcp_server",
+      "languages": [
+        "python"
+      ],
+      "source_url": "https://github.com/modelcontextprotocol/python-sdk/blob/91941ed4d3985d59def99e090baa3f880c626cc8/README.md"
+    },
+    {
+      "framework": "mcp",
+      "symbol": "mcp.server.mcpserver.MCPServer",
+      "kind": "mcp_server",
+      "languages": [
+        "python"
+      ],
+      "source_url": "https://github.com/modelcontextprotocol/python-sdk/blob/91941ed4d3985d59def99e090baa3f880c626cc8/README.md"
+    },
+    {
+      "framework": "mcp",
+      "symbol": "mcp.Client",
+      "kind": "mcp_client",
+      "languages": [
+        "python"
+      ],
+      "source_url": "https://github.com/modelcontextprotocol/python-sdk/blob/91941ed4d3985d59def99e090baa3f880c626cc8/README.md"
+    },
+    {
+      "framework": "mcp",
+      "symbol": "mcp.client.Client",
+      "kind": "mcp_client",
+      "languages": [
+        "python"
+      ],
+      "source_url": "https://github.com/modelcontextprotocol/python-sdk/blob/91941ed4d3985d59def99e090baa3f880c626cc8/README.md"
+    },
+    {
+      "framework": "mcp",
+      "symbol": "mcp.server.MCPServer.tool",
+      "kind": "tool",
+      "languages": [
+        "python"
+      ],
+      "source_url": "https://github.com/modelcontextprotocol/python-sdk/blob/91941ed4d3985d59def99e090baa3f880c626cc8/README.md"
+    },
+    {
+      "framework": "mcp",
+      "symbol": "mcp.server.MCPServer.add_tool",
+      "kind": "tool",
+      "languages": [
+        "python"
+      ],
+      "source_url": "https://github.com/modelcontextprotocol/python-sdk/blob/91941ed4d3985d59def99e090baa3f880c626cc8/README.md"
+    },
+    {
+      "framework": "mcp",
+      "symbol": "mcp.server.mcpserver.MCPServer.tool",
+      "kind": "tool",
+      "languages": [
+        "python"
+      ],
+      "source_url": "https://github.com/modelcontextprotocol/python-sdk/blob/91941ed4d3985d59def99e090baa3f880c626cc8/README.md"
+    },
+    {
+      "framework": "mcp",
+      "symbol": "mcp.server.mcpserver.MCPServer.add_tool",
+      "kind": "tool",
+      "languages": [
+        "python"
+      ],
+      "source_url": "https://github.com/modelcontextprotocol/python-sdk/blob/91941ed4d3985d59def99e090baa3f880c626cc8/README.md"
+    },
+    {
+      "framework": "mcp",
+      "symbol": "mcp.server.mcpserver.server.MCPServer",
+      "kind": "mcp_server",
+      "languages": [
+        "python"
+      ],
+      "source_url": "https://raw.githubusercontent.com/modelcontextprotocol/python-sdk/91941ed4d3985d59def99e090baa3f880c626cc8/src/mcp/server/mcpserver/server.py"
+    },
+    {
+      "framework": "mcp",
+      "symbol": "mcp.server.lowlevel.Server",
+      "kind": "mcp_server",
+      "languages": [
+        "python"
+      ],
+      "source_url": "https://github.com/modelcontextprotocol/python-sdk/blob/91941ed4d3985d59def99e090baa3f880c626cc8/src/mcp/server/lowlevel/server.py"
+    },
+    {
+      "framework": "mcp",
+      "symbol": "mcp.server.lowlevel.server.Server",
+      "kind": "mcp_server",
+      "languages": [
+        "python"
+      ],
+      "source_url": "https://github.com/modelcontextprotocol/python-sdk/blob/91941ed4d3985d59def99e090baa3f880c626cc8/src/mcp/server/lowlevel/server.py"
+    },
+    {
+      "framework": "mcp",
+      "symbol": "mcp.client.client.Client",
+      "kind": "mcp_client",
+      "languages": [
+        "python"
+      ],
+      "source_url": "https://github.com/modelcontextprotocol/python-sdk/blob/91941ed4d3985d59def99e090baa3f880c626cc8/src/mcp/client/client.py"
+    },
+    {
+      "framework": "mcp",
+      "symbol": "mcp.client.session.ClientSession",
+      "kind": "mcp_client",
+      "languages": [
+        "python"
+      ],
+      "source_url": "https://github.com/modelcontextprotocol/python-sdk/blob/91941ed4d3985d59def99e090baa3f880c626cc8/src/mcp/client/session.py"
+    },
+    {
+      "framework": "mcp",
+      "symbol": "mcp.server.mcpserver.server.MCPServer.tool",
+      "kind": "tool",
+      "languages": [
+        "python"
+      ],
+      "source_url": "https://raw.githubusercontent.com/modelcontextprotocol/python-sdk/91941ed4d3985d59def99e090baa3f880c626cc8/src/mcp/server/mcpserver/server.py"
+    },
+    {
+      "framework": "mcp",
+      "symbol": "mcp.server.mcpserver.server.MCPServer.add_tool",
+      "kind": "tool",
+      "languages": [
+        "python"
+      ],
+      "source_url": "https://raw.githubusercontent.com/modelcontextprotocol/python-sdk/91941ed4d3985d59def99e090baa3f880c626cc8/src/mcp/server/mcpserver/server.py"
+    },
+    {
+      "framework": "langgraph",
+      "symbol": "langgraph.graph.StateGraph",
+      "kind": "dependency",
+      "languages": [
+        "python"
+      ],
+      "source_url": "https://reference.langchain.com/python/langgraph/graph/state/StateGraph",
+      "reason": "A generic shared-state graph does not establish agentic behavior."
+    },
+    {
+      "framework": "langgraph",
+      "symbol": "@langchain/langgraph.StateGraph",
+      "kind": "dependency",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "source_url": "https://reference.langchain.com/python/langgraph/graph/state/StateGraph",
+      "reason": "A generic shared-state graph does not establish agentic behavior."
+    }
+  ]
+}

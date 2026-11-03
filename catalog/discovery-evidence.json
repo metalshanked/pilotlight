@@ -1,0 +1,2129 @@
+{
+  "records": [
+    {
+      "id": "a2a-sdk",
+      "ecosystem": "pypi",
+      "package": "a2a-sdk",
+      "observed_version": "1.2.2",
+      "source": "https://pypi.org/pypi/a2a-sdk/json",
+      "response_sha256": "59c1ed13135e3cf1dbd4ca7fd39e16746ffad6275c309a6ae324c8b9733c3c38",
+      "import_root": null,
+      "import_basis": "not_verified",
+      "qualification": "identity_verified",
+      "summary": "A2A Python SDK",
+      "project_urls": {
+        "changelog": "https://github.com/a2aproject/a2a-python/blob/main/CHANGELOG.md",
+        "documentation": "https://a2a-protocol.org/latest/sdk/python/",
+        "homepage": "https://a2a-protocol.org/",
+        "repository": "https://github.com/a2aproject/a2a-python"
+      }
+    },
+    {
+      "id": "agent-framework",
+      "ecosystem": "pypi",
+      "package": "agent-framework",
+      "observed_version": "1.21.0",
+      "source": "https://pypi.org/pypi/agent-framework/json",
+      "response_sha256": "c2d1ea8366ef9aee4d9e03fca40f7d28b5d0bae64fae46e45f0bfe0282fb49cd",
+      "import_root": "agent_framework",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "Microsoft Agent Framework for building AI Agents with Python. This package contains all the core and optional packages.",
+      "project_urls": {
+        "homepage": "https://aka.ms/agent-framework",
+        "issues": "https://github.com/microsoft/agent-framework/issues",
+        "release_notes": "https://github.com/microsoft/agent-framework/releases?q=tag%3Apython-1&expanded=true",
+        "source": "https://github.com/microsoft/agent-framework/tree/main/python"
+      }
+    },
+    {
+      "id": "agentscope",
+      "ecosystem": "pypi",
+      "package": "agentscope",
+      "observed_version": "2.0.9",
+      "source": "https://pypi.org/pypi/agentscope/json",
+      "response_sha256": "be3d75741b9bf31f1072790914c977d5dac4009495156c21d771930edacc937c",
+      "import_root": "agentscope",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "AgentScope: A Flexible yet Robust Multi-Agent Platform.",
+      "project_urls": {
+        "Documentation": "https://docs.agentscope.io/",
+        "Homepage": "https://github.com/agentscope-ai/agentscope",
+        "Repository": "https://github.com/agentscope-ai/agentscope"
+      }
+    },
+    {
+      "id": "camel-ai",
+      "ecosystem": "pypi",
+      "package": "camel-ai",
+      "observed_version": "0.2.90",
+      "source": "https://pypi.org/pypi/camel-ai/json",
+      "response_sha256": "5329e8ee27dfde2bd48cf41bfc53d315b2a1eacc7eb5eb596afd85a3c12ca18b",
+      "import_root": "camel",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "Communicative Agents for AI Society Study",
+      "project_urls": {
+        "Documentation": "https://docs.camel-ai.org",
+        "Homepage": "https://www.camel-ai.org/",
+        "Repository": "https://github.com/camel-ai/camel"
+      }
+    },
+    {
+      "id": "letta",
+      "ecosystem": "pypi",
+      "package": "letta",
+      "observed_version": "0.34.10",
+      "source": "https://pypi.org/pypi/letta/json",
+      "response_sha256": "e4a20175a3a14ce148be8e1e3ec464ddde35ed244bcdcb35af536176f0a27671",
+      "import_root": null,
+      "import_basis": "not_verified",
+      "qualification": "identity_verified",
+      "summary": "Letta Code: stateful agents in your terminal",
+      "project_urls": {
+        "Documentation": "https://docs.letta.com/letta-code",
+        "Source": "https://github.com/letta-ai/letta-code"
+      }
+    },
+    {
+      "id": "mem0ai",
+      "ecosystem": "pypi",
+      "package": "mem0ai",
+      "observed_version": "2.2.1",
+      "source": "https://pypi.org/pypi/mem0ai/json",
+      "response_sha256": "ce4def67122bc744b07c5fdae5c1554a971deb0a9331a4c80c775863cc6c3d9e",
+      "import_root": "mem0",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "Long-term memory for AI Agents",
+      "project_urls": null
+    },
+    {
+      "id": "memobase",
+      "ecosystem": "pypi",
+      "package": "memobase",
+      "observed_version": "0.0.27",
+      "source": "https://pypi.org/pypi/memobase/json",
+      "response_sha256": "0d82793270713af2126e0474cc7d0e473f94ce866e2e90b2337408bc488b5662",
+      "import_root": "memobase",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "Client library of Memobase: manage user memory for your LLM applications",
+      "project_urls": {
+        "Homepage": "https://github.com/memodb-io/memobase"
+      }
+    },
+    {
+      "id": "beeai-framework",
+      "ecosystem": "pypi",
+      "package": "beeai-framework",
+      "observed_version": "0.1.85",
+      "source": "https://pypi.org/pypi/beeai-framework/json",
+      "response_sha256": "b3beec8380f5d0e7dfdababfe1a27e1706d0f8100b3aeafd88d9facac5a9a165",
+      "import_root": "beeai_framework",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": null,
+      "project_urls": {
+        "Documentation": "https://i-am-bee.github.io/beeai-framework/#/python/",
+        "Homepage": "https://framework.beeai.dev/",
+        "Repository": "https://github.com/i-am-bee/beeai-framework"
+      }
+    },
+    {
+      "id": "burr",
+      "ecosystem": "pypi",
+      "package": "burr",
+      "observed_version": "0.42.0",
+      "source": "https://pypi.org/pypi/burr/json",
+      "response_sha256": "545635558c323a451e7c272ce7bdf9d4877a7cba83d938d9908ab2b5c70d39a0",
+      "import_root": "burr",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "This package has moved to apache-burr. Install apache-burr instead.",
+      "project_urls": {
+        "Bug Tracker": "https://github.com/apache/burr/issues",
+        "Documentation": "https://burr.apache.org/docs",
+        "Homepage": "https://burr.apache.org/",
+        "Repository": "https://github.com/apache/burr"
+      }
+    },
+    {
+      "id": "langroid",
+      "ecosystem": "pypi",
+      "package": "langroid",
+      "observed_version": "0.69.3",
+      "source": "https://pypi.org/pypi/langroid/json",
+      "response_sha256": "f2c13123c87cf481dd6bb29a2f64a3a394447ce4dc7be5a764ecf62b548b5121",
+      "import_root": "langroid",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "Harness LLMs with Multi-Agent Programming",
+      "project_urls": null
+    },
+    {
+      "id": "atomic-agents",
+      "ecosystem": "pypi",
+      "package": "atomic-agents",
+      "observed_version": "2.10.3",
+      "source": "https://pypi.org/pypi/atomic-agents/json",
+      "response_sha256": "1219f2ffb737361bfe52cbe6d2dee48c38997edb1d09617c4ef2c4e9c0b39939",
+      "import_root": "atomic_agents",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "A versatile framework for creating and managing intelligent agents.",
+      "project_urls": {
+        "Homepage": "https://github.com/eigenwise/atomic-agents",
+        "Repository": "https://github.com/eigenwise/atomic-agents"
+      }
+    },
+    {
+      "id": "accelerate",
+      "ecosystem": "pypi",
+      "package": "accelerate",
+      "observed_version": "1.15.0",
+      "source": "https://pypi.org/pypi/accelerate/json",
+      "response_sha256": "ec98b6588f981261bb9fd0f4bde8693db08fb3a30e13ecb98d7ee5e041478f7a",
+      "import_root": "accelerate",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "Accelerate",
+      "project_urls": {
+        "Homepage": "https://github.com/huggingface/accelerate"
+      }
+    },
+    {
+      "id": "peft",
+      "ecosystem": "pypi",
+      "package": "peft",
+      "observed_version": "0.21.2",
+      "source": "https://pypi.org/pypi/peft/json",
+      "response_sha256": "f45f3c5ac09ce8fc1b1605db7db44bc20b28dc8e060db97b62c52cbaccec2046",
+      "import_root": "peft",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "Parameter-Efficient Fine-Tuning (PEFT)",
+      "project_urls": {
+        "Homepage": "https://github.com/huggingface/peft"
+      }
+    },
+    {
+      "id": "trl",
+      "ecosystem": "pypi",
+      "package": "trl",
+      "observed_version": "1.15.0",
+      "source": "https://pypi.org/pypi/trl/json",
+      "response_sha256": "d9d72fe886f7c9a50933fc283fec1f60a7736f31db6492ea25be36a22171164d",
+      "import_root": "trl",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "Train transformer language models with reinforcement learning.",
+      "project_urls": {
+        "Homepage": "https://github.com/huggingface/trl"
+      }
+    },
+    {
+      "id": "deepspeed",
+      "ecosystem": "pypi",
+      "package": "deepspeed",
+      "observed_version": "0.19.7",
+      "source": "https://pypi.org/pypi/deepspeed/json",
+      "response_sha256": "562778af943003c9b606952b6dc219d90cc6c0d3f9cc10f13a594dbddd01a118",
+      "import_root": null,
+      "import_basis": "not_verified",
+      "qualification": "identity_verified",
+      "summary": "DeepSpeed library",
+      "project_urls": {
+        "Documentation": "https://deepspeed.readthedocs.io",
+        "Homepage": "http://deepspeed.ai",
+        "Source": "https://github.com/deepspeedai/DeepSpeed"
+      }
+    },
+    {
+      "id": "lightning",
+      "ecosystem": "pypi",
+      "package": "lightning",
+      "observed_version": "2.6.6",
+      "source": "https://pypi.org/pypi/lightning/json",
+      "response_sha256": "c0f9c3c1db5e48fe15a85e92150bc8d4d08cd258fe50940eaf6c204c78831f9e",
+      "import_root": "lightning",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "The Deep Learning framework to train, deploy, and ship AI products Lightning fast.",
+      "project_urls": {
+        "Bug Tracker": "https://github.com/Lightning-AI/pytorch-lightning/issues",
+        "Documentation": "https://lightning.ai/lightning-docs",
+        "Download": "https://github.com/Lightning-AI/lightning",
+        "Homepage": "https://github.com/Lightning-AI/lightning",
+        "Source Code": "https://github.com/Lightning-AI/lightning"
+      }
+    },
+    {
+      "id": "keras",
+      "ecosystem": "pypi",
+      "package": "keras",
+      "observed_version": "3.15.1",
+      "source": "https://pypi.org/pypi/keras/json",
+      "response_sha256": "ba6f7ddc7c6845fc565e98a30c1a79877ca578ca2db1be4744eef8d03ae496e3",
+      "import_root": "keras",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "Multi-backend Keras",
+      "project_urls": {
+        "Home": "https://keras.io/",
+        "Repository": "https://github.com/keras-team/keras"
+      }
+    },
+    {
+      "id": "jax",
+      "ecosystem": "pypi",
+      "package": "jax",
+      "observed_version": "0.11.2",
+      "source": "https://pypi.org/pypi/jax/json",
+      "response_sha256": "e4d0e51d7a350fe55077fea975bfd7674ccfbf856d9ddc0432e068cfc25d4816",
+      "import_root": "jax",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "Differentiate, compile, and transform Numpy code.",
+      "project_urls": {
+        "Homepage": "https://github.com/jax-ml/jax"
+      }
+    },
+    {
+      "id": "flax",
+      "ecosystem": "pypi",
+      "package": "flax",
+      "observed_version": "0.12.10",
+      "source": "https://pypi.org/pypi/flax/json",
+      "response_sha256": "5e6207c949a21044c14a6cba4e7a6236e8c0e0796de9e70ac14bcb7b17fde71f",
+      "import_root": null,
+      "import_basis": "not_verified",
+      "qualification": "identity_verified",
+      "summary": "Flax: A neural network library for JAX designed for flexibility",
+      "project_urls": {
+        "homepage": "https://github.com/google/flax"
+      }
+    },
+    {
+      "id": "optax",
+      "ecosystem": "pypi",
+      "package": "optax",
+      "observed_version": "0.2.8",
+      "source": "https://pypi.org/pypi/optax/json",
+      "response_sha256": "c3b0e9b8191256523f07ed340e12674ea3add3a712772a6d0207e42d793215fa",
+      "import_root": null,
+      "import_basis": "not_verified",
+      "qualification": "identity_verified",
+      "summary": "A gradient processing and optimization library in JAX.",
+      "project_urls": {
+        "documentation": "https://optax.readthedocs.io/",
+        "homepage": "https://github.com/google-deepmind/optax",
+        "repository": "https://github.com/google-deepmind/optax"
+      }
+    },
+    {
+      "id": "unsloth",
+      "ecosystem": "pypi",
+      "package": "unsloth",
+      "observed_version": "2026.10.3",
+      "source": "https://pypi.org/pypi/unsloth/json",
+      "response_sha256": "1d8b7f655d4d18d394c27ae3dd9de832a106ccadbf21343b4bc7d307f3d04c80",
+      "import_root": null,
+      "import_basis": "not_verified",
+      "qualification": "identity_verified",
+      "summary": "2-5X faster training, reinforcement learning & finetuning",
+      "project_urls": {
+        "documentation": "https://unsloth.ai/docs",
+        "homepage": "https://unsloth.ai",
+        "repository": "https://github.com/unslothai/unsloth"
+      }
+    },
+    {
+      "id": "axolotl",
+      "ecosystem": "pypi",
+      "package": "axolotl",
+      "observed_version": "0.20.0",
+      "source": "https://pypi.org/pypi/axolotl/json",
+      "response_sha256": "48e59a4221c2889706a725dd7602113212a3327b0b9581d4698a77924d8a1c7a",
+      "import_root": null,
+      "import_basis": "not_verified",
+      "qualification": "identity_verified",
+      "summary": "LLM Trainer",
+      "project_urls": {
+        "Documentation": "https://docs.axolotl.ai/",
+        "Homepage": "https://axolotl.ai/",
+        "Repository": "https://github.com/axolotl-ai-cloud/axolotl.git"
+      }
+    },
+    {
+      "id": "xgboost",
+      "ecosystem": "pypi",
+      "package": "xgboost",
+      "observed_version": "3.4.1",
+      "source": "https://pypi.org/pypi/xgboost/json",
+      "response_sha256": "30db0ef07631afd20182558b382914fd39d17b1b94d98ad49586a03ec8b13680",
+      "import_root": null,
+      "import_basis": "not_verified",
+      "qualification": "identity_verified",
+      "summary": "XGBoost Python Package",
+      "project_urls": {
+        "documentation": "https://xgboost.readthedocs.io/en/stable/",
+        "repository": "https://github.com/dmlc/xgboost"
+      }
+    },
+    {
+      "id": "lightgbm",
+      "ecosystem": "pypi",
+      "package": "lightgbm",
+      "observed_version": "4.7.0",
+      "source": "https://pypi.org/pypi/lightgbm/json",
+      "response_sha256": "3f88832fc84f3c60ed899c9b5a8a09e5ebeac8c1e5ecf5ff3f16ad3ae5802411",
+      "import_root": null,
+      "import_basis": "not_verified",
+      "qualification": "identity_verified",
+      "summary": "LightGBM Python-package",
+      "project_urls": {
+        "changelog": "https://github.com/lightgbm-org/LightGBM/releases",
+        "documentation": "https://lightgbm.readthedocs.io/en/latest/",
+        "homepage": "https://github.com/lightgbm-org/LightGBM",
+        "repository": "https://github.com/lightgbm-org/LightGBM.git"
+      }
+    },
+    {
+      "id": "catboost",
+      "ecosystem": "pypi",
+      "package": "catboost",
+      "observed_version": "1.2.10",
+      "source": "https://pypi.org/pypi/catboost/json",
+      "response_sha256": "c6151458ed5983a6f240cf774bde188c6077c63315b0d852b7b27f6f74c87469",
+      "import_root": null,
+      "import_basis": "not_verified",
+      "qualification": "identity_verified",
+      "summary": "CatBoost Python Package",
+      "project_urls": {
+        "Benchmarks": "https://catboost.ai/#benchmark",
+        "Bug Tracker": "https://github.com/catboost/catboost/issues",
+        "Documentation": "https://catboost.ai/docs/",
+        "GitHub": "https://github.com/catboost/catboost",
+        "Homepage": "https://catboost.ai"
+      }
+    },
+    {
+      "id": "fastai",
+      "ecosystem": "pypi",
+      "package": "fastai",
+      "observed_version": "2.8.12",
+      "source": "https://pypi.org/pypi/fastai/json",
+      "response_sha256": "d1ac666aa0950718be1b9d71015a3b79427273a29d38c984745f22a8eff8ad46",
+      "import_root": null,
+      "import_basis": "not_verified",
+      "qualification": "identity_verified",
+      "summary": "fastai simplifies training fast and accurate neural nets using modern best practices",
+      "project_urls": {
+        "Documentation": "https://docs.fast.ai/",
+        "Repository": "https://github.com/fastai/fastai"
+      }
+    },
+    {
+      "id": "torchmetrics",
+      "ecosystem": "pypi",
+      "package": "torchmetrics",
+      "observed_version": "1.9.0",
+      "source": "https://pypi.org/pypi/torchmetrics/json",
+      "response_sha256": "7130512f09756296fd8de33eea2d7424794044765c023fd75619f3b3aa4fc56e",
+      "import_root": "torchmetrics",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "PyTorch native Metrics",
+      "project_urls": {
+        "Bug Tracker": "https://github.com/Lightning-AI/torchmetrics/issues",
+        "Documentation": "https://torchmetrics.rtfd.io/en/latest/",
+        "Download": "https://github.com/Lightning-AI/torchmetrics/archive/master.zip",
+        "Homepage": "https://github.com/Lightning-AI/torchmetrics",
+        "Source Code": "https://github.com/Lightning-AI/torchmetrics"
+      }
+    },
+    {
+      "id": "torchao",
+      "ecosystem": "pypi",
+      "package": "torchao",
+      "observed_version": "0.18.0",
+      "source": "https://pypi.org/pypi/torchao/json",
+      "response_sha256": "04ccab55a9c2430a3c9e8b317ac0abeba0b1872f2e5650062f80031a20e4a654",
+      "import_root": "torchao",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "Package for applying ao techniques to GPU models",
+      "project_urls": {
+        "Homepage": "https://github.com/pytorch/ao"
+      }
+    },
+    {
+      "id": "timm",
+      "ecosystem": "pypi",
+      "package": "timm",
+      "observed_version": "1.0.30",
+      "source": "https://pypi.org/pypi/timm/json",
+      "response_sha256": "e7be7128b2beffae82ee883e63ae5903f7e039bdf30ba293c76b28f04e53ba77",
+      "import_root": null,
+      "import_basis": "not_verified",
+      "qualification": "identity_verified",
+      "summary": "PyTorch Image Models",
+      "project_urls": {
+        "documentation": "https://huggingface.co/docs/timm/en/index",
+        "homepage": "https://github.com/huggingface/pytorch-image-models",
+        "repository": "https://github.com/huggingface/pytorch-image-models"
+      }
+    },
+    {
+      "id": "diffusers",
+      "ecosystem": "pypi",
+      "package": "diffusers",
+      "observed_version": "0.41.0",
+      "source": "https://pypi.org/pypi/diffusers/json",
+      "response_sha256": "adbbdf5a413f83c73d15b23410248768669afe88cab0830b830239a46fe70b48",
+      "import_root": "diffusers",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "State-of-the-art diffusion in PyTorch.",
+      "project_urls": {
+        "Homepage": "https://github.com/huggingface/diffusers"
+      }
+    },
+    {
+      "id": "safetensors",
+      "ecosystem": "pypi",
+      "package": "safetensors",
+      "observed_version": "0.8.0",
+      "source": "https://pypi.org/pypi/safetensors/json",
+      "response_sha256": "0b048ecf815d2e61aae7ed6a9a3f545931b4ffd2a633525706b621ef93d089d3",
+      "import_root": "safetensors",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": null,
+      "project_urls": {
+        "Homepage": "https://github.com/huggingface/safetensors",
+        "Source": "https://github.com/huggingface/safetensors"
+      }
+    },
+    {
+      "id": "tokenizers",
+      "ecosystem": "pypi",
+      "package": "tokenizers",
+      "observed_version": "0.23.3",
+      "source": "https://pypi.org/pypi/tokenizers/json",
+      "response_sha256": "9ecd049296db877f48a96fccd9e6ca0dda61af231977bb69d5762904fb64d702",
+      "import_root": "tokenizers",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": null,
+      "project_urls": {
+        "Homepage": "https://github.com/huggingface/tokenizers",
+        "Source": "https://github.com/huggingface/tokenizers"
+      }
+    },
+    {
+      "id": "tiktoken",
+      "ecosystem": "pypi",
+      "package": "tiktoken",
+      "observed_version": "0.14.0",
+      "source": "https://pypi.org/pypi/tiktoken/json",
+      "response_sha256": "fe742a14977a8a72185a3c1788e8db04515e16206d1eb5733910de5ccb03e018",
+      "import_root": "tiktoken",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "tiktoken is a fast BPE tokeniser for use with OpenAI's models",
+      "project_urls": {
+        "changelog": "https://github.com/openai/tiktoken/blob/main/CHANGELOG.md",
+        "homepage": "https://github.com/openai/tiktoken",
+        "repository": "https://github.com/openai/tiktoken"
+      }
+    },
+    {
+      "id": "sentencepiece",
+      "ecosystem": "pypi",
+      "package": "sentencepiece",
+      "observed_version": "0.2.2",
+      "source": "https://pypi.org/pypi/sentencepiece/json",
+      "response_sha256": "7f00b188528ebf9877b000385251f1fd12fcc8c1bfb43569dbbe021e7d910aa2",
+      "import_root": "sentencepiece",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "Unsupervised text tokenizer and detokenizer.",
+      "project_urls": {
+        "Homepage": "https://github.com/google/sentencepiece"
+      }
+    },
+    {
+      "id": "gguf",
+      "ecosystem": "pypi",
+      "package": "gguf",
+      "observed_version": "0.19.0",
+      "source": "https://pypi.org/pypi/gguf/json",
+      "response_sha256": "88e4dbb4d7c52ef4a225a5dfbc887d4dd717efe25ba44a18bf4297aca0397cbf",
+      "import_root": null,
+      "import_basis": "not_verified",
+      "qualification": "identity_verified",
+      "summary": "Read and write ML models in GGUF for GGML",
+      "project_urls": {
+        "Homepage": "https://ggml.ai",
+        "Repository": "https://github.com/ggml-org/llama.cpp"
+      }
+    },
+    {
+      "id": "mlx",
+      "ecosystem": "pypi",
+      "package": "mlx",
+      "observed_version": "0.32.3",
+      "source": "https://pypi.org/pypi/mlx/json",
+      "response_sha256": "7f5f56c4ab8acdb33291b428dc4440b2799818848a568f8203306cc44843b51a",
+      "import_root": null,
+      "import_basis": "not_verified",
+      "qualification": "identity_verified",
+      "summary": "A framework for machine learning on Apple silicon.",
+      "project_urls": {
+        "Homepage": "https://github.com/ml-explore/mlx"
+      }
+    },
+    {
+      "id": "mlx-lm",
+      "ecosystem": "pypi",
+      "package": "mlx-lm",
+      "observed_version": "0.32.0",
+      "source": "https://pypi.org/pypi/mlx-lm/json",
+      "response_sha256": "9c9a8f9f6ea82a9fd7ca18a66fba88d77c202bc21312af8fa4dc5cea815c2869",
+      "import_root": "mlx_lm",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "LLMs with MLX and the Hugging Face Hub",
+      "project_urls": {
+        "Homepage": "https://github.com/ml-explore/mlx-lm",
+        "Issues": "https://github.com/ml-explore/mlx-lm/issues",
+        "Repository": "https://github.com/ml-explore/mlx-lm"
+      }
+    },
+    {
+      "id": "ctransformers",
+      "ecosystem": "pypi",
+      "package": "ctransformers",
+      "observed_version": "0.2.27",
+      "source": "https://pypi.org/pypi/ctransformers/json",
+      "response_sha256": "405e0637617144eba2f5244decc1c3890b2914a574aa81b9fd00ce53d5162ebd",
+      "import_root": "ctransformers",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "Python bindings for the Transformer models implemented in C/C++ using GGML library.",
+      "project_urls": {
+        "Homepage": "https://github.com/marella/ctransformers"
+      }
+    },
+    {
+      "id": "exllamav2",
+      "ecosystem": "pypi",
+      "package": "exllamav2",
+      "observed_version": "0.3.2",
+      "source": "https://pypi.org/pypi/exllamav2/json",
+      "response_sha256": "4f7d8ab0ecdcfcbdf1c8321836023100f9d6c2bf1ac7cffe8f13bec0d6721420",
+      "import_root": null,
+      "import_basis": "not_verified",
+      "qualification": "identity_verified",
+      "summary": null,
+      "project_urls": {
+        "Homepage": "https://github.com/turboderp/exllamav2"
+      }
+    },
+    {
+      "id": "llmcompressor",
+      "ecosystem": "pypi",
+      "package": "llmcompressor",
+      "observed_version": "0.14.0",
+      "source": "https://pypi.org/pypi/llmcompressor/json",
+      "response_sha256": "afa5ec30ff3801c1bbbfedc9a3e5e0c7b2870c233d67fab6df0d27ca26ebac80",
+      "import_root": "llmcompressor",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "A library for compressing large language models utilizing the latest techniques and research in the field for both training aware and post training techniques. The library is designed to be flexible and easy to use on top of PyTorch and HuggingFace Transformers, allowing for quick experimentation.",
+      "project_urls": {
+        "Homepage": "https://github.com/vllm-project/llm-compressor"
+      }
+    },
+    {
+      "id": "sglang",
+      "ecosystem": "pypi",
+      "package": "sglang",
+      "observed_version": "0.5.21",
+      "source": "https://pypi.org/pypi/sglang/json",
+      "response_sha256": "0a2ddc1ee28b84cf544dde0c7482207fddb52bcbb2d9ebb866425226a1a5c944",
+      "import_root": null,
+      "import_basis": "not_verified",
+      "qualification": "identity_verified",
+      "summary": "SGLang is a fast serving framework for large language models and vision language models.",
+      "project_urls": {
+        "Bug Tracker": "https://github.com/sgl-project/sglang/issues",
+        "Cookbook": "https://docs.sglang.io/cookbook",
+        "Documentation": "https://docs.sglang.io",
+        "Homepage": "https://github.com/sgl-project/sglang"
+      }
+    },
+    {
+      "id": "lmstudio",
+      "ecosystem": "pypi",
+      "package": "lmstudio",
+      "observed_version": "1.5.0",
+      "source": "https://pypi.org/pypi/lmstudio/json",
+      "response_sha256": "69b11d2b547ff752023fbae32f606c3fbe5258357979eaafa6208a8ea4450383",
+      "import_root": "lmstudio",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "LM Studio Python SDK",
+      "project_urls": {
+        "Documentation": "https://lmstudio.ai/docs/sdk/",
+        "Homepage": "https://github.com/lmstudio-ai/lmstudio-sdk-python",
+        "Issues": "https://github.com/lmstudio-ai/lmstudio-sdk-python/issues"
+      }
+    },
+    {
+      "id": "bentoml",
+      "ecosystem": "pypi",
+      "package": "bentoml",
+      "observed_version": "1.4.39",
+      "source": "https://pypi.org/pypi/bentoml/json",
+      "response_sha256": "bfefbd5980f8f5e13bd7991fbafd9f2c3409182bfe6cd249cc74bc3316ef5903",
+      "import_root": "bentoml",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "BentoML: The easiest way to serve AI apps and models",
+      "project_urls": {
+        "Blog": "https://bentoml.com/blog",
+        "Documentation": "https://docs.bentoml.com",
+        "GitHub": "https://github.com/bentoml/bentoml",
+        "Homepage": "https://bentoml.com",
+        "Slack": "https://l.bentoml.com/join-slack",
+        "Tracker": "https://github.com/bentoml/BentoML/issues",
+        "Twitter": "https://twitter.com/bentomlai"
+      }
+    },
+    {
+      "id": "tritonclient",
+      "ecosystem": "pypi",
+      "package": "tritonclient",
+      "observed_version": "2.73.0",
+      "source": "https://pypi.org/pypi/tritonclient/json",
+      "response_sha256": "be592992da29547929c14347495b2d363a3a10608a70482f70602282dc0b9b63",
+      "import_root": null,
+      "import_basis": "not_verified",
+      "qualification": "identity_verified",
+      "summary": "Python client library and utilities for communicating with Triton Inference Server",
+      "project_urls": {
+        "Homepage": "https://developer.nvidia.com/nvidia-triton-inference-server"
+      }
+    },
+    {
+      "id": "openvino",
+      "ecosystem": "pypi",
+      "package": "openvino",
+      "observed_version": "2026.4.1",
+      "source": "https://pypi.org/pypi/openvino/json",
+      "response_sha256": "6dda42c18154edbd9d538f6a3120746bde08c701a22415c73487fae3209f8d26",
+      "import_root": "openvino",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "OpenVINO(TM) Runtime",
+      "project_urls": {
+        "Download": "https://github.com/openvinotoolkit/openvino/releases",
+        "Homepage": "https://docs.openvino.ai/2023.0/index.html"
+      }
+    },
+    {
+      "id": "tensorrt-llm",
+      "ecosystem": "pypi",
+      "package": "tensorrt-llm",
+      "observed_version": "1.2.1",
+      "source": "https://pypi.org/pypi/tensorrt-llm/json",
+      "response_sha256": "335375c9307651ec2e61ab2ce78c46cc33cd6c38630feba98b49e5789ae5bad3",
+      "import_root": null,
+      "import_basis": "not_verified",
+      "qualification": "identity_verified",
+      "summary": "TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs.",
+      "project_urls": {
+        "Download": "https://github.com/NVIDIA/TensorRT-LLM/tags",
+        "Homepage": "https://github.com/NVIDIA/TensorRT-LLM"
+      }
+    },
+    {
+      "id": "kserve",
+      "ecosystem": "pypi",
+      "package": "kserve",
+      "observed_version": "0.21.0",
+      "source": "https://pypi.org/pypi/kserve/json",
+      "response_sha256": "37fb8c86f4f22b50a290642c784defdc2df712be605ae28e926cee32f2403880",
+      "import_root": null,
+      "import_basis": "not_verified",
+      "qualification": "identity_verified",
+      "summary": "KServe Python SDK",
+      "project_urls": {
+        "repository": "https://github.com/kserve/kserve/tree/master/python/kserve"
+      }
+    },
+    {
+      "id": "litserve",
+      "ecosystem": "pypi",
+      "package": "litserve",
+      "observed_version": "0.2.19",
+      "source": "https://pypi.org/pypi/litserve/json",
+      "response_sha256": "82f3b0f3a31c744606c92d079ff01f93997a5d347a52053f358ffe0ddc58594d",
+      "import_root": "litserve",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "Lightweight AI server.",
+      "project_urls": {
+        "Bug Tracker": "https://github.com/Lightning-AI/litserve/issues",
+        "Documentation": "https://lightning-ai.github.io/litserve/",
+        "Download": "https://github.com/Lightning-AI/litserve",
+        "Homepage": "https://github.com/Lightning-AI/litserve",
+        "Source Code": "https://github.com/Lightning-AI/litserve"
+      }
+    },
+    {
+      "id": "text-generation",
+      "ecosystem": "pypi",
+      "package": "text-generation",
+      "observed_version": "0.7.0",
+      "source": "https://pypi.org/pypi/text-generation/json",
+      "response_sha256": "cf4edc885b695dae6ad72e4a23e0a861d1a3dad93f1ef8565028dfafeb1328b8",
+      "import_root": "text_generation",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "Hugging Face Text Generation Python Client",
+      "project_urls": {
+        "Homepage": "https://github.com/huggingface/text-generation-inference",
+        "Repository": "https://github.com/huggingface/text-generation-inference"
+      }
+    },
+    {
+      "id": "mlserver",
+      "ecosystem": "pypi",
+      "package": "mlserver",
+      "observed_version": "1.7.1",
+      "source": "https://pypi.org/pypi/mlserver/json",
+      "response_sha256": "2f87ab60697bf619d59614887ecadfaa029ed072cf2a9c0fa90762199ff99ca1",
+      "import_root": null,
+      "import_basis": "not_verified",
+      "qualification": "identity_verified",
+      "summary": "MLServer",
+      "project_urls": null
+    },
+    {
+      "id": "datasets",
+      "ecosystem": "pypi",
+      "package": "datasets",
+      "observed_version": "5.1.0",
+      "source": "https://pypi.org/pypi/datasets/json",
+      "response_sha256": "7c098e286be2920b221864c2ac99103cdfb517754e9c98e811da61f4b885a9df",
+      "import_root": "datasets",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "HuggingFace community-driven open-source library of datasets",
+      "project_urls": {
+        "Download": "https://github.com/huggingface/datasets/tags",
+        "Homepage": "https://github.com/huggingface/datasets"
+      }
+    },
+    {
+      "id": "wandb",
+      "ecosystem": "pypi",
+      "package": "wandb",
+      "observed_version": "0.30.0",
+      "source": "https://pypi.org/pypi/wandb/json",
+      "response_sha256": "886be4b46c38d453ad6882f5a0c848e82b1d73ab17a8fdbc5622fd43d66a1890",
+      "import_root": "wandb",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "A CLI and library for interacting with the Weights & Biases API.",
+      "project_urls": {
+        "Bug Reports": "https://github.com/wandb/wandb/issues",
+        "Documentation": "https://docs.wandb.ai",
+        "Source": "https://github.com/wandb/wandb"
+      }
+    },
+    {
+      "id": "clearml",
+      "ecosystem": "pypi",
+      "package": "clearml",
+      "observed_version": "2.1.12",
+      "source": "https://pypi.org/pypi/clearml/json",
+      "response_sha256": "138b18f6cabeac2da6ff583227b6ee8d9f8363b8e979266d6d9a062c2d415d9c",
+      "import_root": "clearml",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "ClearML - Auto-Magical Experiment Manager, Version Control, and MLOps for AI",
+      "project_urls": {
+        "Homepage": "https://github.com/clearml/clearml"
+      }
+    },
+    {
+      "id": "comet-ml",
+      "ecosystem": "pypi",
+      "package": "comet-ml",
+      "observed_version": "3.58.8",
+      "source": "https://pypi.org/pypi/comet-ml/json",
+      "response_sha256": "c96e5518ab6f20b0b1e3b80e9bc65f309dd3d727f14f68864180bb5a4d2c3485",
+      "import_root": "comet_ml",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "Supercharging Machine Learning",
+      "project_urls": {
+        "Homepage": "https://www.comet.com"
+      }
+    },
+    {
+      "id": "neptune",
+      "ecosystem": "pypi",
+      "package": "neptune",
+      "observed_version": "1.14.0.post2",
+      "source": "https://pypi.org/pypi/neptune/json",
+      "response_sha256": "1ca6bc65474035d03204fd35260279e9f02d60288697cc28f170e7226e41bce4",
+      "import_root": null,
+      "import_basis": "not_verified",
+      "qualification": "identity_verified",
+      "summary": "Neptune Client",
+      "project_urls": {
+        "Documentation": "https://docs.neptune.ai/",
+        "Homepage": "https://neptune.ai/",
+        "Repository": "https://github.com/neptune-ai/neptune-client",
+        "Tracker": "https://github.com/neptune-ai/neptune-client/issues"
+      }
+    },
+    {
+      "id": "aim",
+      "ecosystem": "pypi",
+      "package": "aim",
+      "observed_version": "3.29.1",
+      "source": "https://pypi.org/pypi/aim/json",
+      "response_sha256": "5ba0573a09b26d40b7085a129e483227ca189f610f40e2055ef026f1773f124e",
+      "import_root": "aim",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "A super-easy way to record, search and compare AI experiments.",
+      "project_urls": null
+    },
+    {
+      "id": "feast",
+      "ecosystem": "pypi",
+      "package": "feast",
+      "observed_version": "0.66.0",
+      "source": "https://pypi.org/pypi/feast/json",
+      "response_sha256": "df2dde60b88a0a3f25b89a3dd405222e02dac0664543a9413b91fd9bc8af7571",
+      "import_root": "feast",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "Python SDK for Feast",
+      "project_urls": {
+        "Homepage": "https://github.com/feast-dev/feast"
+      }
+    },
+    {
+      "id": "tecton",
+      "ecosystem": "pypi",
+      "package": "tecton",
+      "observed_version": "1.2.13",
+      "source": "https://pypi.org/pypi/tecton/json",
+      "response_sha256": "3bbfeb9fa08fdf67ca556c07b75932486297518819d743ea5148e6ee7a8adafc",
+      "import_root": null,
+      "import_basis": "not_verified",
+      "qualification": "identity_verified",
+      "summary": "Tecton Python SDK",
+      "project_urls": {
+        "Documentation": "https://docs.tecton.ai",
+        "Homepage": "https://tecton.ai"
+      }
+    },
+    {
+      "id": "zenml",
+      "ecosystem": "pypi",
+      "package": "zenml",
+      "observed_version": "0.97.0",
+      "source": "https://pypi.org/pypi/zenml/json",
+      "response_sha256": "59efbb2ff42a92dee42330f4ef208f5742cbb34c324c25d4f0c64987da20cbaf",
+      "import_root": null,
+      "import_basis": "not_verified",
+      "qualification": "identity_verified",
+      "summary": "ZenML: MLOps for Reliable AI: from Classical AI to Agents.",
+      "project_urls": {
+        "Documentation": "https://docs.zenml.io",
+        "Homepage": "https://zenml.io",
+        "Issues": "https://github.com/zenml-io/zenml/issues",
+        "Repository": "https://github.com/zenml-io/zenml"
+      }
+    },
+    {
+      "id": "metaflow",
+      "ecosystem": "pypi",
+      "package": "metaflow",
+      "observed_version": "2.19.39",
+      "source": "https://pypi.org/pypi/metaflow/json",
+      "response_sha256": "2fd833ed57ae5dd42435b1c291d5914f1aad1622d2342a194e379c0f20500198",
+      "import_root": null,
+      "import_basis": "not_verified",
+      "qualification": "identity_verified",
+      "summary": "Metaflow: More AI and ML, Less Engineering",
+      "project_urls": {
+        "Documentation": "https://docs.metaflow.org",
+        "Issues": "https://github.com/Netflix/metaflow/issues",
+        "Source": "https://github.com/Netflix/metaflow"
+      }
+    },
+    {
+      "id": "kfp",
+      "ecosystem": "pypi",
+      "package": "kfp",
+      "observed_version": "2.17.0",
+      "source": "https://pypi.org/pypi/kfp/json",
+      "response_sha256": "19ff3cd99f7acebd70d392133c001dd37df8b97a44a064ef6548016ae8782fbd",
+      "import_root": "kfp",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "Kubeflow Pipelines SDK",
+      "project_urls": {
+        "Bug Tracker": "https://github.com/kubeflow/pipelines/issues",
+        "Changelog": "https://github.com/kubeflow/pipelines/blob/master/sdk/RELEASE.md",
+        "Documentation": "https://kubeflow-pipelines.readthedocs.io/en/stable/",
+        "Homepage": "https://github.com/kubeflow/pipelines",
+        "Source": "https://github.com/kubeflow/pipelines/tree/master/sdk"
+      }
+    },
+    {
+      "id": "dvc",
+      "ecosystem": "pypi",
+      "package": "dvc",
+      "observed_version": "3.67.1",
+      "source": "https://pypi.org/pypi/dvc/json",
+      "response_sha256": "6065382cd138bb3fda382cf87cf2960807b813cb3ed668d5d19f66826a748711",
+      "import_root": null,
+      "import_basis": "not_verified",
+      "qualification": "identity_verified",
+      "summary": "Git for data scientists - manage your code and data together",
+      "project_urls": {
+        "Documentation": "https://dvc.org/doc",
+        "Issues": "https://github.com/treeverse/dvc/issues",
+        "Source": "https://github.com/treeverse/dvc"
+      }
+    },
+    {
+      "id": "lakefs-client",
+      "ecosystem": "pypi",
+      "package": "lakefs-client",
+      "observed_version": "1.44.0",
+      "source": "https://pypi.org/pypi/lakefs-client/json",
+      "response_sha256": "f2b0e9535ceee711c7be873c8a56bb0cae65474e732b8394305fc3ec5a85d992",
+      "import_root": "lakefs_client",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "[legacy] lakeFS API",
+      "project_urls": {
+        "Homepage": "https://github.com/treeverse/lakeFS/tree/master/clients/python-legacy"
+      }
+    },
+    {
+      "id": "ml-metadata",
+      "ecosystem": "pypi",
+      "package": "ml-metadata",
+      "observed_version": "1.21.0",
+      "source": "https://pypi.org/pypi/ml-metadata/json",
+      "response_sha256": "a559284784837f2e69266270b0a056dff66d17bbfd9a5eef941ebd1734f71813",
+      "import_root": "ml_metadata",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "A library for maintaining metadata for artifacts.",
+      "project_urls": {
+        "Download": "https://github.com/google/ml-metadata/tags",
+        "Homepage": "https://github.com/google/ml-metadata"
+      }
+    },
+    {
+      "id": "arize-phoenix",
+      "ecosystem": "pypi",
+      "package": "arize-phoenix",
+      "observed_version": "20.20.0",
+      "source": "https://pypi.org/pypi/arize-phoenix/json",
+      "response_sha256": "15ac157d762997f86cb47378b177ffaf7c3e8551d7a5248aa12a90708c7795d2",
+      "import_root": null,
+      "import_basis": "not_verified",
+      "qualification": "identity_verified",
+      "summary": "AI Observability and Evaluation",
+      "project_urls": {
+        "Documentation": "https://arize.com/docs/phoenix/",
+        "Issues": "https://github.com/Arize-ai/phoenix/issues",
+        "Source": "https://github.com/Arize-ai/phoenix"
+      }
+    },
+    {
+      "id": "openinference-instrumentation",
+      "ecosystem": "pypi",
+      "package": "openinference-instrumentation",
+      "observed_version": "0.1.71",
+      "source": "https://pypi.org/pypi/openinference-instrumentation/json",
+      "response_sha256": "22a49c56188b46cc93d13aedfbf727b91f1b68a8819cad326bf2c33b106fb594",
+      "import_root": "openinference",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "OpenInference instrumentation utilities",
+      "project_urls": {
+        "Homepage": "https://github.com/Arize-ai/openinference/tree/main/python/openinference-instrumentation"
+      }
+    },
+    {
+      "id": "braintrust",
+      "ecosystem": "pypi",
+      "package": "braintrust",
+      "observed_version": "0.45.0",
+      "source": "https://pypi.org/pypi/braintrust/json",
+      "response_sha256": "6273f2b31f399c29adf8888fb78529e1156e1e66cdcc0cd0815dd8bb943de177",
+      "import_root": "braintrust",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "SDK for integrating Braintrust",
+      "project_urls": {
+        "Bug Tracker": "https://github.com/braintrustdata/braintrust-sdk-python/issues",
+        "Homepage": "https://www.braintrust.dev",
+        "Source Code": "https://github.com/braintrustdata/braintrust-sdk-python"
+      }
+    },
+    {
+      "id": "ragas",
+      "ecosystem": "pypi",
+      "package": "ragas",
+      "observed_version": "0.4.3",
+      "source": "https://pypi.org/pypi/ragas/json",
+      "response_sha256": "4afa01af83c12e8c3faef9fb1aeec637bd937575061dcb0ca71b610d07d6a126",
+      "import_root": "ragas",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "Evaluation framework for RAG and LLM applications",
+      "project_urls": {
+        "Code": "https://github.com/vibrantlabsai/ragas",
+        "Documentation": "https://docs.ragas.io",
+        "Homepage": "https://github.com/vibrantlabsai/ragas",
+        "Issues": "https://github.com/vibrantlabsai/ragas/issues"
+      }
+    },
+    {
+      "id": "deepeval",
+      "ecosystem": "pypi",
+      "package": "deepeval",
+      "observed_version": "4.2.8",
+      "source": "https://pypi.org/pypi/deepeval/json",
+      "response_sha256": "dc106a28c6b8b76085f980f210f639907c682aa37c4cd516482e644a69fda5fd",
+      "import_root": "deepeval",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "The LLM Evaluation Framework",
+      "project_urls": {
+        "Documentation": "https://deepeval.com",
+        "Repository": "https://github.com/confident-ai/deepeval"
+      }
+    },
+    {
+      "id": "trulens",
+      "ecosystem": "pypi",
+      "package": "trulens",
+      "observed_version": "2.15.0",
+      "source": "https://pypi.org/pypi/trulens/json",
+      "response_sha256": "f07bdf1e66d81e4259687facb3c34807e93ec01787642080264ed8ba6b77ebc3",
+      "import_root": "trulens",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "Library to systematically track and evaluate LLM based applications.",
+      "project_urls": {
+        "Documentation": "https://trulens.org/getting_started/",
+        "Homepage": "https://trulens.org/",
+        "Repository": "https://github.com/truera/trulens"
+      }
+    },
+    {
+      "id": "promptflow",
+      "ecosystem": "pypi",
+      "package": "promptflow",
+      "observed_version": "1.18.5",
+      "source": "https://pypi.org/pypi/promptflow/json",
+      "response_sha256": "75d0e600098477106859865305271318431cf1e2fd0634b37d6f1e723de94941",
+      "import_root": "promptflow",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "Prompt flow Python SDK - build high-quality LLM apps",
+      "project_urls": {
+        "Bug Reports": "https://github.com/microsoft/promptflow/issues",
+        "Homepage": "https://github.com/microsoft/promptflow",
+        "Source": "https://github.com/microsoft/promptflow"
+      }
+    },
+    {
+      "id": "prompttools",
+      "ecosystem": "pypi",
+      "package": "prompttools",
+      "observed_version": "0.0.46",
+      "source": "https://pypi.org/pypi/prompttools/json",
+      "response_sha256": "3ffdfa26008c199c7cbcb65ac06aecb7a282f7574fae45657ff31ef9345d9540",
+      "import_root": "prompttools",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "Tools for LLM prompt testing and experimentation",
+      "project_urls": {
+        "Bug Tracker": "https://github.com/hegelai/prompttools",
+        "Homepage": "https://github.com/hegelai/prompttools"
+      }
+    },
+    {
+      "id": "langwatch",
+      "ecosystem": "pypi",
+      "package": "langwatch",
+      "observed_version": "1.4.0",
+      "source": "https://pypi.org/pypi/langwatch/json",
+      "response_sha256": "3ba7dbdedd45c73bbd195de1c875c2231bdc6fb7f3ac9b938af8e4772b9908ab",
+      "import_root": "langwatch",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "LangWatch Python SDK, for monitoring your LLMs",
+      "project_urls": null
+    },
+    {
+      "id": "helicone",
+      "ecosystem": "pypi",
+      "package": "helicone",
+      "observed_version": "1.0.14",
+      "source": "https://pypi.org/pypi/helicone/json",
+      "response_sha256": "50a8fffb836c1c74288bdd619d918892519558d1edc5dad83d36904429d33413",
+      "import_root": null,
+      "import_basis": "not_verified",
+      "qualification": "identity_verified",
+      "summary": "A Python wrapper for the OpenAI API that logs all requests to Helicone.",
+      "project_urls": {
+        "Homepage": "https://www.helicone.ai",
+        "Repository": "https://github.com/helicone/helicone/helicone-python"
+      }
+    },
+    {
+      "id": "whylogs",
+      "ecosystem": "pypi",
+      "package": "whylogs",
+      "observed_version": "1.6.4",
+      "source": "https://pypi.org/pypi/whylogs/json",
+      "response_sha256": "0fbec852af8570db44d1196269bb5cce3c6b5b1bdcbafd7c9830a077347500b8",
+      "import_root": "whylogs",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "Profile and monitor your ML data pipeline end-to-end",
+      "project_urls": {
+        "Homepage": "https://docs.whylabs.ai"
+      }
+    },
+    {
+      "id": "evidently",
+      "ecosystem": "pypi",
+      "package": "evidently",
+      "observed_version": "0.7.23",
+      "source": "https://pypi.org/pypi/evidently/json",
+      "response_sha256": "4278cc144025f6d44b4030b4687dd4402d87216296ff9537eff90a5c8328f431",
+      "import_root": "evidently",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "Open-source tools to analyze, monitor, and debug machine learning model in production.",
+      "project_urls": {
+        "Homepage": "https://github.com/evidentlyai/evidently"
+      }
+    },
+    {
+      "id": "giskard",
+      "ecosystem": "pypi",
+      "package": "giskard",
+      "observed_version": "3.0.1",
+      "source": "https://pypi.org/pypi/giskard/json",
+      "response_sha256": "df0498cc864274b8e4f9f2e39e1060b854f8eaa1f473855f4014a311f076dbd9",
+      "import_root": "giskard",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "Evals, red teaming, and test generation for agentic systems",
+      "project_urls": {
+        "Bug Tracker": "https://github.com/Giskard-AI/giskard/issues",
+        "Discord": "https://discord.gg/ABvfpbu69R",
+        "Documentation": "https://docs.giskard.ai/",
+        "Homepage": "https://giskard.ai",
+        "Linkedin": "https://www.linkedin.com/company/giskard-ai",
+        "Mastodon": "https://fosstodon.org/@Giskard",
+        "Source Code": "https://github.com/Giskard-AI/giskard",
+        "Twitter": "https://twitter.com/giskard_ai"
+      }
+    },
+    {
+      "id": "llm-guard",
+      "ecosystem": "pypi",
+      "package": "llm-guard",
+      "observed_version": "0.3.16",
+      "source": "https://pypi.org/pypi/llm-guard/json",
+      "response_sha256": "c8ac01e7005a8a69389aa814df1be574b44fa8b708f8841ca1e5d6efd61d6ce9",
+      "import_root": null,
+      "import_basis": "not_verified",
+      "qualification": "identity_verified",
+      "summary": "LLM-Guard is a comprehensive tool designed to fortify the security of Large Language Models (LLMs). By offering sanitization, detection of harmful language, prevention of data leakage, and resistance against prompt injection attacks, LLM-Guard ensures that your interactions with LLMs remain safe and secure.",
+      "project_urls": {
+        "changelog": "https://llm-guard.com/changelog/",
+        "documentation": "https://llm-guard.com/",
+        "homepage": "https://github.com/protectai/llm-guard",
+        "issues": "https://github.com/protectai/llm-guard/issues",
+        "repository": "https://github.com/protectai/llm-guard"
+      }
+    },
+    {
+      "id": "rebuff",
+      "ecosystem": "pypi",
+      "package": "rebuff",
+      "observed_version": "0.1.1",
+      "source": "https://pypi.org/pypi/rebuff/json",
+      "response_sha256": "64f1bc486e1fcd42d15374bef767bbef1126f6a4c86b4d296ba22cd2a249bf53",
+      "import_root": "rebuff",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "Rebuff is designed to protect AI applications from prompt injection (PI) attacks through a multi-layered defense.",
+      "project_urls": null
+    },
+    {
+      "id": "outlines",
+      "ecosystem": "pypi",
+      "package": "outlines",
+      "observed_version": "1.3.3",
+      "source": "https://pypi.org/pypi/outlines/json",
+      "response_sha256": "cc9913b4a5d36feb154745291cc0174614da5340d5bf7d833e2d77a4f978a4b8",
+      "import_root": "outlines",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "Probabilistic Generative Model Programming",
+      "project_urls": {
+        "documentation": "https://dottxt-ai.github.io/outlines/",
+        "homepage": "https://github.com/dottxt-ai/outlines",
+        "repository": "https://github.com/dottxt-ai/outlines"
+      }
+    },
+    {
+      "id": "instructor",
+      "ecosystem": "pypi",
+      "package": "instructor",
+      "observed_version": "1.17.0",
+      "source": "https://pypi.org/pypi/instructor/json",
+      "response_sha256": "624612e6325e15951d3fdc95ee41ed5e1b51d23aba07cb28c4e89bd016496316",
+      "import_root": "instructor",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "structured outputs for llm",
+      "project_urls": {
+        "repository": "https://github.com/567-labs/instructor"
+      }
+    },
+    {
+      "id": "guidance",
+      "ecosystem": "pypi",
+      "package": "guidance",
+      "observed_version": "0.3.1",
+      "source": "https://pypi.org/pypi/guidance/json",
+      "response_sha256": "7ab27c0a8624bb8be095dc12499f3b45bec1db470b7321162aef34f88e730ba4",
+      "import_root": null,
+      "import_basis": "not_verified",
+      "qualification": "identity_verified",
+      "summary": "A guidance language for controlling large language models.",
+      "project_urls": {
+        "Homepage": "https://github.com/guidance-ai/guidance"
+      }
+    },
+    {
+      "id": "lm-format-enforcer",
+      "ecosystem": "pypi",
+      "package": "lm-format-enforcer",
+      "observed_version": "0.11.3",
+      "source": "https://pypi.org/pypi/lm-format-enforcer/json",
+      "response_sha256": "49bd9813188f36923f562df06325f221b036973d2823cdacaab5c92aa537cfc5",
+      "import_root": "lmformatenforcer",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "Enforce the output format (JSON Schema, Regex etc) of a language model",
+      "project_urls": {
+        "Bug Tracker": "https://github.com/noamgat/lm-format-enforcer/issues",
+        "Documentation": "https://github.com/noamgat/lm-format-enforcer",
+        "Homepage": "https://github.com/noamgat/lm-format-enforcer",
+        "Repository": "https://github.com/noamgat/lm-format-enforcer"
+      }
+    },
+    {
+      "id": "fireworks-ai",
+      "ecosystem": "pypi",
+      "package": "fireworks-ai",
+      "observed_version": "1.2.22",
+      "source": "https://pypi.org/pypi/fireworks-ai/json",
+      "response_sha256": "636c8d3cbb9dcb6ec9bfabbec8f2dbf51792eb41c919b4854075df96d2be89a6",
+      "import_root": "fireworks",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "The official Python library for the fireworks API",
+      "project_urls": {
+        "Homepage": "https://github.com/fw-ai-external/python-sdk",
+        "Repository": "https://github.com/fw-ai-external/python-sdk"
+      }
+    },
+    {
+      "id": "cerebras-cloud-sdk",
+      "ecosystem": "pypi",
+      "package": "cerebras-cloud-sdk",
+      "observed_version": "1.91.0",
+      "source": "https://pypi.org/pypi/cerebras-cloud-sdk/json",
+      "response_sha256": "dcdd7476a233ab880d44209a64810374354505ed902a6c4d06c8ae6be55e6dde",
+      "import_root": "cerebras",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "The official Python library for the cerebras API",
+      "project_urls": {
+        "Homepage": "https://github.com/Cerebras/cerebras-cloud-sdk-python",
+        "Repository": "https://github.com/Cerebras/cerebras-cloud-sdk-python"
+      }
+    },
+    {
+      "id": "xai-sdk",
+      "ecosystem": "pypi",
+      "package": "xai-sdk",
+      "observed_version": "1.20.0",
+      "source": "https://pypi.org/pypi/xai-sdk/json",
+      "response_sha256": "86ee80e343bfd7b90c5e5327c4c5a4f1cdc0cbc3caa5a262f3dfc263107fc57b",
+      "import_root": "xai_sdk",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "The official Python SDK for the xAI API",
+      "project_urls": {
+        "Documentation": "https://docs.x.ai",
+        "Homepage": "https://github.com/xai-org/xai-sdk-python",
+        "Repository": "https://github.com/xai-org/xai-sdk-python"
+      }
+    },
+    {
+      "id": "sambanova",
+      "ecosystem": "pypi",
+      "package": "sambanova",
+      "observed_version": "1.13.0",
+      "source": "https://pypi.org/pypi/sambanova/json",
+      "response_sha256": "e155c84eceeffe3783ea4d2ae28de1fb4fa227907af5e40fc0dd909738612b5b",
+      "import_root": "sambanova",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "The official Python library for the SambaNova API",
+      "project_urls": {
+        "Homepage": "https://github.com/sambanova/sambanova-python",
+        "Repository": "https://github.com/sambanova/sambanova-python"
+      }
+    },
+    {
+      "id": "portkey-ai",
+      "ecosystem": "pypi",
+      "package": "portkey-ai",
+      "observed_version": "2.3.4",
+      "source": "https://pypi.org/pypi/portkey-ai/json",
+      "response_sha256": "854a00c981d26694765e9ed8936c94c2819858146462d2f6a3e52d58abc18b09",
+      "import_root": "portkey_ai",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "Python client library for the Portkey API",
+      "project_urls": {
+        "Homepage": "https://github.com/Portkey-AI/portkey-python-sdk"
+      }
+    },
+    {
+      "id": "perplexityai",
+      "ecosystem": "pypi",
+      "package": "perplexityai",
+      "observed_version": "0.43.8",
+      "source": "https://pypi.org/pypi/perplexityai/json",
+      "response_sha256": "761e1d7a03d351a66eb72b9dd88dac6482a613439eab71d381dcec291ba813de",
+      "import_root": "perplexity",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": null,
+      "project_urls": {
+        "Homepage": "https://github.com/perplexityai/perplexity-py",
+        "Repository": "https://github.com/perplexityai/perplexity-py"
+      }
+    },
+    {
+      "id": "ai21",
+      "ecosystem": "pypi",
+      "package": "ai21",
+      "observed_version": "4.3.0",
+      "source": "https://pypi.org/pypi/ai21/json",
+      "response_sha256": "e7d995aa6804aa7e0d6735bfc8066f4ec91874a1dbd755a283e578365017bf8b",
+      "import_root": "ai21",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": null,
+      "project_urls": null
+    },
+    {
+      "id": "lancedb",
+      "ecosystem": "pypi",
+      "package": "lancedb",
+      "observed_version": "0.40.0",
+      "source": "https://pypi.org/pypi/lancedb/json",
+      "response_sha256": "97306708bcdae51cb040bea112d9c08725a441832a4fb84447bbdb8829cd28cf",
+      "import_root": "lancedb",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "lancedb",
+      "project_urls": {
+        "repository": "https://github.com/lancedb/lancedb"
+      }
+    },
+    {
+      "id": "faiss-cpu",
+      "ecosystem": "pypi",
+      "package": "faiss-cpu",
+      "observed_version": "1.15.1",
+      "source": "https://pypi.org/pypi/faiss-cpu/json",
+      "response_sha256": "c7e467da49c9278895281a3cdcc0e589adea4f76822a622b645d62b0a6a229a0",
+      "import_root": null,
+      "import_basis": "not_verified",
+      "qualification": "identity_verified",
+      "summary": "A library for efficient similarity search and clustering of dense vectors.",
+      "project_urls": {
+        "Documentation": "https://github.com/facebookresearch/faiss/wiki",
+        "Homepage": "https://github.com/facebookresearch/faiss",
+        "Issues": "https://github.com/facebookresearch/faiss/issues",
+        "Repository": "https://github.com/facebookresearch/faiss"
+      }
+    },
+    {
+      "id": "usearch",
+      "ecosystem": "pypi",
+      "package": "usearch",
+      "observed_version": "2.26.4",
+      "source": "https://pypi.org/pypi/usearch/json",
+      "response_sha256": "f1476d88b4324e6822eedb59fb422333cc10acc49b81c55a66a38f13c0bcd02e",
+      "import_root": "usearch",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "Smaller & Faster Single-File Vector Search Engine from Unum",
+      "project_urls": {
+        "Homepage": "https://github.com/unum-cloud/USearch"
+      }
+    },
+    {
+      "id": "pgvector",
+      "ecosystem": "pypi",
+      "package": "pgvector",
+      "observed_version": "0.5.1",
+      "source": "https://pypi.org/pypi/pgvector/json",
+      "response_sha256": "867431923cb367c77ea5d9932702e519677e6f5072b5f0ef2110690c795d6a0a",
+      "import_root": "pgvector",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "pgvector support for Python",
+      "project_urls": {
+        "Homepage": "https://github.com/pgvector/pgvector-python"
+      }
+    },
+    {
+      "id": "txtai",
+      "ecosystem": "pypi",
+      "package": "txtai",
+      "observed_version": "9.14.0",
+      "source": "https://pypi.org/pypi/txtai/json",
+      "response_sha256": "860ac591c0ba5592049846fded6bab334f26980035eadd71b7f96156eb954b86",
+      "import_root": "txtai",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "All-in-one open-source AI framework for semantic search, LLM orchestration and language model workflows",
+      "project_urls": {
+        "Documentation": "https://github.com/neuml/txtai",
+        "Homepage": "https://github.com/neuml/txtai",
+        "Issue Tracker": "https://github.com/neuml/txtai/issues",
+        "Source Code": "https://github.com/neuml/txtai"
+      }
+    },
+    {
+      "id": "semantic-router",
+      "ecosystem": "pypi",
+      "package": "semantic-router",
+      "observed_version": "0.1.16",
+      "source": "https://pypi.org/pypi/semantic-router/json",
+      "response_sha256": "0ef89d35b24f28e1e14f8c0b90f1d8539af32e355912ee6f5a84312632ac536b",
+      "import_root": "semantic_router",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "Super fast semantic router for AI decision making",
+      "project_urls": null
+    },
+    {
+      "id": "flashrank",
+      "ecosystem": "pypi",
+      "package": "FlashRank",
+      "observed_version": "0.2.10",
+      "source": "https://pypi.org/pypi/flashrank/json",
+      "response_sha256": "eadecd23880a493dd0959bedd748d24498cfa9a79b47c491cea844b4b25b2471",
+      "import_root": "flashrank",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "Ultra lite & Super fast SoTA cross-encoder based re-ranking for your search & retrieval pipelines.",
+      "project_urls": {
+        "Homepage": "https://github.com/PrithivirajDamodaran/FlashRank"
+      }
+    },
+    {
+      "id": "rerankers",
+      "ecosystem": "pypi",
+      "package": "rerankers",
+      "observed_version": "0.10.0",
+      "source": "https://pypi.org/pypi/rerankers/json",
+      "response_sha256": "e70d09e24e18f56ecbbef4bdb92b68facab63869a554f7db2a3542079c03a90a",
+      "import_root": "rerankers",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "A unified API for various document re-ranking models.",
+      "project_urls": {
+        "Homepage": "https://github.com/answerdotai/rerankers"
+      }
+    },
+    {
+      "id": "openai-whisper",
+      "ecosystem": "pypi",
+      "package": "openai-whisper",
+      "observed_version": "20250625",
+      "source": "https://pypi.org/pypi/openai-whisper/json",
+      "response_sha256": "06152a206e7ee82226d54c9f58935a099556a1fc4cb39983ae159f5abc70f1ab",
+      "import_root": "whisper",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "Robust Speech Recognition via Large-Scale Weak Supervision",
+      "project_urls": {
+        "Homepage": "https://github.com/openai/whisper"
+      }
+    },
+    {
+      "id": "faster-whisper",
+      "ecosystem": "pypi",
+      "package": "faster-whisper",
+      "observed_version": "1.2.1",
+      "source": "https://pypi.org/pypi/faster-whisper/json",
+      "response_sha256": "a12f14dd61adc6688e2baf70f9349a564ff244f9bf6a7c4346a9214ffb48317b",
+      "import_root": "faster_whisper",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "Faster Whisper transcription with CTranslate2",
+      "project_urls": {
+        "Homepage": "https://github.com/SYSTRAN/faster-whisper"
+      }
+    },
+    {
+      "id": "whisperx",
+      "ecosystem": "pypi",
+      "package": "whisperx",
+      "observed_version": "3.8.6",
+      "source": "https://pypi.org/pypi/whisperx/json",
+      "response_sha256": "ca15efa5fc7ae3112475117e396b2bee6552622a79125a87b6ce6e761628c869",
+      "import_root": "whisperx",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "Time-Accurate Automatic Speech Recognition using Whisper.",
+      "project_urls": {
+        "repository": "https://github.com/m-bain/whisperx"
+      }
+    },
+    {
+      "id": "coqui-tts",
+      "ecosystem": "pypi",
+      "package": "coqui-tts",
+      "observed_version": "0.27.5",
+      "source": "https://pypi.org/pypi/coqui-tts/json",
+      "response_sha256": "fe45a8e53ecb7b46825a1c6ec2e44ea3fb4fce7af25654ca10a90295787345d7",
+      "import_root": "TTS",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "Deep learning for Text to Speech.",
+      "project_urls": {
+        "Discussions": "https://github.com/idiap/coqui-ai-TTS/discussions",
+        "Documentation": "https://coqui-tts.readthedocs.io",
+        "Homepage": "https://github.com/idiap/coqui-ai-TTS",
+        "Issues": "https://github.com/idiap/coqui-ai-TTS/issues",
+        "Repository": "https://github.com/idiap/coqui-ai-TTS"
+      }
+    },
+    {
+      "id": "elevenlabs",
+      "ecosystem": "pypi",
+      "package": "elevenlabs",
+      "observed_version": "2.71.0",
+      "source": "https://pypi.org/pypi/elevenlabs/json",
+      "response_sha256": "02fa5523c42521f64e4f88550c22e2d9b27a45bf261e41534d55edef79eac713",
+      "import_root": "elevenlabs",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": null,
+      "project_urls": {
+        "Repository": "https://github.com/elevenlabs/elevenlabs-python"
+      }
+    },
+    {
+      "id": "deepgram-sdk",
+      "ecosystem": "pypi",
+      "package": "deepgram-sdk",
+      "observed_version": "7.12.0",
+      "source": "https://pypi.org/pypi/deepgram-sdk/json",
+      "response_sha256": "5dd92e7289edcebf5716fa556f41884383147bcc6ee8d8a553e5c721320fef2b",
+      "import_root": "deepgram",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": null,
+      "project_urls": {
+        "Repository": "https://github.com/deepgram/deepgram-python-sdk"
+      }
+    },
+    {
+      "id": "assemblyai",
+      "ecosystem": "pypi",
+      "package": "assemblyai",
+      "observed_version": "1.6.1",
+      "source": "https://pypi.org/pypi/assemblyai/json",
+      "response_sha256": "27e6307f3124c727371580901d7267d70bb6881e87386c669e18a2c43cfa1d96",
+      "import_root": "assemblyai",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "AssemblyAI Python SDK",
+      "project_urls": {
+        "API Documentation": "https://www.assemblyai.com/docs/",
+        "Code": "https://github.com/AssemblyAI/assemblyai-python-sdk",
+        "Documentation": "https://github.com/AssemblyAI/assemblyai-python-sdk/blob/master/README.md",
+        "Homepage": "https://github.com/AssemblyAI/assemblyai-python-sdk",
+        "Issues": "https://github.com/AssemblyAI/assemblyai-python-sdk/issues",
+        "Website": "https://assemblyai.com/"
+      }
+    },
+    {
+      "id": "speechbrain",
+      "ecosystem": "pypi",
+      "package": "speechbrain",
+      "observed_version": "1.1.1",
+      "source": "https://pypi.org/pypi/speechbrain/json",
+      "response_sha256": "93a0171779a527a672d62372389f75fb1460836fedf85bc328a59343b6dabb5b",
+      "import_root": "speechbrain",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "All-in-one speech toolkit in pure Python and Pytorch",
+      "project_urls": {
+        "Homepage": "https://speechbrain.github.io/"
+      }
+    },
+    {
+      "id": "vosk",
+      "ecosystem": "pypi",
+      "package": "vosk",
+      "observed_version": "0.3.45",
+      "source": "https://pypi.org/pypi/vosk/json",
+      "response_sha256": "7d4e54b58752c66e353369f28d9c9d3351ff679a20c11642ddca4fd7b1f0b0bc",
+      "import_root": null,
+      "import_basis": "not_verified",
+      "qualification": "identity_verified",
+      "summary": "Offline open source speech recognition API based on Kaldi and Vosk",
+      "project_urls": {
+        "Homepage": "https://github.com/alphacep/vosk-api"
+      }
+    },
+    {
+      "id": "nemo-toolkit",
+      "ecosystem": "pypi",
+      "package": "nemo-toolkit",
+      "observed_version": "3.0.0",
+      "source": "https://pypi.org/pypi/nemo-toolkit/json",
+      "response_sha256": "a9cf0c5b656089b32ec2eaa7ba8d128b88d4c29571b13ebc8bbbdb549e9b9dc5",
+      "import_root": null,
+      "import_basis": "not_verified",
+      "qualification": "identity_verified",
+      "summary": "NeMo - a toolkit for Conversational AI",
+      "project_urls": {
+        "Download": "https://github.com/NVIDIA-NeMo/NeMo/releases",
+        "Homepage": "https://github.com/NVIDIA-NeMo/NeMo"
+      }
+    },
+    {
+      "id": "espnet",
+      "ecosystem": "pypi",
+      "package": "espnet",
+      "observed_version": "202610.post2",
+      "source": "https://pypi.org/pypi/espnet/json",
+      "response_sha256": "a630e0abd676ba3b4a61ae54fb2f7ea41b2ded884579a97127f359fb1d85f1e1",
+      "import_root": null,
+      "import_basis": "not_verified",
+      "qualification": "identity_verified",
+      "summary": "ESPnet: end-to-end speech processing toolkit",
+      "project_urls": {
+        "Homepage": "http://github.com/espnet/espnet"
+      }
+    },
+    {
+      "id": "ultralytics",
+      "ecosystem": "pypi",
+      "package": "ultralytics",
+      "observed_version": "8.4.175",
+      "source": "https://pypi.org/pypi/ultralytics/json",
+      "response_sha256": "f5b92dd8872b59b1bfede74118f0db14e89229704af6941547cbd37a60021824",
+      "import_root": "ultralytics",
+      "import_basis": "registry_description_import_example",
+      "qualification": "identity_verified",
+      "summary": "Ultralytics YOLO \ud83d\ude80 for SOTA object detection, instance segmentation, semantic segmentation, depth estimation, classification, pose estimation, oriented object detection, and multi-object tracking.",
+      "project_urls": {
+        "Bug Reports": "https://github.com/ultralytics/ultralytics/issues",
+        "Changelog": "https://github.com/ultralytics/ultralytics/releases",
+        "Documentation": "https://docs.ultralytics.com",
+        "Homepage": "https://ultralytics.com",
+        "Source": "https://github.com/ultralytics/ultralytics"
+      }
+    },
+    {
+      "id": "langchain",
+      "ecosystem": "npm",
+      "package": "@langchain/community",
+      "observed_version": "1.1.29",
+      "source": "https://registry.npmjs.org/%40langchain%2Fcommunity/latest",
+      "response_sha256": "1d790fb63b6baaf2e02337e13ae9c0faf9700c00ff27a4c76684dda06415723d",
+      "qualification": "identity_verified",
+      "summary": "Third-party integrations for LangChain.js"
+    },
+    {
+      "id": "langchain",
+      "ecosystem": "npm",
+      "package": "@langchain/aws",
+      "observed_version": "1.4.6",
+      "source": "https://registry.npmjs.org/%40langchain%2Faws/latest",
+      "response_sha256": "79019faea040535f27ae626f69b5c7e047056db1c0ff6f2639a2d4bf1f5dd9ac",
+      "qualification": "identity_verified",
+      "summary": "LangChain AWS integration"
+    },
+    {
+      "id": "langchain",
+      "ecosystem": "npm",
+      "package": "@langchain/google-genai",
+      "observed_version": "2.3.2",
+      "source": "https://registry.npmjs.org/%40langchain%2Fgoogle-genai/latest",
+      "response_sha256": "1a5c10eaff4bdb0314d8fe4813758acaec48e4ae844fee09ca0e0cba23505c7e",
+      "qualification": "identity_verified",
+      "summary": "Google Generative AI integration for LangChain.js"
+    },
+    {
+      "id": "langchain",
+      "ecosystem": "npm",
+      "package": "@langchain/google-vertexai",
+      "observed_version": "2.3.2",
+      "source": "https://registry.npmjs.org/%40langchain%2Fgoogle-vertexai/latest",
+      "response_sha256": "bef8f436b4878b483f9fb60b87cedd50da5bfd2dbd5b1ea2fadd2118a143c7ff",
+      "qualification": "identity_verified",
+      "summary": "LangChain.js support for Google Vertex AI"
+    },
+    {
+      "id": "langchain",
+      "ecosystem": "npm",
+      "package": "@langchain/ollama",
+      "observed_version": "1.3.0",
+      "source": "https://registry.npmjs.org/%40langchain%2Follama/latest",
+      "response_sha256": "9ba50116e425b27595af5c90b4511b967470ea81219dacf804a9951911216b54",
+      "qualification": "identity_verified",
+      "summary": "Ollama integration for LangChain.js"
+    },
+    {
+      "id": "langchain",
+      "ecosystem": "npm",
+      "package": "@langchain/cohere",
+      "observed_version": "1.1.0",
+      "source": "https://registry.npmjs.org/%40langchain%2Fcohere/latest",
+      "response_sha256": "f538e07273bb9bc024880029b1e76592c0840b18a56ec713f8451c4f0c9537a1",
+      "qualification": "identity_verified",
+      "summary": "Cohere integration for LangChain.js"
+    },
+    {
+      "id": "langchain",
+      "ecosystem": "npm",
+      "package": "@langchain/groq",
+      "observed_version": "1.3.1",
+      "source": "https://registry.npmjs.org/%40langchain%2Fgroq/latest",
+      "response_sha256": "cdac8c2649db04ecc75fa1b0bb3efc27e8c44a219aa775baeae80085c97dc7dd",
+      "qualification": "identity_verified",
+      "summary": "Groq integration for LangChain.js"
+    },
+    {
+      "id": "langchain",
+      "ecosystem": "npm",
+      "package": "@langchain/mistralai",
+      "observed_version": "1.2.0",
+      "source": "https://registry.npmjs.org/%40langchain%2Fmistralai/latest",
+      "response_sha256": "d7ab7998f9be1bcb534a38b2ab574a234ffb20fb7ff5687b613a770d48dd97fa",
+      "qualification": "identity_verified",
+      "summary": "MistralAI integration for LangChain.js"
+    },
+    {
+      "id": "langchain",
+      "ecosystem": "npm",
+      "package": "@langchain/qdrant",
+      "observed_version": "1.0.3",
+      "source": "https://registry.npmjs.org/%40langchain%2Fqdrant/latest",
+      "response_sha256": "c998a83270c7a1141e2e8b8c676dadae8e6a377adbcce26686db3c871faae4e8",
+      "qualification": "identity_verified",
+      "summary": "LangChain.js integration for the Qdrant vector database"
+    },
+    {
+      "id": "langchain",
+      "ecosystem": "npm",
+      "package": "@langchain/textsplitters",
+      "observed_version": "1.0.2",
+      "source": "https://registry.npmjs.org/%40langchain%2Ftextsplitters/latest",
+      "response_sha256": "4c287eceab7aec3a14106c3114eb8a31c61825fcdf809fc441030e0474b5d667",
+      "qualification": "identity_verified",
+      "summary": "Various implementations of LangChain.js text splitters"
+    },
+    {
+      "id": "vercel-ai",
+      "ecosystem": "npm",
+      "package": "@ai-sdk/azure",
+      "observed_version": "4.0.99",
+      "source": "https://registry.npmjs.org/%40ai-sdk%2Fazure/latest",
+      "response_sha256": "fd48b1d8aa20e0002de4285b9daa474289f91affcc5df57ac6bf57fce5fa30e8",
+      "qualification": "identity_verified",
+      "summary": null
+    },
+    {
+      "id": "vercel-ai",
+      "ecosystem": "npm",
+      "package": "@ai-sdk/amazon-bedrock",
+      "observed_version": "5.0.113",
+      "source": "https://registry.npmjs.org/%40ai-sdk%2Famazon-bedrock/latest",
+      "response_sha256": "2f5de2b091a14eb068b34aa88acc841a2417e6b96f9ba4c8207449488fd8eac7",
+      "qualification": "identity_verified",
+      "summary": null
+    },
+    {
+      "id": "vercel-ai",
+      "ecosystem": "npm",
+      "package": "@ai-sdk/groq",
+      "observed_version": "4.0.59",
+      "source": "https://registry.npmjs.org/%40ai-sdk%2Fgroq/latest",
+      "response_sha256": "f5e4703dff6547ceea873bcb780868b3fd4f64e656dc88425dba7b0672749e7e",
+      "qualification": "identity_verified",
+      "summary": null
+    },
+    {
+      "id": "vercel-ai",
+      "ecosystem": "npm",
+      "package": "@ai-sdk/mistral",
+      "observed_version": "4.0.62",
+      "source": "https://registry.npmjs.org/%40ai-sdk%2Fmistral/latest",
+      "response_sha256": "1fddc4ab8588361a8971e76e1295600cf7378ec0140a690da20be5c21b874f41",
+      "qualification": "identity_verified",
+      "summary": null
+    },
+    {
+      "id": "vercel-ai",
+      "ecosystem": "npm",
+      "package": "@ai-sdk/cohere",
+      "observed_version": "4.0.59",
+      "source": "https://registry.npmjs.org/%40ai-sdk%2Fcohere/latest",
+      "response_sha256": "6a3cb56cbd673b5966cd197f20d328b1bc00ace5702a9b0d31e1a89a971dae88",
+      "qualification": "identity_verified",
+      "summary": null
+    },
+    {
+      "id": "vercel-ai",
+      "ecosystem": "npm",
+      "package": "@ai-sdk/xai",
+      "observed_version": "5.0.20",
+      "source": "https://registry.npmjs.org/%40ai-sdk%2Fxai/latest",
+      "response_sha256": "a1c23cd44fd0f7d8f3324b766fbd783ec5212292f0a9576bd5edb54a9fc01165",
+      "qualification": "identity_verified",
+      "summary": null
+    },
+    {
+      "id": "vercel-ai",
+      "ecosystem": "npm",
+      "package": "@ai-sdk/deepseek",
+      "observed_version": "3.0.63",
+      "source": "https://registry.npmjs.org/%40ai-sdk%2Fdeepseek/latest",
+      "response_sha256": "0b914413426066c227c4575f7b29775beff9e0a4431c0cb65486528f86cdfd73",
+      "qualification": "identity_verified",
+      "summary": null
+    },
+    {
+      "id": "vercel-ai",
+      "ecosystem": "npm",
+      "package": "@ai-sdk/togetherai",
+      "observed_version": "3.0.68",
+      "source": "https://registry.npmjs.org/%40ai-sdk%2Ftogetherai/latest",
+      "response_sha256": "c4a43aef7568817f82b4131947ecd37157b35db09431b1d660ef0bfd98401d87",
+      "qualification": "identity_verified",
+      "summary": null
+    },
+    {
+      "id": "vercel-ai",
+      "ecosystem": "npm",
+      "package": "@ai-sdk/perplexity",
+      "observed_version": "5.0.10",
+      "source": "https://registry.npmjs.org/%40ai-sdk%2Fperplexity/latest",
+      "response_sha256": "548a505351d4544e4411b0fa49ce2405ef72c44083cb06e7cd139c1bd50d069b",
+      "qualification": "identity_verified",
+      "summary": null
+    },
+    {
+      "id": "lancedb",
+      "ecosystem": "npm",
+      "package": "@lancedb/lancedb",
+      "observed_version": "0.40.0",
+      "source": "https://registry.npmjs.org/%40lancedb%2Flancedb/latest",
+      "response_sha256": "d24ad246b501b8acd4fcf15c43bf254d6a88b1ed4bb5fef464295e196f26e9bd",
+      "qualification": "identity_verified",
+      "summary": "LanceDB: A serverless, low-latency vector database for AI applications"
+    },
+    {
+      "id": "braintrust",
+      "ecosystem": "npm",
+      "package": "braintrust",
+      "observed_version": "3.37.2",
+      "source": "https://registry.npmjs.org/braintrust/latest",
+      "response_sha256": "b2e0ea1fcb00531a2ba689a29afbfe780a01b3c91904c1accb5ebd6dd63024df",
+      "qualification": "identity_verified",
+      "summary": "SDK for integrating Braintrust"
+    },
+    {
+      "id": "a2a-sdk",
+      "ecosystem": "npm",
+      "package": "@a2a-js/sdk",
+      "observed_version": "1.3.0",
+      "source": "https://registry.npmjs.org/%40a2a-js%2Fsdk/latest",
+      "response_sha256": "c78d0f947cd14df9506eac0a831c9ea64ebbf6570708a5e0827acdec58d1276d",
+      "qualification": "identity_verified",
+      "summary": "Server & Client SDK for Agent2Agent protocol"
+    },
+    {
+      "id": "mem0ai",
+      "ecosystem": "npm",
+      "package": "mem0ai",
+      "observed_version": "3.3.1",
+      "source": "https://registry.npmjs.org/mem0ai/latest",
+      "response_sha256": "8760c82c26dbc908d2e7dec6c511db29b59cbcdd2a08c23e9f2d563a9d41bae3",
+      "qualification": "identity_verified",
+      "summary": "The Memory Layer For Your AI Apps"
+    },
+    {
+      "id": "cerebras-cloud-sdk",
+      "ecosystem": "npm",
+      "package": "@cerebras/cerebras_cloud_sdk",
+      "observed_version": "1.91.0",
+      "source": "https://registry.npmjs.org/%40cerebras%2Fcerebras_cloud_sdk/latest",
+      "response_sha256": "7da28b76b13d98b1271a1bfaf710f74512f8e23ab4d677c4cd556ea778ccf0d5",
+      "qualification": "identity_verified",
+      "summary": "The official TypeScript library for the Cerebras API"
+    },
+    {
+      "id": "portkey-ai",
+      "ecosystem": "npm",
+      "package": "portkey-ai",
+      "observed_version": "3.1.0",
+      "source": "https://registry.npmjs.org/portkey-ai/latest",
+      "response_sha256": "37b8d9f3cb8567b8998c6a97825fe65ef4bfdb79aad700eb36e4f0960c7178f8",
+      "qualification": "identity_verified",
+      "summary": "Node client library for the Portkey API"
+    },
+    {
+      "id": "elevenlabs",
+      "ecosystem": "npm",
+      "package": "@elevenlabs/elevenlabs-js",
+      "observed_version": "2.71.0",
+      "source": "https://registry.npmjs.org/%40elevenlabs%2Felevenlabs-js/latest",
+      "response_sha256": "9f6818f3772d85706445f220e91ed3b8d23a6b2a4fdc7bb468d9f4c23c1c2d57",
+      "qualification": "identity_verified",
+      "summary": "![LOGO](https://github.com/elevenlabs/elevenlabs-python/assets/12028621/21267d89-5e82-4e7e-9c81-caf30b237683)"
+    },
+    {
+      "id": "deepgram-sdk",
+      "ecosystem": "npm",
+      "package": "@deepgram/sdk",
+      "observed_version": "5.14.0",
+      "source": "https://registry.npmjs.org/%40deepgram%2Fsdk/latest",
+      "response_sha256": "a68b07ed3fc9a059eae4f61d7efd04d411c80d8301ffbaa9fb1f377bc3ecd70c",
+      "qualification": "identity_verified",
+      "summary": "![Built with Fern](https://img.shields.io/badge/%F0%9F%8C%BF-Built%20with%20Fern-brightgreen) [![npm version](https://img.shields.io/npm/v/@deepgram/sdk)](https://www.npmjs.com/package/@deepgram/sdk) [![Node.js 18+](https://img.shields.io/badge/node-18+-b"
+    },
+    {
+      "id": "assemblyai",
+      "ecosystem": "npm",
+      "package": "assemblyai",
+      "observed_version": "4.41.5",
+      "source": "https://registry.npmjs.org/assemblyai/latest",
+      "response_sha256": "7e5416ff7c8d83c8b50621e0aa4480696dcd034b2388aae53a74e4c7be823938",
+      "qualification": "identity_verified",
+      "summary": "The AssemblyAI JavaScript SDK provides an easy-to-use interface for interacting with the AssemblyAI API, which supports async and real-time transcription."
+    },
+    {
+      "id": "langwatch",
+      "ecosystem": "npm",
+      "package": "langwatch",
+      "observed_version": "1.19.0",
+      "source": "https://registry.npmjs.org/langwatch/latest",
+      "response_sha256": "55c6aa3dae3bf4bac5b664d406fd5575087860d8f1eea767b8f8b6a19d937b7e",
+      "qualification": "identity_verified",
+      "summary": "LangWatch TypeScript/JavaScript SDK. Interact with the full LangWatch API and use the LangWatch OpenTelemetry SDK to instrument your application. For more information, see https://docs.langwatch.ai/integration/typescript/guide"
+    },
+    {
+      "id": "lmstudio",
+      "ecosystem": "npm",
+      "package": "@lmstudio/sdk",
+      "observed_version": "2.0.0",
+      "source": "https://registry.npmjs.org/%40lmstudio%2Fsdk/latest",
+      "response_sha256": "5d27992b7cb94fd0cfc8aafc5567ff4f7ccd55810e10e7840159e9d1104705f1",
+      "qualification": "identity_verified",
+      "summary": "LM Studio SDK"
+    },
+    {
+      "id": "php-mcp",
+      "ecosystem": "composer",
+      "package": "php-mcp/server",
+      "observed_version": "3.3.0",
+      "source": "https://repo.packagist.org/p2/php-mcp/server.json",
+      "response_sha256": "5a469704320e0abd580dac7ce280849eab25c5d27b37c0ae74d53027333e838b",
+      "qualification": "identity_verified"
+    },
+    {
+      "id": "prism-php",
+      "ecosystem": "composer",
+      "package": "prism-php/prism",
+      "observed_version": "v0.100.1",
+      "source": "https://repo.packagist.org/p2/prism-php/prism.json",
+      "response_sha256": "98bed83f72c8f50195b083d0d306d988b81842abb9f4d32bccb695695dbbce59",
+      "qualification": "identity_verified"
+    },
+    {
+      "id": "openai-php",
+      "ecosystem": "composer",
+      "package": "openai-php/client",
+      "observed_version": "v0.21.0",
+      "source": "https://repo.packagist.org/p2/openai-php/client.json",
+      "response_sha256": "b252594421d3ed420c50e2726a10de5baa01f5c49c752b6f26010eb669d04b9a",
+      "qualification": "identity_verified"
+    },
+    {
+      "id": "mcp",
+      "ecosystem": "npm",
+      "package": "@modelcontextprotocol/server",
+      "observed_version": "2.3.1",
+      "source": "https://raw.githubusercontent.com/modelcontextprotocol/typescript-sdk/b022522089a0c8b632595c6e7b536453945ed5a9/packages/server/package.json",
+      "response_sha256": "9d5f4d85ddfc3085816750202c6c78244d131880656cf2d74252db26dd8ca08a",
+      "qualification": "identity_verified"
+    },
+    {
+      "id": "mcp",
+      "ecosystem": "npm",
+      "package": "@modelcontextprotocol/client",
+      "observed_version": "2.3.1",
+      "source": "https://raw.githubusercontent.com/modelcontextprotocol/typescript-sdk/b022522089a0c8b632595c6e7b536453945ed5a9/packages/client/package.json",
+      "response_sha256": "00f56e3d9b3a06bca972154737bac5cfe66ca3e107f251011cc73f6713982c0e",
+      "qualification": "identity_verified"
+    }
+  ],
+  "failures": []
+}

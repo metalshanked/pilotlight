@@ -1,0 +1,71 @@
+{
+  "final": {
+    "accuracy_metrics": null,
+    "outcomes": {
+      "partial": 34
+    },
+    "qualification": "development_only_unlabeled",
+    "repositories": 34
+  },
+  "runs": [
+    {
+      "directory": "benchmark-expanded-initial",
+      "completed_outcomes": 34,
+      "statuses": {
+        "acquisition_failed": 14,
+        "partial": 20
+      },
+      "interrupted": false
+    },
+    {
+      "directory": "benchmark-expanded-fixed",
+      "completed_outcomes": 34,
+      "statuses": {
+        "partial": 31,
+        "acquisition_failed": 3
+      },
+      "interrupted": false
+    },
+    {
+      "directory": "benchmark-expanded-final",
+      "completed_outcomes": 25,
+      "statuses": {
+        "partial": 25
+      },
+      "interrupted": true
+    },
+    {
+      "directory": "benchmark-seeded-verified",
+      "completed_outcomes": 34,
+      "statuses": {
+        "partial": 34
+      },
+      "interrupted": false
+    }
+  ],
+  "run": {
+    "accuracy_metrics": null,
+    "acquisition_limits": {
+      "max_download_bytes": 536870912,
+      "max_expanded_bytes": 2147483648
+    },
+    "architecture": "x86_64",
+    "authentication": "unauthenticated",
+    "binary_sha256": "3aadc8b4e871323626fa9e6293631ae625c127b1ac2a5e2074effc5f9124f66c",
+    "cargo_lock_sha256": "c537e7ec5faf2ae5ee87a6fdbafce10e44bd770d53914188c67bd2dba1d6dc75",
+    "catalog_entries": 170,
+    "catalog_sha256": "4df896af8dc59d7ea2639674b69260130efd732d69997c424af34bb3ca421108",
+    "corpus_sha256": "119081383fd1c5db734425dc8067d69c3c2eea2c7383e5352d849c7cd23e12cb",
+    "evaluation_status": "unlabeled_development_run",
+    "jobs": 4,
+    "max_archive_entries": 100000,
+    "max_file_bytes": 2097152,
+    "memory_measurement": "not_measured",
+    "os": "windows",
+    "scanner_version": "0.1.0",
+    "schema_version": 1,
+    "scope": "scanner scope recorded in each report",
+    "started_unix_seconds": 1791669063,
+    "trials_per_target": 1
+  }
+}

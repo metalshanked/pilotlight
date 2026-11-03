@@ -1,0 +1,827 @@
+{
+  "schema_version": 1,
+  "id": "pilotlight.mcp",
+  "version": "0.1.0",
+  "minimum_engine_version": "0.1.0",
+  "description": "Reviewed mcp framework mappings and semantic rules",
+  "license": "Apache-2.0",
+  "sources": [
+    "https://github.com/jlowin/fastmcp",
+    "https://github.com/modelcontextprotocol",
+    "https://github.com/php-mcp/server"
+  ],
+  "requires": [
+    "catalog-v1",
+    "receiver-operations-v1",
+    "python-decorators-v1",
+    "rust-attributes-v1",
+    "csharp-di-v1"
+  ],
+  "rules": [
+    {
+      "id": "mcp",
+      "entry": {
+        "id": "mcp",
+        "name": "Model Context Protocol SDK",
+        "category": "mcp",
+        "homepage": "https://github.com/modelcontextprotocol",
+        "packages": {
+          "cargo": [
+            "rmcp"
+          ],
+          "go": [
+            "github.com/modelcontextprotocol/go-sdk"
+          ],
+          "maven": [
+            "io.modelcontextprotocol.sdk:mcp"
+          ],
+          "npm": [
+            "@modelcontextprotocol/sdk",
+            "@modelcontextprotocol/server",
+            "@modelcontextprotocol/client"
+          ],
+          "nuget": [
+            "ModelContextProtocol",
+            "ModelContextProtocol.Core"
+          ],
+          "pypi": [
+            "mcp"
+          ]
+        },
+        "imports": {
+          "csharp": [
+            "ModelContextProtocol",
+            "Microsoft.Extensions.DependencyInjection.McpServerServiceCollectionExtensions"
+          ],
+          "go": [
+            "github.com/modelcontextprotocol/go-sdk"
+          ],
+          "java": [
+            "io.modelcontextprotocol"
+          ],
+          "javascript": [
+            "@modelcontextprotocol/sdk",
+            "@modelcontextprotocol/server",
+            "@modelcontextprotocol/client"
+          ],
+          "kotlin": [
+            "io.modelcontextprotocol"
+          ],
+          "python": [
+            "mcp"
+          ],
+          "rust": [
+            "rmcp"
+          ],
+          "typescript": [
+            "@modelcontextprotocol/sdk",
+            "@modelcontextprotocol/server",
+            "@modelcontextprotocol/client"
+          ]
+        },
+        "symbols": {
+          "@modelcontextprotocol/client.Client": "mcp_client",
+          "@modelcontextprotocol/sdk/client/index.js.Client": "mcp_client",
+          "@modelcontextprotocol/sdk/server/mcp.js.McpServer": "mcp_server",
+          "@modelcontextprotocol/sdk/server/mcp.js.McpServer.registerTool": "tool",
+          "@modelcontextprotocol/sdk/server/mcp.js.McpServer.tool": "tool",
+          "@modelcontextprotocol/server.McpServer": "mcp_server",
+          "@modelcontextprotocol/server.McpServer.registerTool": "tool",
+          "Microsoft.Extensions.DependencyInjection.McpServerServiceCollectionExtensions.AddMcpServer": "mcp_server",
+          "ModelContextProtocol.Client.McpClient.CreateAsync": "mcp_client",
+          "ModelContextProtocol.Server.McpServer.Create": "mcp_server",
+          "ModelContextProtocol.Server.McpServerTool": "tool",
+          "ModelContextProtocol.Server.McpServerTool.Create": "tool",
+          "ModelContextProtocol.Server.McpServerToolAttribute": "tool",
+          "github.com/modelcontextprotocol/go-sdk/mcp.NewClient": "mcp_client",
+          "github.com/modelcontextprotocol/go-sdk/mcp.NewServer": "mcp_server",
+          "io.modelcontextprotocol.client.McpClient.sync": "mcp_client",
+          "io.modelcontextprotocol.server.McpServer.sync": "mcp_server",
+          "mcp.Client": "mcp_client",
+          "mcp.ClientSession": "mcp_client",
+          "mcp.client.Client": "mcp_client",
+          "mcp.client.client.Client": "mcp_client",
+          "mcp.client.session.ClientSession": "mcp_client",
+          "mcp.server.MCPServer": "mcp_server",
+          "mcp.server.MCPServer.add_tool": "tool",
+          "mcp.server.MCPServer.tool": "tool",
+          "mcp.server.Server": "mcp_server",
+          "mcp.server.fastmcp.FastMCP": "mcp_server",
+          "mcp.server.fastmcp.FastMCP.add_tool": "tool",
+          "mcp.server.fastmcp.FastMCP.tool": "tool",
+          "mcp.server.lowlevel.Server": "mcp_server",
+          "mcp.server.lowlevel.server.Server": "mcp_server",
+          "mcp.server.mcpserver.MCPServer": "mcp_server",
+          "mcp.server.mcpserver.MCPServer.add_tool": "tool",
+          "mcp.server.mcpserver.MCPServer.tool": "tool",
+          "mcp.server.mcpserver.server.MCPServer": "mcp_server",
+          "mcp.server.mcpserver.server.MCPServer.add_tool": "tool",
+          "mcp.server.mcpserver.server.MCPServer.tool": "tool",
+          "rmcp::tool": "tool",
+          "rmcp::tool_handler": "mcp_server",
+          "rmcp::tool_router": "mcp_server"
+        },
+        "sources": [
+          "https://csharp.sdk.modelcontextprotocol.io/v1/concepts/tools/tools.html",
+          "https://csharp.sdk.modelcontextprotocol.io/v2/api/ModelContextProtocol.Server.McpServer.html",
+          "https://github.com/PrefectHQ/fastmcp/blob/main/docs/servers/tools.mdx",
+          "https://github.com/modelcontextprotocol/csharp-sdk",
+          "https://github.com/modelcontextprotocol/csharp-sdk/blob/main/src/ModelContextProtocol.Core/Server/McpServerTool.cs",
+          "https://github.com/modelcontextprotocol/go-sdk",
+          "https://github.com/modelcontextprotocol/java-sdk",
+          "https://github.com/modelcontextprotocol/python-sdk/blob/91941ed4d3985d59def99e090baa3f880c626cc8/README.md",
+          "https://github.com/modelcontextprotocol/python-sdk/blob/v1.10.1/src/mcp/server/fastmcp/server.py",
+          "https://raw.githubusercontent.com/modelcontextprotocol/typescript-sdk/b022522089a0c8b632595c6e7b536453945ed5a9/examples/client-quickstart/src/index.ts",
+          "https://raw.githubusercontent.com/modelcontextprotocol/typescript-sdk/b022522089a0c8b632595c6e7b536453945ed5a9/examples/server-quickstart/src/index.ts",
+          "https://raw.githubusercontent.com/modelcontextprotocol/typescript-sdk/b022522089a0c8b632595c6e7b536453945ed5a9/packages/client/package.json",
+          "https://raw.githubusercontent.com/modelcontextprotocol/typescript-sdk/b022522089a0c8b632595c6e7b536453945ed5a9/packages/server/package.json",
+          "https://ts.sdk.modelcontextprotocol.io/server",
+          "https://ts.sdk.modelcontextprotocol.io/v2/api/%40modelcontextprotocol/server/server/mcp.html",
+          "https://github.com/modelcontextprotocol/rust-sdk/blob/main/crates/rmcp-macros/src/lib.rs",
+          "https://csharp.sdk.modelcontextprotocol.io/v2/api/Microsoft.Extensions.DependencyInjection.McpServerServiceCollectionExtensions.html"
+        ],
+        "reviewed_at": "2026-10-11",
+        "symbol_languages": {
+          "@modelcontextprotocol/client.Client": [
+            "javascript",
+            "typescript"
+          ],
+          "@modelcontextprotocol/sdk/server/mcp.js.McpServer.registerTool": [
+            "javascript",
+            "typescript"
+          ],
+          "@modelcontextprotocol/sdk/server/mcp.js.McpServer.tool": [
+            "javascript",
+            "typescript"
+          ],
+          "@modelcontextprotocol/server.McpServer": [
+            "javascript",
+            "typescript"
+          ],
+          "@modelcontextprotocol/server.McpServer.registerTool": [
+            "javascript",
+            "typescript"
+          ],
+          "Microsoft.Extensions.DependencyInjection.McpServerServiceCollectionExtensions.AddMcpServer": [
+            "csharp"
+          ],
+          "ModelContextProtocol.Client.McpClient.CreateAsync": [
+            "csharp"
+          ],
+          "ModelContextProtocol.Server.McpServer.Create": [
+            "csharp"
+          ],
+          "ModelContextProtocol.Server.McpServerTool": [
+            "csharp"
+          ],
+          "ModelContextProtocol.Server.McpServerTool.Create": [
+            "csharp"
+          ],
+          "ModelContextProtocol.Server.McpServerToolAttribute": [
+            "csharp"
+          ],
+          "github.com/modelcontextprotocol/go-sdk/mcp.NewClient": [
+            "go"
+          ],
+          "github.com/modelcontextprotocol/go-sdk/mcp.NewServer": [
+            "go"
+          ],
+          "io.modelcontextprotocol.client.McpClient.sync": [
+            "java",
+            "kotlin"
+          ],
+          "io.modelcontextprotocol.server.McpServer.sync": [
+            "java",
+            "kotlin"
+          ],
+          "mcp.Client": [
+            "python"
+          ],
+          "mcp.client.Client": [
+            "python"
+          ],
+          "mcp.client.client.Client": [
+            "python"
+          ],
+          "mcp.client.session.ClientSession": [
+            "python"
+          ],
+          "mcp.server.MCPServer": [
+            "python"
+          ],
+          "mcp.server.MCPServer.add_tool": [
+            "python"
+          ],
+          "mcp.server.MCPServer.tool": [
+            "python"
+          ],
+          "mcp.server.fastmcp.FastMCP.add_tool": [
+            "python"
+          ],
+          "mcp.server.fastmcp.FastMCP.tool": [
+            "python"
+          ],
+          "mcp.server.lowlevel.Server": [
+            "python"
+          ],
+          "mcp.server.lowlevel.server.Server": [
+            "python"
+          ],
+          "mcp.server.mcpserver.MCPServer": [
+            "python"
+          ],
+          "mcp.server.mcpserver.MCPServer.add_tool": [
+            "python"
+          ],
+          "mcp.server.mcpserver.MCPServer.tool": [
+            "python"
+          ],
+          "mcp.server.mcpserver.server.MCPServer": [
+            "python"
+          ],
+          "mcp.server.mcpserver.server.MCPServer.add_tool": [
+            "python"
+          ],
+          "mcp.server.mcpserver.server.MCPServer.tool": [
+            "python"
+          ],
+          "rmcp::tool": [
+            "rust"
+          ],
+          "rmcp::tool_handler": [
+            "rust"
+          ],
+          "rmcp::tool_router": [
+            "rust"
+          ]
+        },
+        "symbol_subtypes": {
+          "Microsoft.Extensions.DependencyInjection.McpServerServiceCollectionExtensions.AddMcpServer": "dependency_injection_registration",
+          "ModelContextProtocol.Server.McpServerTool": "registration",
+          "ModelContextProtocol.Server.McpServerToolAttribute": "registration",
+          "io.modelcontextprotocol.client.McpClient.sync": "configuration_builder",
+          "io.modelcontextprotocol.server.McpServer.sync": "configuration_builder",
+          "rmcp::tool": "macro_tool_definition",
+          "rmcp::tool_handler": "macro_server_definition",
+          "rmcp::tool_router": "macro_server_definition"
+        },
+        "rust_attributes": {
+          "rmcp::tool": {
+            "target": "impl_method"
+          },
+          "rmcp::tool_handler": {
+            "target": "trait_impl",
+            "trait_symbol": "rmcp::ServerHandler"
+          },
+          "rmcp::tool_router": {
+            "target": "impl_flag",
+            "flag": "server_handler"
+          }
+        },
+        "di_registrations": [
+          "Microsoft.Extensions.DependencyInjection.McpServerServiceCollectionExtensions.AddMcpServer"
+        ]
+      }
+    },
+    {
+      "id": "fastmcp",
+      "entry": {
+        "id": "fastmcp",
+        "name": "FastMCP",
+        "category": "mcp",
+        "homepage": "https://github.com/jlowin/fastmcp",
+        "packages": {
+          "pypi": [
+            "fastmcp"
+          ],
+          "npm": [
+            "fastmcp"
+          ]
+        },
+        "imports": {
+          "python": [
+            "fastmcp"
+          ],
+          "typescript": [
+            "fastmcp"
+          ],
+          "javascript": [
+            "fastmcp"
+          ]
+        },
+        "symbols": {
+          "fastmcp.Client": "mcp_client",
+          "fastmcp.FastMCP": "mcp_server",
+          "fastmcp.FastMCP.add_tool": "tool",
+          "fastmcp.FastMCP.as_proxy": "mcp_gateway",
+          "fastmcp.FastMCP.tool": "tool",
+          "fastmcp.server.create_proxy": "mcp_gateway",
+          "fastmcp.server.providers.proxy.FastMCPProxy": "mcp_gateway",
+          "fastmcp.server.proxy.FastMCPProxy": "mcp_gateway",
+          "fastmcp.FastMCP.addTool": "tool",
+          "fastmcp/edge.EdgeFastMCP": "mcp_server"
+        },
+        "sources": [
+          "https://github.com/PrefectHQ/fastmcp/blob/main/docs/servers/tools.mdx",
+          "https://gofastmcp.com/v2/servers/proxy",
+          "https://gofastmcp.com/servers/providers/proxy",
+          "https://raw.githubusercontent.com/PrefectHQ/fastmcp/e2fcc412001ff7414095c5dc282f94c70299a612/fastmcp_slim/fastmcp/server/providers/proxy.py",
+          "https://raw.githubusercontent.com/PrefectHQ/fastmcp/v2.10.0/src/fastmcp/server/proxy.py",
+          "https://github.com/punkpeye/fastmcp",
+          "https://gofastmcp.com/clients/client"
+        ],
+        "reviewed_at": "2026-10-27",
+        "symbol_languages": {
+          "fastmcp.FastMCP.add_tool": [
+            "python"
+          ],
+          "fastmcp.FastMCP.as_proxy": [
+            "python"
+          ],
+          "fastmcp.FastMCP.tool": [
+            "python"
+          ],
+          "fastmcp.server.create_proxy": [
+            "python"
+          ],
+          "fastmcp.server.providers.proxy.FastMCPProxy": [
+            "python"
+          ],
+          "fastmcp.server.proxy.FastMCPProxy": [
+            "python"
+          ],
+          "fastmcp.Client": [
+            "javascript",
+            "python",
+            "typescript"
+          ],
+          "fastmcp.FastMCP": [
+            "javascript",
+            "python",
+            "typescript"
+          ],
+          "fastmcp.FastMCP.addTool": [
+            "javascript",
+            "typescript"
+          ],
+          "fastmcp/edge.EdgeFastMCP": [
+            "javascript",
+            "typescript"
+          ]
+        },
+        "symbol_subtypes": {
+          "fastmcp.FastMCP.as_proxy": "proxy_factory",
+          "fastmcp.server.create_proxy": "proxy_factory",
+          "fastmcp.server.providers.proxy.FastMCPProxy": "proxy_factory",
+          "fastmcp.server.proxy.FastMCPProxy": "proxy_factory"
+        }
+      }
+    },
+    {
+      "id": "php-mcp",
+      "entry": {
+        "id": "php-mcp",
+        "name": "PHP MCP Server",
+        "category": "mcp",
+        "homepage": "https://github.com/php-mcp/server",
+        "packages": {
+          "composer": [
+            "php-mcp/server"
+          ]
+        },
+        "imports": {
+          "php": [
+            "PhpMcp\\Server"
+          ]
+        },
+        "symbols": {
+          "PhpMcp\\Server\\Server::make": "mcp_server"
+        },
+        "sources": [
+          "https://repo.packagist.org/p2/php-mcp/server.json",
+          "https://github.com/php-mcp/server"
+        ],
+        "reviewed_at": "2026-10-10",
+        "symbol_languages": {
+          "PhpMcp\\Server\\Server::make": [
+            "php"
+          ]
+        }
+      }
+    },
+    {
+      "id": "langchain-mcp-adapters-bindings",
+      "entry": {
+        "id": "langchain-mcp-adapters",
+        "name": "LangChain MCP adapters",
+        "category": "mcp_framework",
+        "homepage": "https://github.com/langchain-ai/langchain-mcp-adapters",
+        "packages": {
+          "pypi": [
+            "langchain-mcp-adapters"
+          ],
+          "npm": [
+            "@langchain/mcp-adapters"
+          ]
+        },
+        "imports": {
+          "python": [
+            "langchain_mcp_adapters"
+          ],
+          "javascript": [
+            "@langchain/mcp-adapters"
+          ],
+          "typescript": [
+            "@langchain/mcp-adapters"
+          ]
+        },
+        "symbols": {
+          "langchain_mcp_adapters.client.MultiServerMCPClient": "mcp_client",
+          "@langchain/mcp-adapters.MCPAdapter": "mcp_client",
+          "@langchain/mcp-adapters.MultiServerMCPClient": "mcp_client"
+        },
+        "sources": [
+          "https://github.com/langchain-ai/langchain-mcp-adapters",
+          "https://docs.langchain.com/oss/javascript/langchain/mcp",
+          "https://docs.langchain.com/oss/javascript/langchain/mcp-v1",
+          "https://registry.npmjs.org/%40langchain%2Fmcp-adapters/latest"
+        ],
+        "reviewed_at": "2026-10-27",
+        "symbol_languages": {
+          "langchain_mcp_adapters.client.MultiServerMCPClient": [
+            "python"
+          ],
+          "@langchain/mcp-adapters.MCPAdapter": [
+            "javascript",
+            "typescript"
+          ],
+          "@langchain/mcp-adapters.MultiServerMCPClient": [
+            "javascript",
+            "typescript"
+          ]
+        }
+      }
+    },
+    {
+      "id": "mcp-use-bindings",
+      "entry": {
+        "id": "mcp-use",
+        "name": "MCP-use",
+        "category": "mcp_framework",
+        "homepage": "https://github.com/mcp-use/mcp-use",
+        "packages": {
+          "pypi": [
+            "mcp-use"
+          ],
+          "npm": [
+            "mcp-use"
+          ]
+        },
+        "imports": {
+          "python": [
+            "mcp_use"
+          ],
+          "typescript": [
+            "mcp-use"
+          ],
+          "javascript": [
+            "mcp-use"
+          ]
+        },
+        "symbols": {
+          "mcp_use.MCPAgent": "agent",
+          "mcp_use.MCPClient.from_dict": "mcp_client",
+          "mcp_use.MCPClient.from_config_file": "mcp_client",
+          "mcp-use.MCPServer": "mcp_server",
+          "mcp-use.MCPServer.tool": "tool"
+        },
+        "sources": [
+          "https://github.com/mcp-use/mcp-use",
+          "https://pypi.org/pypi/mcp-use/1.7.1/json"
+        ],
+        "reviewed_at": "2026-10-27",
+        "symbol_languages": {
+          "mcp_use.MCPAgent": [
+            "python"
+          ],
+          "mcp_use.MCPClient.from_dict": [
+            "python"
+          ],
+          "mcp_use.MCPClient.from_config_file": [
+            "python"
+          ],
+          "mcp-use.MCPServer": [
+            "javascript",
+            "typescript"
+          ],
+          "mcp-use.MCPServer.tool": [
+            "javascript",
+            "typescript"
+          ]
+        }
+      }
+    },
+    {
+      "id": "mcp-go-bindings",
+      "entry": {
+        "id": "mcp-go",
+        "name": "MCP-Go",
+        "category": "mcp_framework",
+        "homepage": "https://github.com/mark3labs/mcp-go",
+        "packages": {
+          "go": [
+            "github.com/mark3labs/mcp-go"
+          ]
+        },
+        "imports": {
+          "go": [
+            "github.com/mark3labs/mcp-go"
+          ]
+        },
+        "symbols": {
+          "github.com/mark3labs/mcp-go/server.NewMCPServer": "mcp_server",
+          "github.com/mark3labs/mcp-go/client.NewStdioMCPClient": "mcp_client",
+          "github.com/mark3labs/mcp-go/mcp.NewTool": "tool"
+        },
+        "sources": [
+          "https://github.com/mark3labs/mcp-go"
+        ],
+        "reviewed_at": "2026-10-27",
+        "symbol_languages": {
+          "github.com/mark3labs/mcp-go/server.NewMCPServer": [
+            "go"
+          ],
+          "github.com/mark3labs/mcp-go/client.NewStdioMCPClient": [
+            "go"
+          ],
+          "github.com/mark3labs/mcp-go/mcp.NewTool": [
+            "go"
+          ]
+        }
+      }
+    }
+  ],
+  "fixtures": [
+    {
+      "id": "fastmcp-server",
+      "language": "python",
+      "source": "from fastmcp import FastMCP\nserver=FastMCP(\"demo\")\n",
+      "expect": {
+        "mcp_server": 1
+      }
+    },
+    {
+      "id": "fastmcp-tool",
+      "language": "python",
+      "source": "from fastmcp import FastMCP\nserver=FastMCP(\"demo\")\n@server.tool\ndef lookup(): return \"ok\"\n",
+      "expect": {
+        "tool": 1
+      }
+    },
+    {
+      "id": "fastmcp-proxy",
+      "language": "python",
+      "source": "from fastmcp import FastMCP\ngateway=FastMCP.as_proxy(\"https://example.com/mcp\",name=\"gateway\")\n",
+      "expect": {
+        "mcp_gateway": 1
+      }
+    },
+    {
+      "id": "mcp-typescript-server",
+      "language": "typescript",
+      "source": "import {McpServer} from '@modelcontextprotocol/sdk/server/mcp.js'; const server=new McpServer({name:'demo',version:'1.0.0'});",
+      "expect": {
+        "mcp_server": 1
+      }
+    },
+    {
+      "id": "mcp-typescript-client",
+      "language": "typescript",
+      "source": "import {Client} from '@modelcontextprotocol/sdk/client/index.js'; const client=new Client({name:'demo',version:'1.0.0'});",
+      "expect": {
+        "mcp_client": 1
+      }
+    },
+    {
+      "id": "mcp-csharp-di",
+      "language": "csharp",
+      "source": "using Microsoft.Extensions.DependencyInjection; using Microsoft.Extensions.Hosting; var builder=Host.CreateApplicationBuilder(args); builder.Services.AddMcpServer().WithStdioServerTransport();",
+      "expect": {
+        "mcp_server": 1
+      }
+    },
+    {
+      "id": "mcp-rust-handler",
+      "language": "rust",
+      "source": "use rmcp::{tool_handler,ServerHandler}; struct Demo; #[tool_handler] impl ServerHandler for Demo {}",
+      "expect": {
+        "mcp_server": 1
+      }
+    },
+    {
+      "id": "mcp-rust-tool",
+      "language": "rust",
+      "source": "use rmcp::tool; struct Demo; impl Demo { #[tool(description=\"lookup\")] fn lookup(&self) -> String { \"ok\".into() } }",
+      "expect": {
+        "tool": 1
+      }
+    },
+    {
+      "id": "mcp-go-server",
+      "language": "go",
+      "source": "package app\nimport \"github.com/modelcontextprotocol/go-sdk/mcp\"\nfunc main(){ server:=mcp.NewServer(&mcp.Implementation{Name:\"demo\",Version:\"1.0.0\"},nil); _=server }\n",
+      "expect": {
+        "mcp_server": 1
+      }
+    },
+    {
+      "id": "mcp-import-only",
+      "language": "python",
+      "source": "from mcp.server.fastmcp import FastMCP\n",
+      "expect": {
+        "mcp_server": 0
+      }
+    },
+    {
+      "id": "mcp-unrelated-server",
+      "language": "python",
+      "source": "class Server: pass\nserver=Server()\n",
+      "expect": {
+        "mcp_server": 0
+      }
+    },
+    {
+      "id": "mcp-rust-wrong-trait",
+      "language": "rust",
+      "source": "use rmcp::tool_handler; #[tool_handler] impl OtherTrait for Demo {}",
+      "expect": {
+        "mcp_server": 0
+      }
+    },
+    {
+      "id": "mcp-csharp-unresolved",
+      "language": "csharp",
+      "source": "using Microsoft.Extensions.DependencyInjection; var services=GetOther(); services.AddMcpServer();",
+      "expect": {
+        "mcp_server": 0
+      }
+    },
+    {
+      "id": "fastmcp-client",
+      "language": "python",
+      "source": "from fastmcp import Client as Construct\nvalue=Construct()\n",
+      "expect": {
+        "mcp_client": 1
+      }
+    },
+    {
+      "id": "fastmcp-client-shadow",
+      "language": "python",
+      "source": "from fastmcp import Client as Construct\nConstruct=other\nvalue=Construct()\n",
+      "expect": {
+        "mcp_client": 0
+      }
+    },
+    {
+      "id": "fastmcp-typescript",
+      "language": "typescript",
+      "source": "import { FastMCP } from \"fastmcp\"; const s=new FastMCP({}); s.addTool({name:\"lookup\",execute:async()=>\"ok\"});",
+      "expect": {
+        "mcp_server": 1,
+        "tool": 1
+      }
+    },
+    {
+      "id": "fastmcp-edge",
+      "language": "typescript",
+      "source": "import { EdgeFastMCP } from \"fastmcp/edge\"; const s=new EdgeFastMCP({});",
+      "expect": {
+        "mcp_server": 1
+      }
+    },
+    {
+      "id": "fastmcp-ts-shadow",
+      "language": "typescript",
+      "source": "import { FastMCP } from \"fastmcp\"; FastMCP=Other; const s=new FastMCP({}); s.addTool({});",
+      "expect": {
+        "mcp_server": 0,
+        "tool": 0
+      }
+    },
+    {
+      "id": "langchain-mcp",
+      "language": "python",
+      "source": "from langchain_mcp_adapters.client import MultiServerMCPClient as Construct\nvalue=Construct()\n",
+      "expect": {
+        "mcp_client": 1
+      }
+    },
+    {
+      "id": "langchain-mcp-shadow",
+      "language": "python",
+      "source": "from langchain_mcp_adapters.client import MultiServerMCPClient as Construct\nConstruct=other\nvalue=Construct()\n",
+      "expect": {
+        "mcp_client": 0
+      }
+    },
+    {
+      "id": "mcp-use-agent",
+      "language": "python",
+      "source": "from mcp_use import MCPAgent as Construct\nvalue=Construct()\n",
+      "expect": {
+        "agent": 1
+      }
+    },
+    {
+      "id": "mcp-use-agent-shadow",
+      "language": "python",
+      "source": "from mcp_use import MCPAgent as Construct\nConstruct=other\nvalue=Construct()\n",
+      "expect": {
+        "agent": 0
+      }
+    },
+    {
+      "id": "mcp-use-client",
+      "language": "python",
+      "source": "from mcp_use import MCPClient\nc=MCPClient.from_dict(config)\n",
+      "expect": {
+        "mcp_client": 1
+      }
+    },
+    {
+      "id": "mcp-use-server",
+      "language": "typescript",
+      "source": "import { MCPServer } from \"mcp-use\"; const s=new MCPServer({}); s.tool({},async()=>({}));",
+      "expect": {
+        "mcp_server": 1,
+        "tool": 1
+      }
+    },
+    {
+      "id": "mcp-go-newmcpserver",
+      "language": "go",
+      "source": "package main\nimport \"github.com/mark3labs/mcp-go/server\"\nfunc main() { x := server.NewMCPServer(\"demo\"); _=x }\n",
+      "expect": {
+        "mcp_server": 1
+      }
+    },
+    {
+      "id": "mcp-go-newstdiomcpclient",
+      "language": "go",
+      "source": "package main\nimport \"github.com/mark3labs/mcp-go/client\"\nfunc main() { x := client.NewStdioMCPClient(\"demo\"); _=x }\n",
+      "expect": {
+        "mcp_client": 1
+      }
+    },
+    {
+      "id": "mcp-go-newtool",
+      "language": "go",
+      "source": "package main\nimport \"github.com/mark3labs/mcp-go/mcp\"\nfunc main() { x := mcp.NewTool(\"demo\"); _=x }\n",
+      "expect": {
+        "tool": 1
+      }
+    },
+    {
+      "id": "mcp-go-shadow",
+      "language": "go",
+      "source": "package main\nimport \"github.com/mark3labs/mcp-go/server\"\nfunc main() { server := other; s := server.NewMCPServer(\"demo\"); _=s }\n",
+      "expect": {
+        "mcp_server": 0
+      }
+    },
+    {
+      "id": "langchain-ts-mcpadapter",
+      "language": "typescript",
+      "source": "import { MCPAdapter } from \"@langchain/mcp-adapters\"; const c = new MCPAdapter({});",
+      "expect": {
+        "mcp_client": 1,
+        "mcp_server": 0
+      }
+    },
+    {
+      "id": "langchain-ts-shadow-mcpadapter",
+      "language": "typescript",
+      "source": "import { MCPAdapter } from \"@langchain/mcp-adapters\"; function f(MCPAdapter) { return new MCPAdapter({}); }",
+      "expect": {
+        "mcp_client": 0
+      }
+    },
+    {
+      "id": "langchain-ts-multiservermcpclient",
+      "language": "typescript",
+      "source": "import { MultiServerMCPClient } from \"@langchain/mcp-adapters\"; const c = new MultiServerMCPClient({});",
+      "expect": {
+        "mcp_client": 1,
+        "mcp_server": 0
+      }
+    },
+    {
+      "id": "langchain-ts-shadow-multiservermcpclient",
+      "language": "typescript",
+      "source": "import { MultiServerMCPClient } from \"@langchain/mcp-adapters\"; function f(MultiServerMCPClient) { return new MultiServerMCPClient({}); }",
+      "expect": {
+        "mcp_client": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "id": "company.agents",
+  "version": "0.1.0",
+  "minimum_engine_version": "0.1.0",
+  "description": "Example mapping for a fictional private agent SDK; replace with your verified SDK paths",
+  "license": "Apache-2.0",
+  "sources": [
+    "https://example.com/company-sdk"
+  ],
+  "requires": [
+    "catalog-v1"
+  ],
+  "rules": [
+    {
+      "id": "company-agent-constructor",
+      "entry": {
+        "id": "company-agents",
+        "name": "Company Agents",
+        "category": "agent_framework",
+        "homepage": "https://example.com/company-sdk",
+        "packages": {
+          "pypi": [
+            "company-agents"
+          ]
+        },
+        "imports": {
+          "python": [
+            "company_agents"
+          ]
+        },
+        "symbols": {
+          "company_agents.Agent": "agent"
+        },
+        "symbol_languages": {
+          "company_agents.Agent": [
+            "python"
+          ]
+        }
+      }
+    }
+  ],
+  "fixtures": [
+    {
+      "id": "qualified-constructor",
+      "language": "python",
+      "source": "from company_agents import Agent as Build\nagent=Build()\n",
+      "expect": {
+        "agent": 1
+      }
+    },
+    {
+      "id": "shadowed-name",
+      "language": "python",
+      "source": "from company_agents import Agent\nAgent=unrelated\nagent=Agent()\n",
+      "expect": {
+        "agent": 0
+      }
+    }
+  ]
+}

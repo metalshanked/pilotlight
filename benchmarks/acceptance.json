@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "status": "proposed_not_achieved",
+  "corpus_id": "pilotlight-public-corpus-v1",
+  "required_gold_status": "independently_reviewed_and_adjudicated",
+  "required_reviewers": 2,
+  "freeze_before_final_evaluation": true,
+  "accuracy": {
+    "high_confidence_overall_precision_min": 0.98,
+    "high_confidence_overall_recall_min": 0.95,
+    "qualified_cell_precision_min": 0.95,
+    "qualified_cell_recall_min": 0.90,
+    "cell_dimensions": ["artifact_type", "language"],
+    "positive_examples_per_cell_min": 50,
+    "negative_examples_per_cell_min": 50,
+    "sample_floor_is_sufficient_for_release": false,
+    "confidence_interval_level": 0.95,
+    "report_all_emitted_confidence_levels": true,
+    "zero_denominators": "not_applicable",
+    "report_end_to_end_recall_and_supported_scope_recall_separately": true
+  },
+  "reliability": {
+    "silently_omitted_repositories_max": 0,
+    "dangling_relationships_max": 0,
+    "panics_on_adversarial_corpus_max": 0,
+    "every_requested_type_has_coverage": true,
+    "failed_and_unsupported_targets_remain_in_denominators": true
+  },
+  "performance": {
+    "reference_cpu_cores": 4,
+    "reference_ram_gib": 8,
+    "reference_storage": "ssd",
+    "gpu_required": false,
+    "network_timing_separate": true,
+    "exploratory_trials_per_cache_condition_min": 5,
+    "measured_trials_for_p95_claim_min": 20,
+    "normal": {"input_bytes_max": 104857600, "files_max": 20000, "p95_seconds_max": 60, "process_tree_peak_rss_bytes_max": 1073741824},
+    "stress": {"input_bytes_max": 1073741824, "files_max": 100000, "seconds_max": 600, "process_tree_peak_rss_bytes_max": 2147483648},
+    "incremental": {"controlled_changed_file_fraction_max": 0.01, "warm_full_scan_time_fraction_max": 0.25, "identical_facts_required": true, "broad_invalidation_must_be_explained": true}
+  },
+  "platforms": ["windows-x64", "linux-x64", "linux-arm64", "macos-x64", "macos-arm64"],
+  "native_release_tests_required": true,
+  "enterprise_validation_required_before_production_claim": true
+}

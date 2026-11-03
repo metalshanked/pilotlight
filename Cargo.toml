@@ -1,0 +1,49 @@
+[package]
+name = "pilotlight"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.89"
+description = "Evidence-first static AI inventory for local and GitHub repositories"
+license = "Apache-2.0"
+readme = "README.md"
+keywords = ["ai", "inventory", "mcp", "security", "scanner"]
+categories = ["command-line-utilities", "development-tools"]
+
+[features]
+default = []
+duckdb-catalog = ["dep:duckdb"]
+
+[dependencies]
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
+csv = "1"
+flate2 = "1"
+ignore = "0.4"
+rayon = "1"
+regex = "1"
+reqwest = { version = "0.12", default-features = false, features = ["blocking", "json", "rustls-tls"] }
+roxmltree = "0.20"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sha2 = "0.10"
+tar = "0.4"
+tempfile = "3"
+toml = "0.8"
+yaml-rust2 = "0.10"
+tree-sitter = "0.25"
+tree-sitter-python = "0.23"
+tree-sitter-javascript = "0.23"
+tree-sitter-typescript = "0.23"
+tree-sitter-java = "0.23"
+tree-sitter-go = "0.23"
+tree-sitter-rust = "0.23"
+tree-sitter-c-sharp = "0.23"
+tree-sitter-ruby = "0.23"
+duckdb = { version = "=1.4.1", features = ["bundled"], optional = true }
+tree-sitter-php = "0.24"
+tree-sitter-kotlin-ng = "1.1.0"
+
+[profile.release]
+lto = "thin"
+strip = true
+

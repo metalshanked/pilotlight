@@ -1,0 +1,6 @@
+{
+  // Only this declared server identity is exported.
+  "mcpServers": {
+    "billing-tools": { "command": "fixture-do-not-run", },
+  },
+}

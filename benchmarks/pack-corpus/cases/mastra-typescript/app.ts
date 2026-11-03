@@ -1,0 +1,1 @@
+import {Agent} from '@mastra/core/agent'; const agent=new Agent({name:'helper',instructions:'Help',model:'openai/gpt-4o'});

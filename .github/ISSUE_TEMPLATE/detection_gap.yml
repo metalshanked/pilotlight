@@ -1,0 +1,16 @@
+name: Detection gap
+description: Propose a framework, language or source pattern.
+body:
+  - type: input
+    id: source
+    attributes:
+      label: Official framework or SDK source
+    validations:
+      required: true
+  - type: textarea
+    id: pattern
+    attributes:
+      label: Minimal fictional pattern and expected artifact type
+      description: Include the language, package version and a near-miss that should not match. Do not include private code.
+    validations:
+      required: true

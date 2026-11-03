@@ -1,0 +1,1 @@
+using Microsoft.Extensions.DependencyInjection; var services=GetOther(); services.AddMcpServer();

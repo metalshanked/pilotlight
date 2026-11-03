@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "corpus_id": "pilotlight-enterprise-patterns-supplement",
+  "status": "pinned_unlabeled_development",
+  "resolved_at": "2026-10-11",
+  "authentication": "public_unauthenticated",
+  "limitations": [
+    "Separate extension: original 34 repository corpus is unchanged.",
+    "Purpose describes selection, not a gold accuracy label."
+  ],
+  "repositories": [
+    {
+      "repository": "https://github.com/modelcontextprotocol/rust-sdk",
+      "commit": "c1a8eea312613519b93f53b89a1dc74dc993f5b0",
+      "target_languages": [
+        "rust"
+      ],
+      "label_status": "unreviewed",
+      "purpose": "agent tool loops and MCP proxy, DI or macro implementations"
+    },
+    {
+      "repository": "https://github.com/PrefectHQ/fastmcp",
+      "commit": "e2fcc412001ff7414095c5dc282f94c70299a612",
+      "target_languages": [
+        "python"
+      ],
+      "label_status": "unreviewed",
+      "purpose": "agent tool loops and MCP proxy, DI or macro implementations"
+    },
+    {
+      "repository": "https://github.com/vercel/ai",
+      "commit": "ba05943b69ad070558bb5bc912da99ec66d7d263",
+      "target_languages": [
+        "typescript"
+      ],
+      "label_status": "unreviewed",
+      "purpose": "agent tool loops and MCP proxy, DI or macro implementations"
+    },
+    {
+      "repository": "https://github.com/anthropics/anthropic-sdk-python",
+      "commit": "b4b7916deaf4e5570cd627b1ae7ee4394a4de39f",
+      "target_languages": [
+        "python"
+      ],
+      "label_status": "unreviewed",
+      "purpose": "agent tool loops and MCP proxy, DI or macro implementations"
+    }
+  ]
+}

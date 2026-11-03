@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "company-search": {
+      "url": "https://mcp.example.invalid/search"
+    }
+  }
+}

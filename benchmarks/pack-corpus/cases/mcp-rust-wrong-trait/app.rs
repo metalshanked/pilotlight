@@ -1,0 +1,1 @@
+use rmcp::tool_handler; #[tool_handler] impl OtherTrait for Demo {}
